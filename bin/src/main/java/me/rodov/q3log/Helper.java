@@ -2,6 +2,10 @@ package me.rodov.q3log;
 
 import ru.lanwen.verbalregex.VerbalExpression;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.lang.Exception;
+
 /**
  * Created by rudov on 29/02/2016.
  */
@@ -14,7 +18,7 @@ public class Helper {
     public final static int SCORE_LINE = 4;
     public final static int KILL_LINE = 5;
 
-    
+
     private final static String MAP = "mapname";
     private final static String TYPE = "g_gametype";
     private final static String HOSTNAME = "sv_hostname";
@@ -56,29 +60,68 @@ public class Helper {
     public static VerbalExpression initGetGameTimeLimit = VerbalExpression.regex().find("\\timelimit\\").capture().digit().oneOrMore().endCapture().then("\\").build();
 
 
-/*
-    public static String getGameType(String gameDefLine){
-        return GAME_TYPES[Integer.valueOf(getParamFromLine(TYPE, gameDefLine))];
-    }
-    public static String getGameMap(String gameDefLine){
-        return getParamFromLine(MAP, gameDefLine);
-    }
-    public static String getGameTimelimit(String gameDefLine){
-        return getParamFromLine(TIMELIMIT, gameDefLine);
-    }
-    public static String getGameHostname(String gameDefLine){
-        return getParamFromLine(HOSTNAME, gameDefLine);
-    }
-    private static String getParamFromLine(String param, String line){
-        if(!param.isEmpty() && !line.isEmpty()) {
-            int valueStart = line.indexOf("\\" + param + "\\") + param.length() + 2;
-            int valueEnd = valueStart + line.indexOf("\\", valueStart);
-            return line.substring(valueStart, valueEnd);
-        }else{
-            return null;
-        }
-    }
-*/
+    public static Games readLog(BufferedReader log) throws Exception {
+        int inx = 1;
+        String line = new String();
+        Games games = new Games();
+        Game currentGame = new Game("game" + inx); //create a new Game. the processing is linear so we can do it like this
 
+        int lineType;
+
+        try {
+            //loop throughout the log
+            while ((line = log.readLine()) != null) {
+                if (!line.equals("")) {
+                    lineType = getLineType(line); //analyze game type //TODO improve missing some states and too complicated
+
+                    if (lineType == Helper.GAME_START_LINE) {
+                        currentGame = new Game("game" + inx);
+                        currentGame.init(line);
+                    } else if (lineType == Helper.GAME_END_LINE) {
+                        currentGame.setLength(Helper.gameEnd.getText(line, 1));
+                        games.add(currentGame); //add a new Game to games list
+                        inx++;
+                    } else if (lineType == Helper.GAME_END_REASON_LINE) {
+                        currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
+
+                    } else if (lineType == Helper.KILL_LINE) {
+                        //kills and deaths are added and not set
+                        currentGame.setPlayer(Helper.playerKill.getText(line, 2), Players.KILL, 1); //+1 kill to the killer
+                        currentGame.setPlayer(Helper.playerKill.getText(line, 1), Players.DEATH, 1);//+1 death to the victim
+                        //TODO add weapons (Helper.playerKill.getText(line, 3) to the killer
+
+                    } else if (lineType == Helper.SCORE_LINE) {
+                        //add the score (not added but set)
+                        currentGame.setPlayer(Helper.playerScore.getText(line, 2), Players.KILL, Integer.valueOf(Helper.playerScore.getText(line, 1)));
+                    }
+
+                }
+            }
+        } catch (Exception e) {
+            throw e;
+        }
+        return games;
+    }
+
+    private static int getLineType(String line) {
+
+        //TODO KILL + DEATH + WEAPON -  19:44 Kill: 9 2 17: RODOV killed Seb by UT_MOD_UMP45
+        //TODO GAME START -   0:29 InitRound: \sv_allowdownlo...
+        //TODO GAME END -  20:44 ShutdownGame:
+        //TODO GAME END REASON -  20:23 Exit: Timelimit hit.
+        //TODO GAME SCORE X PLAYER -  20:23 score: 73  ping: 6  client: 5 Seb
+        if(Helper.playerKill.test(line))
+            return Helper.KILL_LINE;
+        if(Helper.playerScore.test(line))
+            return Helper.SCORE_LINE;
+        if(Helper.gameStart.test(line))
+            return Helper.GAME_START_LINE;
+        if(Helper.gameEnd.test(line))
+            return Helper.GAME_END_LINE;
+        if(Helper.gameEndReason.test(line))
+            return Helper.GAME_END_REASON_LINE;
+
+        return 0;
+    }
 
 }
