@@ -13,7 +13,6 @@ public class Helper {
     public final static int GAME_END_REASON_LINE = 3;
     public final static int SCORE_LINE = 4;
     public final static int KILL_LINE = 5;
-    public final static int KILL_LsINE = 5;
 
     
     private final static String MAP = "mapname";
