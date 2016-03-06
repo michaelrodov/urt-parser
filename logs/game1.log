@@ -1,0 +1,1567 @@
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\capturelimit\999\sv_hostname\MyAccount\g_followstrict\0\fraglimit\999\timelimit\35\g_swaproles\0\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\0\g_allowvote\0\g_armbands\1\g_funstuff\1\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\0\g_maxGameClients\0\g_deadchat\2\g_walljumps\3\g_stamina\0\g_skins\1\g_stratTime\0\version\ioQ3 1.35 urt 4.2.023 win-x86 Jan 17 2015\protocol\68\mapname\ut4_sanc\sv_privateClients\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\auth\0\auth_status\init\g_modversion\4.2.023
+  0:00 Warmup:
+  0:03 Session data initialised for client on slot 0 at 30449
+  0:03 ClientConnect: 0
+  0:03 ClientUserinfo: 0 \ip\16.60.214.147:27960\challenge\391204751\qport\51891\protocol\68\name\MaorTheDestroyer\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\Zf@@F?E[1?KCMXxE\racefree\2\gear\FehORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:03 ClientUserinfoChanged: 0 n\MaorTheDestroyer\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:08 Session data initialised for client on slot 0 at 35137
+  0:08 ClientConnect: 1
+  0:08 ClientUserinfo: 1 \ip\16.60.213.30:27960\challenge\340683958\qport\10539\protocol\68\name\godfather\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\3ZQx&6Fh&gfOHGR9\racefree\2\gear\GeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:08 ClientUserinfoChanged: 1 n\godfather\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:08 Session data initialised for client on slot 0 at 35618
+  0:08 ClientConnect: 2
+  0:08 ClientUserinfo: 2 \ip\16.60.213.12:27960\challenge\676560152\qport\16102\protocol\68\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\53zz5*4AnM40Zyx&\racefree\3\gear\GeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:08 ClientUserinfoChanged: 2 n\[ACE]\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:09 Session data initialised for client on slot 0 at 36202
+  0:09 ClientConnect: 3
+  0:09 ClientUserinfo: 3 \ip\16.60.214.133:27960\challenge\755446847\qport\1028\protocol\68\name\benD\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\#TA6GeYh>K$ggtY|\racefree\2\gear\FeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:09 ClientUserinfoChanged: 3 n\benD\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:10 Session data initialised for client on slot 0 at 37979
+  0:10 ClientConnect: 4
+  0:10 ClientUserinfo: 4 \ip\16.60.213.20:27960\challenge\413409921\qport\27947\protocol\68\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FMAARWU\racefree\2\cl_time\1Fi(6U+A6c4F2?1t\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:10 ClientUserinfoChanged: 4 n\Or\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:11 ClientUserinfo: 0 \ip\16.60.214.147:27960\name\MaorTheDestroyer\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\?0G<VL+[>c$>bX2?\racefree\2\gear\FehORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:11 ClientUserinfoChanged: 0 n\MaorTheDestroyer\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:11 ClientBegin: 0
+  0:12 Session data initialised for client on slot 0 at 39512
+  0:12 ClientConnect: 5
+  0:12 ClientUserinfo: 5 \ip\16.60.214.168:27960\challenge\2099381908\qport\51116\protocol\68\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\FLIORAA\racefree\2\cl_time\k+KG6Xc[1KKfbX9k\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:12 ClientUserinfoChanged: 5 n\MAMBA\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:12 ClientUserinfo: 0 \ip\16.60.214.147:27960\name\MaorTheDestroyer\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\?0G<VL+[>c$>bX2?\racefree\2\gear\FehORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:12 ClientUserinfoChanged: 0 n\MaorTheDestroyer\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:12 ClientSpawn: 0
+  0:12 ClientBegin: 0
+  0:14 Session data initialised for client on slot 0 at 41833
+  0:14 ClientConnect: 6
+  0:14 ClientUserinfo: 6 \ip\16.60.214.139:27960\challenge\1439569686\qport\4159\protocol\68\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\8r#cnaG$TKz8ML=K\racefree\2\gear\GLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:14 ClientUserinfoChanged: 6 n\Seb\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:16 ClientUserinfo: 2 \ip\16.60.213.12:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\X5qYK3iAYF9]DGc(\racefree\3\gear\GeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:16 ClientUserinfoChanged: 2 n\[ACE]\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:16 ClientBegin: 2
+  0:16 ClientUserinfo: 1 \ip\16.60.213.30:27960\name\godfather\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\hc_bFZehn5+k5tni\racefree\2\gear\GeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:16 ClientUserinfoChanged: 1 n\godfather\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:16 ClientBegin: 1
+  0:17 ClientUserinfo: 3 \ip\16.60.214.133:27960\name\benD\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\@Qj_eRi@1RLZb?+k\racefree\2\gear\FeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:17 ClientUserinfoChanged: 3 n\benD\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:17 ClientBegin: 3
+  0:18 ClientUserinfo: 1 \ip\16.60.213.30:27960\name\godfather\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\hc_bFZehn5+k5tni\racefree\2\gear\GeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:18 ClientUserinfoChanged: 1 n\godfather\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:18 ClientSpawn: 1
+  0:18 ClientBegin: 1
+  0:19 ------------------------------------------------------------
+  0:19 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\capturelimit\999\sv_hostname\MyAccount\g_followstrict\0\fraglimit\999\timelimit\35\g_swaproles\0\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\0\g_allowvote\0\g_armbands\1\g_funstuff\1\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\0\g_maxGameClients\0\g_deadchat\2\g_walljumps\3\g_stamina\0\g_skins\1\g_stratTime\0\version\ioQ3 1.35 urt 4.2.023 win-x86 Jan 17 2015\protocol\68\mapname\ut4_sanc\sv_privateClients\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\auth\0\auth_status\off (local)\g_modversion\4.2.023
+  0:19 ClientSpawn: 0
+  0:19 ClientSpawn: 1
+  0:20 ClientUserinfo: 2 \ip\16.60.213.12:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\X5qYK3iAYF9]DGc(\racefree\3\gear\GeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:20 ClientUserinfoChanged: 2 n\[ACE]\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:20 ClientSpawn: 2
+  0:20 ClientBegin: 2
+  0:20 Session data initialised for client on slot 0 at 47414
+  0:20 ClientConnect: 7
+  0:20 ClientUserinfo: 7 \ip\16.60.214.169:27961\challenge\1049640136\qport\6987\protocol\68\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeIORAA\racefree\3\cl_time\X5qYK3t4Y<f]|Gc_\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:20 ClientUserinfoChanged: 7 n\RODOV\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:20 ClientUserinfo: 4 \ip\16.60.213.20:27960\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FMAARWU\racefree\2\cl_time\&z[12rhA&H@951EM\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:20 ClientUserinfoChanged: 4 n\Or\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:20 ClientBegin: 4
+  0:21 ClientUserinfo: 5 \ip\16.60.214.168:27960\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\FLIORAA\racefree\2\cl_time\1>[?kKn0Gc5K21T<\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:21 ClientUserinfoChanged: 5 n\MAMBA\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:21 ClientBegin: 5
+  0:21 Session data initialised for client on slot 0 at 48727
+  0:21 ClientConnect: 8
+  0:21 ClientUserinfo: 8 \ip\16.60.214.130:27960\challenge\1248793698\qport\34334\protocol\68\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\=+T|cRT[aH3[bL=K\racefree\2\gear\FLJORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:21 ClientUserinfoChanged: 8 n\Tal\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:21 ClientUserinfo: 4 \ip\16.60.213.20:27960\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FMAARWU\racefree\2\cl_time\&z[12rhA&H@951EM\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:21 ClientUserinfoChanged: 4 n\Or\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:21 ClientSpawn: 4
+  0:21 ClientBegin: 4
+  0:22 ClientUserinfo: 5 \ip\16.60.214.168:27960\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\FLIORAA\racefree\2\cl_time\1>[?kKn0Gc5K21T<\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:22 ClientUserinfoChanged: 5 n\MAMBA\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:22 ClientSpawn: 5
+  0:22 ClientBegin: 5
+  0:24 ClientUserinfo: 6 \ip\16.60.214.139:27960\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\0Ek](+$@qD+exX2x\racefree\2\gear\GLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:24 ClientUserinfoChanged: 6 n\Seb\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:24 ClientBegin: 6
+  0:26 ClientUserinfo: 6 \ip\16.60.214.139:27960\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\0Ek](+$@qD+exX2x\racefree\2\gear\GLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:26 ClientUserinfoChanged: 6 n\Seb\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:26 ClientSpawn: 6
+  0:26 ClientBegin: 6
+  0:27 Session data initialised for client on slot 0 at 54193
+  0:27 ClientConnect: 9
+  0:27 ClientUserinfo: 9 \ip\16.60.214.157:27960\challenge\453736607\qport\48908\protocol\68\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\qk|#VK4Aq]Rexy2L\racefree\2\gear\FaAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:27 ClientUserinfoChanged: 9 n\Shalom\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:29 ClientUserinfo: 7 \ip\16.60.214.169:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeIORAA\racefree\3\cl_time\TL|[Qr60>K4U=y`b\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:29 ClientUserinfoChanged: 7 n\RODOV\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:29 ClientBegin: 7
+  0:29 Session data initialised for client on slot 0 at 56311
+  0:29 ClientConnect: 10
+  0:29 ClientUserinfo: 10 \ip\16.60.213.23:27960\challenge\691108564\qport\27491\protocol\68\name\dead woman walking\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\gear\FeIQRAA\racefree\3\cl_time\`GBCKty$aM2rg&]D\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:29 ClientUserinfoChanged: 10 n\deadwomanwalking\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:30 ClientUserinfo: 8 \ip\16.60.214.130:27960\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\9UREt?iAG<(Z]GR9\racefree\2\gear\FLJORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:30 ClientUserinfoChanged: 8 n\Tal\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:30 ClientBegin: 8
+  0:32 Session data initialised for client on slot 0 at 59566
+  0:32 ClientConnect: 11
+  0:32 ClientUserinfo: 11 \ip\16.60.214.165:27960\challenge\1856635719\qport\14889\protocol\68\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\bjHhy6>0>K_8HXHK\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:32 ClientUserinfoChanged: 11 n\Amir\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:32 ClientUserinfo: 8 \ip\16.60.214.130:27960\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\9UREt?iAG<(Z]GR9\racefree\2\gear\FLJORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:32 ClientUserinfoChanged: 8 n\Tal\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:32 ClientSpawn: 8
+  0:32 ClientBegin: 8
+  0:35 ClientUserinfo: 9 \ip\16.60.214.157:27960\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\=a9r0q6VT<Bgb16F\racefree\2\gear\FaAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:35 ClientUserinfoChanged: 9 n\Shalom\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:35 ClientBegin: 9
+  0:36 ClientUserinfo: 7 \ip\16.60.214.169:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeIORAA\racefree\3\cl_time\TL|[Qr60>K4U=y`b\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:36 ClientUserinfoChanged: 7 n\RODOV\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:36 ClientSpawn: 7
+  0:36 ClientBegin: 7
+  0:37 ClientUserinfo: 10 \ip\16.60.213.23:27960\name\dead woman walking\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\gear\FeIQRAA\racefree\3\cl_time\G1Uj@EF4Lg&z2yM+\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:37 ClientUserinfoChanged: 10 n\deadwomanwalking\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:37 ClientBegin: 10
+  0:37 ClientUserinfo: 9 \ip\16.60.214.157:27960\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\=a9r0q6VT<Bgb16F\racefree\2\gear\FaAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:37 ClientUserinfoChanged: 9 n\Shalom\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:37 ClientSpawn: 9
+  0:37 ClientBegin: 9
+  0:39 ClientUserinfo: 10 \ip\16.60.213.23:27960\name\dead woman walking\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\gear\FeIQRAA\racefree\3\cl_time\G1Uj@EF4Lg&z2yM+\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:39 ClientUserinfo: 10 \ip\16.60.213.23:27960\name\dead woman walking\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\gear\FeIQRAA\racefree\3\cl_time\G1Uj@EF4Lg&z2yM+\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:39 ClientUserinfoChanged: 10 n\deadwomanwalking\t\2\r\1\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:39 ClientSpawn: 10
+  0:39 ClientBegin: 10
+  0:41 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:41 ClientUserinfoChanged: 11 n\Amir\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:41 ClientBegin: 11
+  0:43 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:43 ClientUserinfoChanged: 11 n\Amir\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:43 ClientSpawn: 11
+  0:43 ClientBegin: 11
+  0:46 say: 0 MaorTheDestroyer: sdfsdfs
+  1:10 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+  1:11 ClientUserinfo: 3 \ip\16.60.214.133:27960\name\benD\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\@Qj_eRi@1RLZb?+k\racefree\2\gear\FeIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  1:11 ClientUserinfoChanged: 3 n\benD\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  1:11 ClientSpawn: 3
+  1:11 ClientBegin: 3
+  1:15 ClientSpawn: 1
+  1:16 Kill: 7 0 38: RODOV killed MaorTheDestroyer by UT_MOD_M4
+  1:19 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  1:19 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  1:19 ClientUserinfoChanged: 11 n\Amir\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  1:19 ClientSpawn: 11
+  1:19 ClientBegin: 11
+  1:26 Item: 7 ut_weapon_m4
+  1:28 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  1:28 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  1:28 ClientUserinfoChanged: 11 n\Amir\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  1:28 ClientSpawn: 11
+  1:28 ClientBegin: 11
+  1:30 ClientSpawn: 0
+  1:35 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+  1:43 Item: 3 ut_weapon_mp5k
+  1:44 Kill: 8 7 19: Tal killed RODOV by UT_MOD_LR300
+  1:45 ClientSpawn: 6
+  1:45 ClientSpawn: 7
+  2:01 Kill: 5 4 19: MAMBA killed Or by UT_MOD_LR300
+  2:06 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+  2:07 Item: 6 ut_weapon_mp5k
+  2:10 Item: 5 team_CTF_redflag
+  2:11 Kill: 9 5 30: Shalom killed MAMBA by UT_MOD_AK103
+  2:11 Flag: 5 0: team_CTF_redflag
+  2:15 ClientSpawn: 5
+  2:15 ClientSpawn: 4
+  2:15 ClientSpawn: 3
+  2:19 Item: 8 ut_weapon_beretta
+  2:19 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  2:19 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  2:19 ClientUserinfoChanged: 11 n\Amir\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  2:19 ClientSpawn: 11
+  2:19 ClientBegin: 11
+  2:20 Flag: 8 1: team_CTF_redflag
+  2:23 Item: 8 ut_weapon_lr
+  2:26 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+  2:27 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  2:27 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  2:27 ClientUserinfoChanged: 11 n\Amir\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  2:27 ClientSpawn: 11
+  2:27 ClientBegin: 11
+  2:30 ClientSpawn: 1
+  2:36 Kill: 0 7 23: MaorTheDestroyer killed RODOV by UT_MOD_BLED
+  2:42 Kill: 1022 11 9: <world> killed Amir by MOD_TRIGGER_HURT
+  2:42 Kill: 6 8 19: Seb killed Tal by UT_MOD_LR300
+  2:44 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+  2:45 ClientSpawn: 11
+  2:45 ClientSpawn: 7
+  2:45 ClientSpawn: 8
+  2:45 ClientSpawn: 9
+  2:46 Item: 3 ut_weapon_m4
+  2:46 Item: 6 team_CTF_redflag
+  2:50 Item: 6 ut_weapon_deagle
+  2:50 Item: 6 ut_weapon_mp5k
+  2:51 Kill: 1 4 38: godfather killed Or by UT_MOD_M4
+  2:52 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+  2:58 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+  2:58 Flag: 6 0: team_CTF_redflag
+  2:58 Item: 3 ut_weapon_mp5k
+  2:59 Item: 3 ut_weapon_m4
+  3:00 ClientSpawn: 1
+  3:00 ClientSpawn: 4
+  3:00 ClientSpawn: 6
+  3:00 Item: 3 ut_weapon_mp5k
+  3:01 Flag: 3 1: team_CTF_redflag
+  3:03 Kill: 0 2 38: MaorTheDestroyer killed [ACE] by UT_MOD_M4
+  3:04 Item: 0 ut_weapon_m4
+  3:04 Item: 9 ut_weapon_beretta
+  3:05 Item: 3 ut_weapon_grenade_he
+  3:05 Kill: 7 0 38: RODOV killed MaorTheDestroyer by UT_MOD_M4
+  3:05 Radio: 10 - 1 - 1 - "Temple" - "Affirmative"
+  3:07 Item: 5 team_CTF_redflag
+  3:07 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+  3:07 Flag: 5 0: team_CTF_redflag
+  3:09 Flag: 4 1: team_CTF_redflag
+  3:12 Item: 8 ut_weapon_lr
+  3:13 Item: 8 ut_weapon_beretta
+  3:15 ClientSpawn: 0
+  3:15 ClientSpawn: 2
+  3:15 ClientSpawn: 5
+  3:19 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  3:19 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  3:19 ClientUserinfoChanged: 11 n\Amir\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  3:19 ClientSpawn: 11
+  3:19 ClientBegin: 11
+  3:20 Kill: 1 3 38: godfather killed benD by UT_MOD_M4
+  3:20 Item: 1 ut_weapon_mp5k
+  3:27 Kill: 4 1 23: Or killed godfather by UT_MOD_BLED
+  3:27 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  3:27 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  3:27 ClientUserinfoChanged: 11 n\Amir\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  3:27 ClientSpawn: 11
+  3:27 ClientBegin: 11
+  3:29 Item: 4 ut_weapon_grenade_he
+  3:29 Item: 4 ut_weapon_mp5k
+  3:30 ClientSpawn: 1
+  3:30 ClientSpawn: 3
+  3:31 Kill: 7 4 38: RODOV killed Or by UT_MOD_M4
+  3:33 Item: 7 ut_weapon_m4
+  3:35 Item: 7 ut_weapon_deagle
+  3:35 Item: 7 ut_weapon_m4
+  3:37 Kill: 0 7 38: MaorTheDestroyer killed RODOV by UT_MOD_M4
+  3:39 Item: 0 ut_weapon_m4
+  3:44 Item: 0 ut_weapon_beretta
+  3:45 ClientSpawn: 7
+  3:45 ClientSpawn: 4
+  3:59 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+  4:00 ClientSpawn: 6
+  4:02 Item: 4 ut_weapon_mp5k
+  4:02 Kill: 0 11 38: MaorTheDestroyer killed Amir by UT_MOD_M4
+  4:04 Kill: 1 8 38: godfather killed Tal by UT_MOD_M4
+  4:08 Item: 4 ut_weapon_grenade_he
+  4:09 Kill: 2 0 38: [ACE] killed MaorTheDestroyer by UT_MOD_M4
+  4:12 Item: 5 ut_weapon_mp5k
+  4:15 ClientSpawn: 0
+  4:15 ClientSpawn: 11
+  4:15 ClientSpawn: 8
+  4:19 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  4:19 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  4:19 ClientUserinfoChanged: 11 n\Amir\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  4:19 ClientSpawn: 11
+  4:19 ClientBegin: 11
+  4:21 Item: 0 ut_weapon_beretta
+  4:21 Item: 8 ut_weapon_lr
+  4:21 Item: 8 ut_weapon_ump45
+  4:21 Radio: 10 - 1 - 2 - "Temple" - "Negative"
+  4:25 Kill: 11 11 10: Amir killed Amir by MOD_CHANGE_TEAM
+  4:25 ClientUserinfo: 11 \ip\16.60.214.165:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\AW`h|2&[rc&&Hy|[\racefree\2\gear\FMIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  4:25 ClientUserinfoChanged: 11 n\Amir\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  4:25 ClientSpawn: 11
+  4:25 ClientBegin: 11
+  4:30 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+  4:35 Kill: 1022 1 6: <world> killed godfather by MOD_FALLING
+  4:41 Session data initialised for client on slot 0 at 308481
+  4:41 ClientConnect: 12
+  4:41 ClientUserinfo: 12 \ip\16.60.214.149:27960\challenge\1677685364\qport\18710\protocol\68\name\Drorkula\rate\8000\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+  4:41 ClientUserinfoChanged: 12 n\Drorkula\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  4:45 ClientSpawn: 6
+  4:45 ClientSpawn: 1
+  4:55 Item: 3 ut_weapon_mp5k
+  4:58 Kill: 1 0 38: godfather killed MaorTheDestroyer by UT_MOD_M4
+  4:58 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+  4:58 Kill: 8 5 19: Tal killed MAMBA by UT_MOD_LR300
+  5:00 ClientSpawn: 5
+  5:00 ClientSpawn: 7
+  5:00 ClientSpawn: 0
+  5:01 Item: 1 ut_weapon_m4
+  5:02 ClientUserinfo: 12 \ip\16.60.214.149:27960\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\Hhj$q>L0LMjR]??R\racefree\2\gear\feAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  5:02 ClientUserinfoChanged: 12 n\Drorkula\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  5:02 ClientBegin: 12
+  5:07 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+  5:10 ClientUserinfo: 12 \ip\16.60.214.149:27960\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\Hhj$q>L0LMjR]??R\racefree\2\gear\feAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  5:10 ClientUserinfoChanged: 12 n\Drorkula\t\1\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  5:10 ClientSpawn: 12
+  5:10 ClientBegin: 12
+  5:10 Kill: 2 4 23: [ACE] killed Or by UT_MOD_BLED
+  5:13 Item: 10 ut_weapon_grenade_he
+  5:15 ClientSpawn: 2
+  5:15 ClientSpawn: 4
+  5:15 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+  5:15 Item: 7 ut_weapon_deagle
+  5:15 Item: 7 ut_weapon_m4
+  5:16 Item: 10 ut_weapon_mp5k
+  5:21 Item: 0 ut_weapon_m4
+  5:29 Item: 2 ut_weapon_mp5k
+  5:30 ClientSpawn: 1
+  5:36 Item: 6 team_CTF_redflag
+  5:38 Kill: 0 7 23: MaorTheDestroyer killed RODOV by UT_MOD_BLED
+  5:38 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+  5:38 Flag: 6 0: team_CTF_redflag
+  5:41 Item: 0 ut_weapon_m4
+  5:42 Flag: 8 1: team_CTF_redflag
+  5:42 Item: 8 ut_weapon_lr
+  5:45 ClientSpawn: 6
+  5:45 ClientSpawn: 7
+  5:51 Kill: 1 3 38: godfather killed benD by UT_MOD_M4
+  5:53 Item: 1 ut_weapon_m4
+  5:53 Item: 1 ut_weapon_mp5k
+  5:57 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+  6:00 ClientSpawn: 5
+  6:00 ClientSpawn: 3
+  6:00 Kill: 11 4 20: Amir killed Or by UT_MOD_G36
+  6:03 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+  6:03 Kill: 0 2 41: MaorTheDestroyer killed [ACE] by UT_MOD_MAC11
+  6:05 Item: 10 ut_weapon_beretta
+  6:07 Item: 10 ut_weapon_m4
+  6:15 ClientSpawn: 4
+  6:15 ClientSpawn: 2
+  6:15 ClientSpawn: 12
+  6:19 Item: 6 ut_weapon_mp5k
+  6:20 Item: 6 ut_weapon_lr
+  6:30 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+  6:45 ClientSpawn: 1
+  6:45 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+  6:49 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+  6:53 Kill: 12 5 38: Drorkula killed MAMBA by UT_MOD_M4
+  6:53 Item: 12 ut_weapon_mp5k
+  6:53 Kill: 4 7 20: Or killed RODOV by UT_MOD_G36
+  6:55 Item: 4 ut_weapon_mp5k
+  6:59 Item: 3 ut_weapon_beretta
+  7:00 ClientSpawn: 5
+  7:00 ClientSpawn: 6
+  7:00 ClientSpawn: 7
+  7:00 ClientSpawn: 2
+  7:10 Kill: 1 3 18: godfather killed benD by UT_MOD_MP5K
+  7:12 Kill: 1 12 18: godfather killed Drorkula by UT_MOD_MP5K
+  7:15 ClientSpawn: 12
+  7:15 ClientSpawn: 3
+  7:15 Item: 6 ut_weapon_deagle
+  7:20 Kill: 10 4 38: deadwomanwalking killed Or by UT_MOD_M4
+  7:20 Item: 10 ut_weapon_beretta
+  7:20 Item: 10 ut_weapon_mp5k
+  7:21 Item: 5 ut_weapon_mp5k
+  7:30 ClientSpawn: 4
+  7:35 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+  7:36 Item: 10 ut_weapon_beretta
+  7:36 Item: 10 ut_weapon_mp5k
+  7:36 Item: 10 ut_weapon_m4
+  7:38 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+  7:40 Kill: 2 8 38: [ACE] killed Tal by UT_MOD_M4
+  7:40 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+  7:43 Kill: 0 5 41: MaorTheDestroyer killed MAMBA by UT_MOD_MAC11
+  7:44 Kill: 2 4 38: [ACE] killed Or by UT_MOD_M4
+  7:44 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+  7:45 ClientSpawn: 5
+  7:45 ClientSpawn: 7
+  7:45 ClientSpawn: 2
+  7:45 ClientSpawn: 1
+  7:45 ClientSpawn: 4
+  7:45 ClientSpawn: 6
+  7:45 ClientSpawn: 8
+  7:57 Item: 12 ut_weapon_m4
+  7:57 Item: 12 ut_weapon_mp5k
+  8:07 Kill: 2 4 38: [ACE] killed Or by UT_MOD_M4
+  8:08 Item: 7 ut_weapon_mp5k
+  8:11 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+  8:14 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+  8:15 ClientSpawn: 12
+  8:15 ClientSpawn: 9
+  8:15 ClientSpawn: 4
+  8:15 Kill: 10 3 18: deadwomanwalking killed benD by UT_MOD_MP5K
+  8:16 Item: 10 ut_weapon_beretta
+  8:16 Item: 10 ut_weapon_m4
+  8:16 Item: 10 ut_weapon_mp5k
+  8:26 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+  8:30 ClientSpawn: 2
+  8:30 ClientSpawn: 3
+  8:31 Item: 6 ut_weapon_deagle
+  8:49 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+  8:51 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+  8:53 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+  8:57 Kill: 12 7 25: Drorkula killed RODOV by UT_MOD_HEGRENADE
+  8:58 Item: 0 ut_weapon_beretta
+  9:00 ClientSpawn: 5
+  9:00 ClientSpawn: 1
+  9:00 ClientSpawn: 2
+  9:00 ClientSpawn: 7
+  9:00 Item: 3 ut_weapon_mp5k
+  9:01 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+  9:04 Item: 12 ut_weapon_grenade_he
+  9:04 Item: 12 ut_weapon_mp5k
+  9:04 Item: 12 ut_weapon_m4
+  9:05 Item: 4 ut_weapon_grenade_he
+  9:11 Kill: 1 0 38: godfather killed MaorTheDestroyer by UT_MOD_M4
+  9:13 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+  9:15 ClientSpawn: 0
+  9:15 ClientSpawn: 1
+  9:15 ClientSpawn: 6
+  9:16 Kill: 7 3 38: RODOV killed benD by UT_MOD_M4
+  9:19 Item: 10 ut_weapon_mp5k
+  9:19 Item: 7 ut_weapon_deagle
+  9:19 Item: 9 ut_weapon_mp5k
+  9:19 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+  9:20 Item: 7 ut_weapon_mp5k
+  9:21 Item: 7 ut_weapon_m4
+  9:22 Kill: 2 12 38: [ACE] killed Drorkula by UT_MOD_M4
+  9:27 Item: 6 ut_weapon_grenade_smoke
+  9:28 Item: 6 ut_weapon_mp5k
+  9:28 Item: 1 ut_weapon_m4
+  9:28 Item: 1 ut_weapon_grenade_he
+  9:28 Item: 5 ut_weapon_beretta
+  9:29 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+  9:30 ClientSpawn: 10
+  9:30 ClientSpawn: 3
+  9:30 ClientSpawn: 4
+  9:30 ClientSpawn: 12
+  9:32 Item: 5 ut_weapon_grenade_he
+  9:33 Item: 5 ut_weapon_beretta
+  9:38 Item: 10 ut_weapon_grenade_he
+  9:39 Item: 10 ut_weapon_beretta
+  9:41 Item: 10 ut_weapon_m4
+  9:44 Kill: 1 9 23: godfather killed Shalom by UT_MOD_BLED
+  9:44 Item: 1 ut_weapon_grenade_he
+  9:44 Item: 1 ut_weapon_mp5k
+  9:45 ClientSpawn: 9
+  9:45 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+  9:45 Kill: 12 6 38: Drorkula killed Seb by UT_MOD_M4
+  9:46 Kill: 2 3 38: [ACE] killed benD by UT_MOD_M4
+  9:46 Item: 0 ut_weapon_m4
+  9:47 Item: 2 ut_weapon_m4
+  9:47 Item: 2 ut_weapon_grenade_he
+  9:48 Item: 2 ut_weapon_mp5k
+  9:48 Kill: 7 0 38: RODOV killed MaorTheDestroyer by UT_MOD_M4
+  9:48 Kill: 2 4 38: [ACE] killed Or by UT_MOD_M4
+  9:50 Item: 5 ut_weapon_beretta
+  9:51 Item: 5 ut_weapon_mp5k
+  9:54 Kill: 5 12 19: MAMBA killed Drorkula by UT_MOD_LR300
+  9:56 Kill: 9 2 30: Shalom killed [ACE] by UT_MOD_AK103
+ 10:00 ClientSpawn: 12
+ 10:00 ClientSpawn: 0
+ 10:00 ClientSpawn: 3
+ 10:00 ClientSpawn: 4
+ 10:00 ClientSpawn: 2
+ 10:00 ClientSpawn: 1
+ 10:00 ClientSpawn: 6
+ 10:00 Item: 7 ut_weapon_deagle
+ 10:00 Item: 7 ut_weapon_grenade_smoke
+ 10:03 Kill: 9 5 30: Shalom killed MAMBA by UT_MOD_AK103
+ 10:11 Item: 3 ut_weapon_beretta
+ 10:14 Item: 2 ut_weapon_deagle
+ 10:15 ClientSpawn: 5
+ 10:19 Kill: 8 7 19: Tal killed RODOV by UT_MOD_LR300
+ 10:20 Item: 8 ut_weapon_grenade_smoke
+ 10:25 Item: 8 ut_weapon_lr
+ 10:27 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+ 10:28 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+ 10:30 ClientSpawn: 4
+ 10:30 ClientSpawn: 1
+ 10:30 ClientSpawn: 7
+ 10:30 Kill: 4 6 23: Or killed Seb by UT_MOD_BLED
+ 10:31 Item: 3 ut_weapon_m4
+ 10:35 Kill: 8 2 19: Tal killed [ACE] by UT_MOD_LR300
+ 10:42 Item: 4 ut_weapon_mp5k
+ 10:45 ClientSpawn: 6
+ 10:45 ClientSpawn: 2
+ 10:57 Kill: 6 12 19: Seb killed Drorkula by UT_MOD_LR300
+ 10:57 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 10:59 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 11:00 ClientSpawn: 1
+ 11:00 ClientSpawn: 12
+ 11:00 ClientSpawn: 9
+ 11:01 Kill: 2 3 38: [ACE] killed benD by UT_MOD_M4
+ 11:01 Item: 2 ut_weapon_mp5k
+ 11:01 Item: 2 ut_weapon_m4
+ 11:03 Kill: 5 0 19: MAMBA killed MaorTheDestroyer by UT_MOD_LR300
+ 11:06 Item: 11 ut_weapon_beretta
+ 11:07 Item: 11 ut_weapon_beretta
+ 11:09 Item: 5 ut_weapon_beretta
+ 11:10 Item: 7 ut_weapon_mp5k
+ 11:15 ClientSpawn: 3
+ 11:15 ClientSpawn: 0
+ 11:20 Kill: 4 7 20: Or killed RODOV by UT_MOD_G36
+ 11:27 Item: 12 ut_weapon_m4
+ 11:30 ClientSpawn: 7
+ 11:40 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 11:40 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 11:42 Item: 2 team_CTF_redflag
+ 11:45 ClientSpawn: 5
+ 11:45 ClientSpawn: 9
+ 11:48 Kill: 12 11 38: Drorkula killed Amir by UT_MOD_M4
+ 11:50 Item: 12 ut_weapon_mp5k
+ 11:52 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 11:52 Flag: 2 0: team_CTF_redflag
+ 11:55 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+ 11:55 Kill: 0 7 38: MaorTheDestroyer killed RODOV by UT_MOD_M4
+ 11:57 Item: 6 ut_weapon_mp5k
+ 11:57 Item: 6 ut_weapon_deagle
+ 11:57 Item: 6 team_CTF_redflag
+ 11:59 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 12:00 ClientSpawn: 7
+ 12:00 ClientSpawn: 11
+ 12:00 ClientSpawn: 2
+ 12:00 ClientSpawn: 3
+ 12:00 ClientSpawn: 5
+ 12:02 Item: 8 team_CTF_blueflag
+ 12:03 Kill: 10 8 38: deadwomanwalking killed Tal by UT_MOD_M4
+ 12:03 Flag: 8 0: team_CTF_blueflag
+ 12:05 Flag: 10 1: team_CTF_blueflag
+ 12:05 Item: 10 ut_weapon_beretta
+ 12:05 Item: 4 ut_weapon_beretta
+ 12:05 Item: 4 ut_weapon_grenade_he
+ 12:06 Kill: 2 0 38: [ACE] killed MaorTheDestroyer by UT_MOD_M4
+ 12:08 Item: 4 team_CTF_blueflag
+ 12:09 Item: 4 ut_weapon_grenade_smoke
+ 12:10 Kill: 10 4 38: deadwomanwalking killed Or by UT_MOD_M4
+ 12:10 Flag: 4 0: team_CTF_blueflag
+ 12:10 Flag: 10 1: team_CTF_blueflag
+ 12:10 Item: 10 ut_weapon_beretta
+ 12:10 Item: 10 ut_weapon_mp5k
+ 12:11 Item: 1 ut_weapon_mp5k
+ 12:11 Item: 1 ut_weapon_mp5k
+ 12:12 Item: 6 ut_weapon_deagle
+ 12:15 ClientSpawn: 0
+ 12:15 ClientSpawn: 4
+ 12:15 ClientSpawn: 8
+ 12:15 Flag: 6 2: team_CTF_blueflag
+ 12:15 FlagCaptureTime: 6: 33250
+ 12:16 Kill: 12 7 38: Drorkula killed RODOV by UT_MOD_M4
+ 12:16 Item: 2 ut_weapon_m4
+ 12:16 Kill: 5 12 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 12:18 Item: 2 ut_weapon_m4
+ 12:20 Item: 1 ut_weapon_grenade_smoke
+ 12:22 Item: 10 ut_weapon_m4
+ 12:22 Item: 10 ut_weapon_mp5k
+ 12:24 Item: 9 ut_weapon_beretta
+ 12:25 Item: 9 ut_weapon_mp5k
+ 12:27 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 12:29 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 12:29 Item: 2 ut_weapon_mp5k
+ 12:30 ClientSpawn: 7
+ 12:30 ClientSpawn: 5
+ 12:30 ClientSpawn: 12
+ 12:30 ClientSpawn: 9
+ 12:37 Item: 7 ut_weapon_deagle
+ 12:37 Item: 7 ut_weapon_m4
+ 12:37 Item: 7 ut_weapon_mp5k
+ 12:39 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 12:42 Kill: 0 6 38: MaorTheDestroyer killed Seb by UT_MOD_M4
+ 12:45 ClientSpawn: 5
+ 12:45 ClientSpawn: 6
+ 12:47 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 12:48 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 12:48 Kill: 1 9 38: godfather killed Shalom by UT_MOD_M4
+ 12:49 Item: 4 ut_weapon_grenade_he
+ 12:50 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+ 12:51 Item: 3 ut_weapon_mp5k
+ 12:55 Kill: 2 8 23: [ACE] killed Tal by UT_MOD_BLED
+ 12:56 Item: 3 ut_weapon_beretta
+ 12:56 Kill: 3 10 18: benD killed deadwomanwalking by UT_MOD_MP5K
+ 12:58 Item: 2 team_CTF_redflag
+ 13:00 ClientSpawn: 11
+ 13:00 ClientSpawn: 8
+ 13:00 ClientSpawn: 10
+ 13:00 ClientSpawn: 5
+ 13:00 ClientSpawn: 6
+ 13:00 ClientSpawn: 9
+ 13:00 Item: 3 team_CTF_blueflag
+ 13:03 Item: 6 ut_weapon_mp5k
+ 13:04 Item: 11 ut_weapon_beretta
+ 13:06 Kill: 5 0 19: MAMBA killed MaorTheDestroyer by UT_MOD_LR300
+ 13:06 Kill: 5 4 19: MAMBA killed Or by UT_MOD_LR300
+ 13:08 Item: 5 ut_weapon_mp5k
+ 13:08 Item: 5 ut_weapon_lr
+ 13:11 Item: 10 ut_weapon_m4
+ 13:12 Item: 10 ut_weapon_grenade_he
+ 13:13 Item: 10 ut_weapon_beretta
+ 13:15 ClientSpawn: 0
+ 13:15 ClientSpawn: 4
+ 13:21 Item: 8 ut_weapon_beretta
+ 13:22 Item: 8 ut_weapon_lr
+ 13:22 Item: 8 ut_weapon_ump45
+ 13:22 Kill: 5 12 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 13:22 Kill: 1 9 38: godfather killed Shalom by UT_MOD_M4
+ 13:29 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 13:30 ClientSpawn: 12
+ 13:30 ClientSpawn: 9
+ 13:30 ClientSpawn: 5
+ 13:31 Kill: 11 3 20: Amir killed benD by UT_MOD_G36
+ 13:31 Flag: 3 0: team_CTF_blueflag
+ 13:31 Item: 0 ut_weapon_beretta
+ 13:32 Item: 0 team_CTF_blueflag
+ 13:33 Item: 4 ut_weapon_beretta
+ 13:33 Item: 4 ut_weapon_grenade_he
+ 13:36 Kill: 1 0 38: godfather killed MaorTheDestroyer by UT_MOD_M4
+ 13:36 Flag: 0 0: team_CTF_blueflag
+ 13:38 Flag: 1 1: team_CTF_blueflag
+ 13:38 Item: 1 ut_weapon_m4
+ 13:41 Kill: 9 6 30: Shalom killed Seb by UT_MOD_AK103
+ 13:41 Item: 1 ut_weapon_mp5k
+ 13:42 Item: 11 ut_weapon_mp5k
+ 13:44 Item: 12 ut_weapon_mac11
+ 13:45 ClientSpawn: 0
+ 13:45 ClientSpawn: 6
+ 13:45 ClientSpawn: 3
+ 13:45 Kill: 1 4 38: godfather killed Or by UT_MOD_M4
+ 13:47 Item: 9 ut_weapon_mp5k
+ 13:56 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 13:59 Kill: 3 11 38: benD killed Amir by UT_MOD_M4
+ 14:00 ClientSpawn: 11
+ 14:00 ClientSpawn: 4
+ 14:00 ClientSpawn: 9
+ 14:00 Kill: 12 1 38: Drorkula killed godfather by UT_MOD_M4
+ 14:12 Kill: 2 12 38: [ACE] killed Drorkula by UT_MOD_M4
+ 14:13 Item: 7 ut_weapon_mp5k
+ 14:15 ClientSpawn: 12
+ 14:15 ClientSpawn: 1
+ 14:22 Flag: 2 2: team_CTF_blueflag
+ 14:22 FlagCaptureTime: 2: 84100
+ 14:28 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+ 14:29 Item: 2 ut_weapon_m4
+ 14:29 Item: 2 ut_weapon_grenade_smoke
+ 14:30 ClientSpawn: 3
+ 14:30 Kill: 4 7 20: Or killed RODOV by UT_MOD_G36
+ 14:30 Item: 2 ut_weapon_m4
+ 14:30 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 14:31 Item: 1 ut_weapon_grenade_smoke
+ 14:32 Item: 11 ut_weapon_mp5k
+ 14:34 Kill: 1 4 38: godfather killed Or by UT_MOD_M4
+ 14:37 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+ 14:42 Item: 0 ut_weapon_beretta
+ 14:44 Kill: 0 6 38: MaorTheDestroyer killed Seb by UT_MOD_M4
+ 14:45 ClientSpawn: 6
+ 14:45 ClientSpawn: 2
+ 14:45 ClientSpawn: 7
+ 14:45 ClientSpawn: 4
+ 14:45 ClientSpawn: 9
+ 14:49 Item: 2 ut_weapon_deagle
+ 14:50 Item: 2 ut_weapon_mp5k
+ 14:52 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 14:54 Item: 7 ut_weapon_deagle
+ 14:54 Item: 7 ut_weapon_m4
+ 14:55 Item: 3 ut_weapon_m4
+ 14:55 Item: 3 ut_weapon_grenade_smoke
+ 14:55 Item: 3 ut_weapon_mp5k
+ 14:58 Kill: 2 12 38: [ACE] killed Drorkula by UT_MOD_M4
+ 15:00 ClientSpawn: 12
+ 15:00 ClientSpawn: 1
+ 15:02 Item: 0 ut_weapon_m4
+ 15:05 Kill: 0 2 23: MaorTheDestroyer killed [ACE] by UT_MOD_BLED
+ 15:12 Item: 7 ut_weapon_deagle
+ 15:15 ClientSpawn: 2
+ 15:15 Kill: 9 7 30: Shalom killed RODOV by UT_MOD_AK103
+ 15:22 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 15:27 Kill: 2 0 38: [ACE] killed MaorTheDestroyer by UT_MOD_M4
+ 15:30 ClientSpawn: 7
+ 15:30 ClientSpawn: 0
+ 15:30 ClientSpawn: 1
+ 15:30 Item: 12 ut_weapon_mp5k
+ 15:30 Item: 12 ut_weapon_m4
+ 15:31 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 15:36 Item: 12 ut_weapon_m4
+ 15:38 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 15:39 Kill: 1 3 38: godfather killed benD by UT_MOD_M4
+ 15:40 Item: 12 ut_weapon_m4
+ 15:41 Kill: 10 4 38: deadwomanwalking killed Or by UT_MOD_M4
+ 15:43 Item: 10 ut_weapon_beretta
+ 15:45 ClientSpawn: 5
+ 15:45 ClientSpawn: 2
+ 15:45 ClientSpawn: 3
+ 15:45 ClientSpawn: 4
+ 15:45 Kill: 6 0 19: Seb killed MaorTheDestroyer by UT_MOD_LR300
+ 15:47 Item: 1 ut_weapon_m4
+ 15:51 Kill: 12 11 38: Drorkula killed Amir by UT_MOD_M4
+ 15:51 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+ 15:56 Item: 4 ut_weapon_grenade_he
+ 15:57 Kill: 12 7 38: Drorkula killed RODOV by UT_MOD_M4
+ 15:57 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+ 15:59 Item: 2 ut_weapon_m4
+ 16:00 ClientSpawn: 0
+ 16:00 ClientSpawn: 11
+ 16:00 ClientSpawn: 4
+ 16:00 ClientSpawn: 7
+ 16:00 ClientSpawn: 9
+ 16:00 Item: 3 ut_weapon_m4
+ 16:00 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+ 16:12 Kill: 2 12 38: [ACE] killed Drorkula by UT_MOD_M4
+ 16:14 Item: 2 ut_weapon_mp5k
+ 16:14 Item: 2 ut_weapon_grenade_he
+ 16:14 Item: 7 ut_weapon_deagle
+ 16:14 Item: 11 ut_weapon_mp5k
+ 16:15 ClientSpawn: 12
+ 16:15 ClientSpawn: 6
+ 16:15 Item: 9 ut_weapon_mp5k
+ 16:15 Item: 9 ut_weapon_ak103
+ 16:15 Item: 9 ut_weapon_beretta
+ 16:33 Kill: 2 9 18: [ACE] killed Shalom by UT_MOD_MP5K
+ 16:35 Kill: 7 12 38: RODOV killed Drorkula by UT_MOD_M4
+ 16:35 Kill: 3 10 38: benD killed deadwomanwalking by UT_MOD_M4
+ 16:35 Kill: 9 2 23: Shalom killed [ACE] by UT_MOD_BLED
+ 16:36 Item: 3 ut_weapon_mp5k
+ 16:37 Item: 7 ut_weapon_m4
+ 16:42 Kill: 5 8 19: MAMBA killed Tal by UT_MOD_LR300
+ 16:44 Item: 4 team_CTF_blueflag
+ 16:45 ClientSpawn: 8
+ 16:45 ClientSpawn: 12
+ 16:45 ClientSpawn: 10
+ 16:45 ClientSpawn: 9
+ 16:45 ClientSpawn: 2
+ 16:45 Kill: 1 3 38: godfather killed benD by UT_MOD_M4
+ 16:46 Item: 5 team_CTF_redflag
+ 16:46 Kill: 4 1 20: Or killed godfather by UT_MOD_G36
+ 16:47 Kill: 1 4 23: godfather killed Or by UT_MOD_BLED
+ 16:47 Flag: 4 0: team_CTF_blueflag
+ 16:50 Flag: 11 1: team_CTF_blueflag
+ 16:50 Item: 11 ut_weapon_g36
+ 16:50 Kill: 0 11 38: MaorTheDestroyer killed Amir by UT_MOD_M4
+ 16:51 Kill: 10 0 38: deadwomanwalking killed MaorTheDestroyer by UT_MOD_M4
+ 16:51 Item: 10 ut_weapon_beretta
+ 16:51 Item: 10 ut_weapon_m4
+ 16:53 Item: 10 ut_weapon_beretta
+ 16:53 Item: 10 ut_weapon_grenade_he
+ 16:53 Item: 10 ut_weapon_m4
+ 16:54 Item: 10 ut_weapon_m4
+ 16:54 Item: 10 ut_weapon_beretta
+ 16:54 Kill: 12 6 38: Drorkula killed Seb by UT_MOD_M4
+ 16:55 Kill: 12 5 23: Drorkula killed MAMBA by UT_MOD_BLED
+ 16:55 Flag: 5 0: team_CTF_redflag
+ 16:55 Item: 7 ut_weapon_deagle
+ 16:55 Kill: 12 7 38: Drorkula killed RODOV by UT_MOD_M4
+ 16:56 Item: 9 ut_weapon_mp5k
+ 16:57 Item: 9 ut_weapon_mp5k
+ 16:58 Item: 10 ut_weapon_mp5k
+ 16:58 Item: 10 ut_weapon_m4
+ 16:58 Item: 10 ut_weapon_beretta
+ 16:58 Kill: 7 9 23: RODOV killed Shalom by UT_MOD_BLED
+ 16:58 Item: 8 ut_weapon_beretta
+ 16:59 Item: 12 ut_weapon_mp5k
+ 17:00 ClientSpawn: 7
+ 17:00 ClientSpawn: 0
+ 17:00 ClientSpawn: 1
+ 17:00 ClientSpawn: 6
+ 17:00 ClientSpawn: 4
+ 17:00 ClientSpawn: 9
+ 17:00 ClientSpawn: 3
+ 17:00 ClientSpawn: 5
+ 17:00 ClientSpawn: 11
+ 17:01 Item: 10 ut_weapon_mp5k
+ 17:02 Flag: 8 1: team_CTF_redflag
+ 17:05 Item: 12 ut_weapon_mp5k
+ 17:07 Item: 8 ut_weapon_lr
+ 17:11 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 17:11 Item: 12 ut_weapon_mp5k
+ 17:13 Item: 12 ut_weapon_m4
+ 17:15 ClientSpawn: 2
+ 17:18 Kill: 6 12 19: Seb killed Drorkula by UT_MOD_LR300
+ 17:20 Item: 6 ut_weapon_mp5k
+ 17:29 Item: 1 ut_weapon_deagle
+ 17:30 ClientSpawn: 12
+ 17:31 Kill: 4 7 20: Or killed RODOV by UT_MOD_G36
+ 17:32 Item: 2 ut_weapon_mp5k
+ 17:32 Item: 2 ut_weapon_m4
+ 17:32 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 17:36 Kill: 5 0 19: MAMBA killed MaorTheDestroyer by UT_MOD_LR300
+ 17:37 Item: 5 ut_weapon_beretta
+ 17:40 Kill: 12 5 23: Drorkula killed MAMBA by UT_MOD_BLED
+ 17:41 Kill: 3 11 38: benD killed Amir by UT_MOD_M4
+ 17:45 ClientSpawn: 0
+ 17:45 ClientSpawn: 5
+ 17:45 ClientSpawn: 2
+ 17:45 ClientSpawn: 7
+ 17:45 ClientSpawn: 11
+ 17:46 Item: 4 team_CTF_blueflag
+ 17:47 Kill: 3 10 38: benD killed deadwomanwalking by UT_MOD_M4
+ 17:48 Item: 4 ut_weapon_mp5k
+ 17:48 Item: 4 ut_weapon_grenade_he
+ 17:50 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+ 17:50 Kill: 10 4 23: deadwomanwalking killed Or by UT_MOD_BLED
+ 17:50 Flag: 4 0: team_CTF_blueflag
+ 17:53 Item: 3 team_CTF_blueflag
+ 17:53 Kill: 12 6 38: Drorkula killed Seb by UT_MOD_M4
+ 17:54 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 17:58 Kill: 11 3 20: Amir killed benD by UT_MOD_G36
+ 17:58 Flag: 3 0: team_CTF_blueflag
+ 17:58 Item: 7 ut_weapon_mp5k
+ 17:59 Item: 5 ut_weapon_beretta
+ 17:59 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+ 18:00 ClientSpawn: 9
+ 18:00 ClientSpawn: 10
+ 18:00 ClientSpawn: 4
+ 18:00 ClientSpawn: 6
+ 18:00 ClientSpawn: 12
+ 18:00 ClientSpawn: 2
+ 18:00 ClientSpawn: 3
+ 18:00 Kill: 8 1 19: Tal killed godfather by UT_MOD_LR300
+ 18:02 Item: 5 ut_weapon_beretta
+ 18:02 Flag: 5 1: team_CTF_blueflag
+ 18:02 Item: 0 ut_weapon_mac11
+ 18:03 Item: 7 ut_weapon_m4
+ 18:08 Item: 6 ut_weapon_mp5k
+ 18:11 Item: 11 ut_weapon_beretta
+ 18:11 Item: 11 ut_weapon_grenade_smoke
+ 18:11 Item: 10 ut_weapon_m4
+ 18:12 Item: 12 ut_weapon_m4
+ 18:13 Item: 12 ut_weapon_glock
+ 18:13 Item: 10 ut_weapon_grenade_he
+ 18:13 Kill: 0 5 38: MaorTheDestroyer killed MAMBA by UT_MOD_M4
+ 18:13 Item: 12 ut_weapon_m4
+ 18:13 Item: 12 ut_weapon_mp5k
+ 18:14 Kill: 7 0 38: RODOV killed MaorTheDestroyer by UT_MOD_M4
+ 18:15 ClientSpawn: 5
+ 18:15 ClientSpawn: 1
+ 18:15 ClientSpawn: 0
+ 18:17 Item: 10 ut_weapon_m4
+ 18:24 Item: 5 ut_weapon_mp5k
+ 18:25 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 18:27 Item: 2 ut_weapon_deagle
+ 18:29 Item: 2 ut_weapon_mp5k
+ 18:30 ClientSpawn: 7
+ 18:30 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 18:32 Kill: 2 4 23: [ACE] killed Or by UT_MOD_BLED
+ 18:38 Kill: 0 5 38: MaorTheDestroyer killed MAMBA by UT_MOD_M4
+ 18:39 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 18:45 ClientSpawn: 2
+ 18:45 ClientSpawn: 1
+ 18:45 ClientSpawn: 5
+ 18:45 ClientSpawn: 4
+ 18:46 Item: 0 ut_weapon_beretta
+ 18:47 Item: 6 team_CTF_redflag
+ 18:50 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 18:50 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+ 18:50 Flag: 6 0: team_CTF_redflag
+ 18:51 Item: 12 ut_weapon_m4
+ 18:52 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+ 18:53 Kill: 12 1 23: Drorkula killed godfather by UT_MOD_BLED
+ 18:53 Item: 8 ut_weapon_lr
+ 18:53 Flag: 8 1: team_CTF_redflag
+ 18:57 Kill: 7 3 38: RODOV killed benD by UT_MOD_M4
+ 18:57 Item: 10 ut_weapon_m4
+ 19:00 ClientSpawn: 2
+ 19:00 ClientSpawn: 3
+ 19:00 ClientSpawn: 12
+ 19:00 ClientSpawn: 1
+ 19:00 ClientSpawn: 6
+ 19:00 Item: 10 ut_weapon_beretta
+ 19:02 Item: 10 ut_weapon_m4
+ 19:03 Item: 5 ut_weapon_mp5k
+ 19:06 Item: 5 ut_weapon_mp5k
+ 19:07 Item: 5 ut_weapon_mp5k
+ 19:08 Kill: 2 0 38: [ACE] killed MaorTheDestroyer by UT_MOD_M4
+ 19:08 Item: 4 ut_weapon_mp5k
+ 19:08 Item: 4 ut_weapon_grenade_he
+ 19:09 Item: 2 ut_weapon_m4
+ 19:11 Item: 1 ut_weapon_deagle
+ 19:14 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+ 19:15 ClientSpawn: 0
+ 19:15 ClientSpawn: 4
+ 19:19 Item: 6 ut_weapon_mp5k
+ 19:26 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 19:30 ClientSpawn: 2
+ 19:31 Item: 3 ut_weapon_mp5k
+ 19:35 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 19:36 Item: 3 ut_weapon_mp5k
+ 19:43 Kill: 0 6 38: MaorTheDestroyer killed Seb by UT_MOD_M4
+ 19:45 ClientSpawn: 1
+ 19:45 ClientSpawn: 6
+ 19:46 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 19:49 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 19:49 Item: 4 ut_weapon_grenade_he
+ 19:49 Item: 4 ut_weapon_beretta
+ 19:49 Item: 4 ut_weapon_mp5k
+ 19:58 Kill: 10 4 38: deadwomanwalking killed Or by UT_MOD_M4
+ 20:00 Item: 0 ut_weapon_m4
+ 20:00 ClientSpawn: 2
+ 20:00 ClientSpawn: 5
+ 20:00 ClientSpawn: 4
+ 20:01 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+ 20:02 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+ 20:03 Item: 6 ut_weapon_mp5k
+ 20:05 Kill: 3 6 23: benD killed Seb by UT_MOD_BLED
+ 20:07 Item: 10 ut_weapon_beretta
+ 20:08 Item: 10 ut_weapon_mp5k
+ 20:09 Kill: 7 12 38: RODOV killed Drorkula by UT_MOD_M4
+ 20:10 Item: 2 ut_weapon_mp5k
+ 20:11 Item: 2 ut_weapon_m4
+ 20:11 Item: 2 ut_weapon_deagle
+ 20:15 ClientSpawn: 3
+ 20:15 ClientSpawn: 12
+ 20:15 ClientSpawn: 6
+ 20:15 ClientSpawn: 1
+ 20:20 Kill: 6 0 19: Seb killed MaorTheDestroyer by UT_MOD_LR300
+ 20:21 Item: 10 ut_weapon_m4
+ 20:22 Item: 10 ut_weapon_beretta
+ 20:27 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 20:29 Item: 4 ut_weapon_mp5k
+ 20:30 ClientSpawn: 0
+ 20:30 ClientSpawn: 5
+ 20:30 Item: 4 ut_weapon_beretta
+ 20:35 Kill: 2 3 38: [ACE] killed benD by UT_MOD_M4
+ 20:40 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 20:41 Kill: 4 1 20: Or killed godfather by UT_MOD_G36
+ 20:41 Item: 6 ut_weapon_mp5k
+ 20:45 ClientSpawn: 3
+ 20:45 ClientSpawn: 2
+ 20:45 ClientSpawn: 1
+ 20:46 Item: 0 ut_weapon_m4
+ 20:49 Kill: 12 7 38: Drorkula killed RODOV by UT_MOD_M4
+ 20:54 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+ 20:59 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 21:00 ClientSpawn: 7
+ 21:00 ClientSpawn: 2
+ 21:00 ClientSpawn: 6
+ 21:06 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+ 21:09 Item: 2 ut_weapon_deagle
+ 21:09 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+ 21:09 Item: 2 ut_weapon_m4
+ 21:10 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+ 21:11 Item: 5 ut_weapon_mp5k
+ 21:11 Item: 5 ut_weapon_grenade_he
+ 21:13 Kill: 1 9 38: godfather killed Shalom by UT_MOD_M4
+ 21:15 ClientSpawn: 10
+ 21:15 ClientSpawn: 4
+ 21:15 ClientSpawn: 9
+ 21:15 ClientSpawn: 12
+ 21:15 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 21:15 Item: 3 ut_weapon_beretta
+ 21:16 Kill: 0 7 38: MaorTheDestroyer killed RODOV by UT_MOD_M4
+ 21:19 Item: 0 team_CTF_blueflag
+ 21:22 Kill: 3 11 38: benD killed Amir by UT_MOD_M4
+ 21:22 Kill: 1022 10 9: <world> killed deadwomanwalking by MOD_TRIGGER_HURT
+ 21:23 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+ 21:24 Item: 6 ut_weapon_mp5k
+ 21:25 Item: 6 ut_weapon_grenade_smoke
+ 21:28 Kill: 8 1 19: Tal killed godfather by UT_MOD_LR300
+ 21:30 ClientSpawn: 3
+ 21:30 ClientSpawn: 5
+ 21:30 ClientSpawn: 7
+ 21:30 ClientSpawn: 11
+ 21:30 ClientSpawn: 1
+ 21:30 ClientSpawn: 10
+ 21:36 Item: 10 ut_weapon_mp5k
+ 21:36 Item: 7 ut_weapon_mp5k
+ 21:37 Item: 7 ut_weapon_m4
+ 21:38 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+ 21:38 Item: 10 ut_weapon_m4
+ 21:39 Item: 10 ut_weapon_beretta
+ 21:39 Item: 10 ut_weapon_mp5k
+ 21:40 Item: 2 ut_weapon_mp5k
+ 21:41 Item: 10 ut_weapon_grenade_he
+ 21:41 Item: 2 ut_weapon_deagle
+ 21:41 Item: 2 ut_weapon_m4
+ 21:42 Kill: 2 8 38: [ACE] killed Tal by UT_MOD_M4
+ 21:44 Item: 2 team_CTF_redflag
+ 21:45 ClientSpawn: 8
+ 21:45 ClientSpawn: 6
+ 21:45 Kill: 0 2 38: MaorTheDestroyer killed [ACE] by UT_MOD_M4
+ 21:45 Flag: 2 0: team_CTF_redflag
+ 21:47 Kill: 11 12 20: Amir killed Drorkula by UT_MOD_G36
+ 21:49 Flag: 0 1: team_CTF_redflag
+ 21:50 Item: 0 ut_weapon_m4
+ 21:51 Flag: 0 2: team_CTF_redflag
+ 21:51 FlagCaptureTime: 0: 31900
+ 21:56 Item: 8 ut_weapon_beretta
+ 21:57 Item: 7 ut_weapon_m4
+ 21:58 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 22:00 ClientSpawn: 5
+ 22:00 ClientSpawn: 2
+ 22:00 ClientSpawn: 12
+ 22:07 Item: 3 ut_weapon_mp5k
+ 22:09 Item: 12 ut_weapon_mp5k
+ 22:10 Kill: 7 3 38: RODOV killed benD by UT_MOD_M4
+ 22:11 Item: 4 ut_weapon_grenade_he
+ 22:12 Kill: 6 8 19: Seb killed Tal by UT_MOD_LR300
+ 22:15 ClientSpawn: 3
+ 22:15 ClientSpawn: 8
+ 22:15 Item: 4 ut_weapon_beretta
+ 22:17 Kill: 7 4 38: RODOV killed Or by UT_MOD_M4
+ 22:21 Kill: 12 1 38: Drorkula killed godfather by UT_MOD_M4
+ 22:23 Kill: 6 12 19: Seb killed Drorkula by UT_MOD_LR300
+ 22:26 Item: 0 ut_weapon_beretta
+ 22:27 Item: 0 ut_weapon_m4
+ 22:30 ClientSpawn: 12
+ 22:30 ClientSpawn: 4
+ 22:30 ClientSpawn: 1
+ 22:32 Kill: 0 7 38: MaorTheDestroyer killed RODOV by UT_MOD_M4
+ 22:35 Item: 0 ut_weapon_m4
+ 22:41 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 22:42 Kill: 2 4 38: [ACE] killed Or by UT_MOD_M4
+ 22:45 ClientSpawn: 7
+ 22:45 ClientSpawn: 4
+ 22:45 ClientSpawn: 5
+ 22:45 Item: 12 ut_weapon_m4
+ 22:45 Item: 12 ut_weapon_glock
+ 22:45 Item: 12 ut_weapon_mp5k
+ 22:46 Item: 12 ut_weapon_m4
+ 22:47 Item: 12 ut_weapon_mp5k
+ 22:47 Item: 3 ut_weapon_beretta
+ 22:48 Kill: 9 6 30: Shalom killed Seb by UT_MOD_AK103
+ 22:50 Kill: 11 0 20: Amir killed MaorTheDestroyer by UT_MOD_G36
+ 22:50 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 22:57 Item: 4 ut_weapon_g36
+ 23:00 ClientSpawn: 6
+ 23:00 ClientSpawn: 2
+ 23:00 ClientSpawn: 0
+ 23:00 Item: 12 ut_weapon_mp5k
+ 23:13 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+ 23:13 Item: 4 ut_weapon_mp5k
+ 23:13 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+ 23:14 Item: 4 ut_weapon_grenade_he
+ 23:15 ClientSpawn: 3
+ 23:15 ClientSpawn: 6
+ 23:19 Item: 4 ut_weapon_beretta
+ 23:26 Kill: 1 9 38: godfather killed Shalom by UT_MOD_M4
+ 23:27 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 23:28 Kill: 12 5 38: Drorkula killed MAMBA by UT_MOD_M4
+ 23:29 Kill: 0 6 38: MaorTheDestroyer killed Seb by UT_MOD_M4
+ 23:29 Item: 0 ut_weapon_m4
+ 23:30 ClientSpawn: 5
+ 23:30 ClientSpawn: 9
+ 23:30 ClientSpawn: 2
+ 23:30 ClientSpawn: 6
+ 23:30 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+ 23:31 Item: 1 team_CTF_redflag
+ 23:33 Item: 12 ut_weapon_mp5k
+ 23:37 Kill: 6 0 19: Seb killed MaorTheDestroyer by UT_MOD_LR300
+ 23:41 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 23:41 Flag: 1 0: team_CTF_redflag
+ 23:42 Item: 6 ut_weapon_deagle
+ 23:42 Item: 6 ut_weapon_deagle
+ 23:42 Item: 6 ut_weapon_mp5k
+ 23:42 Flag: 3 1: team_CTF_redflag
+ 23:43 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+ 23:44 Item: 8 ut_weapon_beretta
+ 23:45 ClientSpawn: 1
+ 23:45 ClientSpawn: 0
+ 23:45 ClientSpawn: 10
+ 23:45 ClientSpawn: 6
+ 23:55 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 23:57 Kill: 10 4 38: deadwomanwalking killed Or by UT_MOD_M4
+ 23:59 Item: 11 ut_weapon_mp5k
+ 23:59 Item: 11 ut_weapon_beretta
+ 24:00 ClientSpawn: 5
+ 24:00 ClientSpawn: 4
+ 24:00 Item: 10 ut_weapon_grenade_he
+ 24:01 Kill: 12 10 38: Drorkula killed deadwomanwalking by UT_MOD_M4
+ 24:03 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+ 24:07 Item: 12 ut_weapon_mp5k
+ 24:07 Item: 12 ut_weapon_m4
+ 24:08 Kill: 11 12 20: Amir killed Drorkula by UT_MOD_G36
+ 24:08 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 24:09 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 24:10 Item: 3 ut_weapon_mp5k
+ 24:13 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 24:14 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 24:15 ClientSpawn: 10
+ 24:15 ClientSpawn: 2
+ 24:15 ClientSpawn: 12
+ 24:15 ClientSpawn: 5
+ 24:15 ClientSpawn: 9
+ 24:15 ClientSpawn: 7
+ 24:15 ClientSpawn: 6
+ 24:18 Item: 2 ut_weapon_mp5k
+ 24:21 Kill: 3 11 18: benD killed Amir by UT_MOD_MP5K
+ 24:21 Kill: 1022 10 9: <world> killed deadwomanwalking by MOD_TRIGGER_HURT
+ 24:23 Item: 3 ut_weapon_beretta
+ 24:26 Kill: 3 7 18: benD killed RODOV by UT_MOD_MP5K
+ 24:28 Item: 6 ut_weapon_mp5k
+ 24:30 ClientSpawn: 11
+ 24:30 ClientSpawn: 7
+ 24:30 ClientSpawn: 10
+ 24:33 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 24:36 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 24:37 Item: 7 ut_weapon_mp5k
+ 24:38 Item: 6 ut_weapon_mp5k
+ 24:41 Kill: 3 10 18: benD killed deadwomanwalking by UT_MOD_MP5K
+ 24:42 Kill: 2 12 38: [ACE] killed Drorkula by UT_MOD_M4
+ 24:43 Item: 3 ut_weapon_m4
+ 24:44 Item: 3 ut_weapon_mp5k
+ 24:44 Item: 3 ut_weapon_grenade_smoke
+ 24:44 Item: 3 ut_weapon_beretta
+ 24:45 ClientSpawn: 5
+ 24:45 ClientSpawn: 10
+ 24:45 ClientSpawn: 12
+ 24:45 ClientSpawn: 9
+ 24:45 Kill: 8 2 19: Tal killed [ACE] by UT_MOD_LR300
+ 24:47 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+ 24:49 Item: 0 ut_weapon_m4
+ 24:51 Item: 10 ut_weapon_mp5k
+ 24:51 Item: 10 ut_weapon_m4
+ 24:51 Item: 10 ut_weapon_grenade_he
+ 24:52 Kill: 10 3 38: deadwomanwalking killed benD by UT_MOD_M4
+ 24:53 Item: 12 ut_weapon_m4
+ 24:59 Item: 11 ut_weapon_grenade_smoke
+ 24:59 Item: 11 ut_weapon_beretta
+ 25:00 ClientSpawn: 2
+ 25:00 ClientSpawn: 1
+ 25:00 ClientSpawn: 3
+ 25:03 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 25:05 Kill: 1 4 38: godfather killed Or by UT_MOD_M4
+ 25:15 ClientSpawn: 11
+ 25:15 ClientSpawn: 4
+ 25:22 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 25:22 Item: 3 ut_weapon_mp5k
+ 25:22 Item: 3 ut_weapon_m4
+ 25:24 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+ 25:27 Item: 6 team_CTF_redflag
+ 25:29 Item: 12 team_CTF_blueflag
+ 25:30 ClientSpawn: 1
+ 25:30 ClientSpawn: 4
+ 25:31 Kill: 0 6 38: MaorTheDestroyer killed Seb by UT_MOD_M4
+ 25:31 Flag: 6 0: team_CTF_redflag
+ 25:32 Item: 8 ut_weapon_beretta
+ 25:33 Kill: 8 11 23: Tal killed Amir by UT_MOD_BLED
+ 25:33 Kill: 2 0 38: [ACE] killed MaorTheDestroyer by UT_MOD_M4
+ 25:35 Item: 2 team_CTF_redflag
+ 25:36 Kill: 5 9 19: MAMBA killed Shalom by UT_MOD_LR300
+ 25:38 Kill: 10 8 18: deadwomanwalking killed Tal by UT_MOD_MP5K
+ 25:39 Kill: 3 10 38: benD killed deadwomanwalking by UT_MOD_M4
+ 25:40 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 25:41 Item: 5 ut_weapon_beretta
+ 25:41 Item: 5 ut_weapon_lr
+ 25:44 Item: 1 ut_weapon_deagle
+ 25:45 ClientSpawn: 0
+ 25:45 ClientSpawn: 6
+ 25:45 ClientSpawn: 7
+ 25:45 ClientSpawn: 11
+ 25:45 ClientSpawn: 8
+ 25:45 ClientSpawn: 9
+ 25:45 ClientSpawn: 10
+ 25:45 Item: 1 ut_weapon_m4
+ 25:45 Item: 1 ut_weapon_mp5k
+ 25:57 Item: 9 ut_weapon_mac11
+ 25:58 Kill: 4 7 20: Or killed RODOV by UT_MOD_G36
+ 26:00 ClientSpawn: 7
+ 26:06 Kill: 0 1 38: MaorTheDestroyer killed godfather by UT_MOD_M4
+ 26:08 Item: 0 ut_weapon_m4
+ 26:10 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 26:10 Item: 4 ut_weapon_grenade_he
+ 26:10 Item: 4 ut_weapon_beretta
+ 26:10 Item: 4 ut_weapon_mp5k
+ 26:10 Item: 4 ut_weapon_g36
+ 26:13 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+ 26:14 Kill: 10 3 38: deadwomanwalking killed benD by UT_MOD_M4
+ 26:14 Item: 10 ut_weapon_m4
+ 26:14 Item: 10 ut_weapon_beretta
+ 26:15 ClientSpawn: 6
+ 26:15 ClientSpawn: 11
+ 26:15 ClientSpawn: 1
+ 26:15 ClientSpawn: 3
+ 26:15 Item: 10 ut_weapon_grenade_he
+ 26:15 Item: 10 ut_weapon_mp5k
+ 26:21 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 26:25 Item: 2 ut_weapon_deagle
+ 26:25 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+ 26:26 Item: 4 ut_weapon_g36
+ 26:26 Item: 4 ut_weapon_beretta
+ 26:27 Kill: 6 0 19: Seb killed MaorTheDestroyer by UT_MOD_LR300
+ 26:30 ClientSpawn: 0
+ 26:30 ClientSpawn: 11
+ 26:30 ClientSpawn: 9
+ 26:30 Item: 3 ut_weapon_mp5k
+ 26:48 Kill: 3 11 38: benD killed Amir by UT_MOD_M4
+ 26:49 Item: 3 ut_weapon_m4
+ 26:49 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 26:51 Kill: 6 0 19: Seb killed MaorTheDestroyer by UT_MOD_LR300
+ 26:54 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 26:54 Flag: 2 0: team_CTF_redflag
+ 26:56 Kill: 8 5 19: Tal killed MAMBA by UT_MOD_LR300
+ 26:56 Item: 8 ut_weapon_lr
+ 26:57 Flag: 3 1: team_CTF_redflag
+ 27:00 ClientSpawn: 5
+ 27:00 ClientSpawn: 0
+ 27:00 ClientSpawn: 11
+ 27:00 ClientSpawn: 2
+ 27:00 ClientSpawn: 1
+ 27:00 Item: 10 team_CTF_redflag
+ 27:05 Kill: 1 8 38: godfather killed Tal by UT_MOD_M4
+ 27:05 Kill: 4 1 20: Or killed godfather by UT_MOD_G36
+ 27:07 Item: 11 ut_weapon_beretta
+ 27:09 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+ 27:10 Kill: 5 4 19: MAMBA killed Or by UT_MOD_LR300
+ 27:10 Item: 11 ut_weapon_mp5k
+ 27:12 Item: 11 ut_weapon_beretta
+ 27:12 Kill: 12 6 38: Drorkula killed Seb by UT_MOD_M4
+ 27:14 Item: 5 ut_weapon_mp5k
+ 27:15 ClientSpawn: 6
+ 27:15 ClientSpawn: 9
+ 27:15 ClientSpawn: 1
+ 27:15 ClientSpawn: 4
+ 27:15 ClientSpawn: 8
+ 27:18 Item: 6 ut_weapon_mp5k
+ 27:20 Item: 1 ut_weapon_m4
+ 27:21 Kill: 3 10 38: benD killed deadwomanwalking by UT_MOD_M4
+ 27:21 Flag: 10 0: team_CTF_redflag
+ 27:26 Flag: 3 1: team_CTF_redflag
+ 27:26 Kill: 5 3 19: MAMBA killed benD by UT_MOD_LR300
+ 27:27 Item: 5 ut_weapon_mp5k
+ 27:27 Item: 5 ut_weapon_beretta
+ 27:27 Item: 5 ut_weapon_beretta
+ 27:28 Item: 9 ut_weapon_mp5k
+ 27:28 Flag: 12 2: team_CTF_redflag
+ 27:28 FlagCaptureTime: 12: 119300
+ 27:30 ClientSpawn: 3
+ 27:30 ClientSpawn: 10
+ 27:34 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 27:35 Item: 7 ut_weapon_m4
+ 27:35 Item: 7 ut_weapon_m4
+ 27:36 Item: 1 ut_weapon_mp5k
+ 27:45 ClientSpawn: 9
+ 27:46 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+ 27:48 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 27:48 Item: 1 ut_weapon_deagle
+ 27:48 Item: 1 ut_weapon_mp5k
+ 27:48 Item: 1 ut_weapon_m4
+ 27:49 Kill: 5 3 23: MAMBA killed benD by UT_MOD_BLED
+ 27:49 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+ 27:51 Item: 5 ut_weapon_beretta
+ 27:56 Item: 11 ut_weapon_grenade_smoke
+ 27:57 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 28:00 ClientSpawn: 2
+ 28:00 ClientSpawn: 11
+ 28:00 ClientSpawn: 12
+ 28:00 ClientSpawn: 10
+ 28:00 ClientSpawn: 3
+ 28:04 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+ 28:04 Item: 1 ut_weapon_m4
+ 28:06 Item: 4 ut_weapon_mp5k
+ 28:07 Kill: 2 0 38: [ACE] killed MaorTheDestroyer by UT_MOD_M4
+ 28:07 Item: 4 ut_weapon_beretta
+ 28:07 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+ 28:10 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 28:12 Kill: 11 4 20: Amir killed Or by UT_MOD_G36
+ 28:14 Item: 12 ut_weapon_mp5k
+ 28:15 ClientSpawn: 5
+ 28:15 ClientSpawn: 6
+ 28:15 ClientSpawn: 0
+ 28:15 ClientSpawn: 4
+ 28:15 ClientSpawn: 10
+ 28:15 Item: 7 ut_weapon_mp5k
+ 28:15 Item: 7 ut_weapon_m4
+ 28:15 Item: 11 ut_weapon_g36
+ 28:15 Item: 11 ut_weapon_beretta
+ 28:15 Item: 11 ut_weapon_mp5k
+ 28:16 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 28:16 Kill: 4 2 23: Or killed [ACE] by UT_MOD_BLED
+ 28:19 Item: 6 ut_weapon_mp5k
+ 28:21 Item: 10 ut_weapon_mp5k
+ 28:21 Item: 10 ut_weapon_m4
+ 28:21 Item: 10 ut_weapon_beretta
+ 28:21 Item: 11 ut_weapon_mp5k
+ 28:21 Item: 11 ut_weapon_grenade_smoke
+ 28:21 Item: 11 ut_weapon_beretta
+ 28:21 Item: 11 ut_weapon_g36
+ 28:22 Item: 12 ut_weapon_m4
+ 28:23 Item: 12 ut_weapon_mp5k
+ 28:27 Kill: 6 3 19: Seb killed benD by UT_MOD_LR300
+ 28:28 Kill: 3 6 23: benD killed Seb by UT_MOD_BLED
+ 28:28 Item: 12 ut_weapon_m4
+ 28:28 Item: 12 ut_weapon_mp5k
+ 28:30 ClientSpawn: 6
+ 28:30 ClientSpawn: 3
+ 28:30 ClientSpawn: 2
+ 28:30 ClientSpawn: 7
+ 28:31 Item: 12 ut_weapon_mp5k
+ 28:34 Item: 2 ut_weapon_deagle
+ 28:34 Item: 2 ut_weapon_m4
+ 28:38 Kill: 5 12 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 28:45 ClientSpawn: 12
+ 28:50 Item: 2 ut_weapon_grenade_he
+ 28:50 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+ 28:52 Item: 11 ut_weapon_mp5k
+ 28:52 Item: 5 ut_weapon_beretta
+ 28:54 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 28:55 Item: 4 ut_weapon_grenade_he
+ 28:55 Item: 4 ut_weapon_beretta
+ 28:55 Item: 4 ut_weapon_grenade_smoke
+ 28:55 Item: 4 ut_weapon_mp5k
+ 28:55 Item: 4 ut_weapon_g36
+ 29:00 ClientSpawn: 11
+ 29:00 ClientSpawn: 10
+ 29:00 Kill: 6 12 19: Seb killed Drorkula by UT_MOD_LR300
+ 29:04 Kill: 11 4 20: Amir killed Or by UT_MOD_G36
+ 29:07 Kill: 0 7 38: MaorTheDestroyer killed RODOV by UT_MOD_M4
+ 29:07 Item: 1 ut_weapon_m4
+ 29:08 Item: 0 ut_weapon_m4
+ 29:08 Item: 3 team_CTF_blueflag
+ 29:08 Kill: 10 3 38: deadwomanwalking killed benD by UT_MOD_M4
+ 29:08 Flag: 3 0: team_CTF_blueflag
+ 29:09 Kill: 0 10 38: MaorTheDestroyer killed deadwomanwalking by UT_MOD_M4
+ 29:12 Kill: 2 9 38: [ACE] killed Shalom by UT_MOD_M4
+ 29:13 Item: 5 team_CTF_redflag
+ 29:14 Kill: 0 11 38: MaorTheDestroyer killed Amir by UT_MOD_M4
+ 29:15 ClientSpawn: 12
+ 29:15 ClientSpawn: 7
+ 29:15 ClientSpawn: 9
+ 29:15 ClientSpawn: 11
+ 29:15 ClientSpawn: 4
+ 29:15 ClientSpawn: 10
+ 29:15 ClientSpawn: 3
+ 29:15 Kill: 2 8 38: [ACE] killed Tal by UT_MOD_M4
+ 29:17 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 29:17 Flag: 5 0: team_CTF_redflag
+ 29:18 Kill: 3 1 38: benD killed godfather by UT_MOD_M4
+ 29:19 Item: 10 ut_weapon_mp5k
+ 29:19 Kill: 2 3 38: [ACE] killed benD by UT_MOD_M4
+ 29:19 Item: 9 ut_weapon_beretta
+ 29:19 Item: 9 ut_weapon_mp5k
+ 29:19 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 29:20 Item: 6 ut_weapon_mp5k
+ 29:21 Item: 4 ut_weapon_grenade_he
+ 29:21 Item: 4 ut_weapon_beretta
+ 29:21 Item: 4 ut_weapon_mp5k
+ 29:21 Flag: 4 1: team_CTF_redflag
+ 29:21 Item: 9 ut_weapon_mp5k
+ 29:21 Kill: 11 0 20: Amir killed MaorTheDestroyer by UT_MOD_G36
+ 29:22 Item: 10 ut_weapon_m4
+ 29:22 Flag: 10 1: team_CTF_blueflag
+ 29:24 Kill: 9 6 30: Shalom killed Seb by UT_MOD_AK103
+ 29:24 Item: 12 ut_weapon_m4
+ 29:27 Item: 12 ut_weapon_m4
+ 29:30 ClientSpawn: 0
+ 29:30 ClientSpawn: 5
+ 29:30 ClientSpawn: 8
+ 29:30 ClientSpawn: 3
+ 29:30 ClientSpawn: 1
+ 29:30 ClientSpawn: 2
+ 29:30 ClientSpawn: 6
+ 29:30 Item: 12 ut_weapon_mp5k
+ 29:33 Item: 0 ut_weapon_m4
+ 29:35 Item: 7 ut_weapon_mp5k
+ 29:40 Item: 8 ut_weapon_lr
+ 29:40 Item: 8 ut_weapon_ump45
+ 29:41 Item: 8 ut_weapon_beretta
+ 29:44 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 29:45 ClientSpawn: 2
+ 29:50 Kill: 6 12 19: Seb killed Drorkula by UT_MOD_LR300
+ 29:52 Item: 6 ut_weapon_mp5k
+ 29:59 Kill: 3 11 38: benD killed Amir by UT_MOD_M4
+ 30:00 ClientSpawn: 11
+ 30:00 ClientSpawn: 12
+ 30:02 Item: 2 ut_weapon_mp5k
+ 30:03 Item: 2 ut_weapon_deagle
+ 30:05 Kill: 10 4 38: deadwomanwalking killed Or by UT_MOD_M4
+ 30:09 Item: 3 team_CTF_blueflag
+ 30:10 Item: 10 ut_weapon_beretta
+ 30:11 Item: 10 ut_weapon_mp5k
+ 30:12 Kill: 5 12 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 30:12 Item: 10 ut_weapon_grenade_he
+ 30:13 Kill: 3 7 18: benD killed RODOV by UT_MOD_MP5K
+ 30:15 ClientSpawn: 4
+ 30:15 ClientSpawn: 12
+ 30:15 ClientSpawn: 7
+ 30:15 Kill: 10 0 38: deadwomanwalking killed MaorTheDestroyer by UT_MOD_M4
+ 30:16 Kill: 8 5 19: Tal killed MAMBA by UT_MOD_LR300
+ 30:17 Item: 10 ut_weapon_m4
+ 30:17 Item: 11 ut_weapon_mp5k
+ 30:18 Item: 10 ut_weapon_beretta
+ 30:21 Kill: 8 2 19: Tal killed [ACE] by UT_MOD_LR300
+ 30:23 Kill: 8 6 19: Tal killed Seb by UT_MOD_LR300
+ 30:23 Item: 1 ut_weapon_deagle
+ 30:23 Item: 1 ut_weapon_mp5k
+ 30:24 Kill: 4 1 20: Or killed godfather by UT_MOD_G36
+ 30:30 ClientSpawn: 2
+ 30:30 ClientSpawn: 1
+ 30:30 ClientSpawn: 0
+ 30:30 ClientSpawn: 5
+ 30:30 ClientSpawn: 6
+ 30:30 Item: 3 ut_weapon_beretta
+ 30:31 Flag: 3 2: team_CTF_redflag
+ 30:31 FlagCaptureTime: 3: 22300
+ 30:32 Item: 4 ut_weapon_grenade_he
+ 30:33 Item: 4 ut_weapon_mp5k
+ 30:34 Item: 4 ut_weapon_mp5k
+ 30:35 Item: 12 ut_weapon_m4
+ 30:35 Item: 12 ut_weapon_glock
+ 30:36 Item: 12 ut_weapon_mp5k
+ 30:39 Item: 6 ut_weapon_deagle
+ 30:39 Item: 8 ut_weapon_lr
+ 30:41 Item: 12 ut_weapon_m4
+ 30:41 Item: 0 ut_weapon_m4
+ 30:42 Kill: 3 10 38: benD killed deadwomanwalking by UT_MOD_M4
+ 30:42 Item: 3 ut_weapon_grenade_smoke
+ 30:42 Item: 3 ut_weapon_beretta
+ 30:42 Item: 3 ut_weapon_mp5k
+ 30:42 Item: 3 ut_weapon_m4
+ 30:45 ClientSpawn: 10
+ 30:49 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+ 30:53 Kill: 4 11 20: Or killed Amir by UT_MOD_G36
+ 30:56 Kill: 0 5 38: MaorTheDestroyer killed MAMBA by UT_MOD_M4
+ 30:59 Item: 4 ut_weapon_g36
+ 30:59 Item: 4 ut_weapon_beretta
+ 31:00 ClientSpawn: 11
+ 31:00 ClientSpawn: 5
+ 31:00 ClientSpawn: 6
+ 31:01 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 31:01 Item: 12 ut_weapon_mp5k
+ 31:02 Kill: 12 7 38: Drorkula killed RODOV by UT_MOD_M4
+ 31:07 Item: 0 ut_weapon_m4
+ 31:08 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+ 31:15 ClientSpawn: 2
+ 31:15 ClientSpawn: 7
+ 31:15 ClientSpawn: 6
+ 31:16 Kill: 1 4 38: godfather killed Or by UT_MOD_M4
+ 31:18 ClientUserinfo: 7 \ip\16.60.214.169:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GcAORAA\racefree\3\cl_time\TL|[Qr60>K4U=y`b\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 31:18 ClientUserinfoChanged: 7 n\RODOV\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 31:20 Item: 5 ut_weapon_mp5k
+ 31:22 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 31:27 Kill: 12 11 38: Drorkula killed Amir by UT_MOD_M4
+ 31:29 Item: 6 ut_weapon_lr
+ 31:29 Item: 6 ut_weapon_deagle
+ 31:29 Item: 6 ut_weapon_mp5k
+ 31:30 ClientSpawn: 11
+ 31:30 ClientSpawn: 5
+ 31:30 ClientSpawn: 4
+ 31:31 Item: 2 ut_weapon_mp5k
+ 31:33 Kill: 2 3 38: [ACE] killed benD by UT_MOD_M4
+ 31:34 Item: 2 ut_weapon_m4
+ 31:36 Kill: 5 12 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 31:45 ClientSpawn: 3
+ 31:45 ClientSpawn: 12
+ 31:49 Kill: 4 2 20: Or killed [ACE] by UT_MOD_G36
+ 31:50 Item: 5 ut_weapon_lr
+ 31:50 Item: 5 ut_weapon_beretta
+ 31:54 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+ 32:00 ClientSpawn: 2
+ 32:00 ClientSpawn: 6
+ 32:01 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 32:04 Item: 12 ut_weapon_m4
+ 32:05 Item: 12 ut_weapon_mp5k
+ 32:12 ClientUserinfo: 10 \ip\16.60.213.23:27960\name\dead woman walking\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\gear\FcAQRAA\racefree\3\cl_time\G1Uj@EF4Lg&z2yM+\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 32:12 ClientUserinfoChanged: 10 n\deadwomanwalking\t\2\r\1\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 32:15 ClientSpawn: 5
+ 32:16 Kill: 3 6 38: benD killed Seb by UT_MOD_M4
+ 32:21 ClientUserinfo: 1 \ip\16.60.213.30:27960\name\godfather\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\hc_bFZehn5+k5tni\racefree\2\gear\GcAORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 32:21 ClientUserinfoChanged: 1 n\godfather\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 32:26 Item: 3 ut_weapon_mp5k
+ 32:29 Kill: 12 7 38: Drorkula killed RODOV by UT_MOD_M4
+ 32:30 ClientSpawn: 7
+ 32:30 ClientSpawn: 6
+ 32:39 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+ 32:45 ClientSpawn: 12
+ 32:46 Item: 6 ut_weapon_lr
+ 32:49 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 32:55 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 32:57 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 33:00 ClientSpawn: 5
+ 33:00 ClientSpawn: 7
+ 33:00 ClientSpawn: 2
+ 33:03 Item: 12 ut_weapon_m4
+ 33:03 Item: 12 ut_weapon_mp5k
+ 33:12 Kill: 3 2 18: benD killed [ACE] by UT_MOD_MP5K
+ 33:13 Kill: 2 3 25: [ACE] killed benD by UT_MOD_HEGRENADE
+ 33:15 ClientSpawn: 3
+ 33:15 ClientSpawn: 2
+ 33:20 Item: 5 ut_weapon_mp5k
+ 33:25 Item: 5 ut_weapon_beretta
+ 33:25 Item: 5 ut_weapon_mp5k
+ 33:25 Kill: 12 2 38: Drorkula killed [ACE] by UT_MOD_M4
+ 33:29 Kill: 11 12 20: Amir killed Drorkula by UT_MOD_G36
+ 33:30 ClientSpawn: 2
+ 33:30 ClientSpawn: 12
+ 33:33 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 33:33 Item: 3 ut_weapon_beretta
+ 33:36 Item: 10 ut_weapon_mp5k
+ 33:36 Item: 10 ut_weapon_m4
+ 33:41 Kill: 3 2 38: benD killed [ACE] by UT_MOD_M4
+ 33:44 Kill: 6 8 19: Seb killed Tal by UT_MOD_LR300
+ 33:45 ClientSpawn: 5
+ 33:45 ClientSpawn: 8
+ 33:45 ClientSpawn: 2
+ 33:47 Kill: 0 6 38: MaorTheDestroyer killed Seb by UT_MOD_M4
+ 33:52 Item: 10 ut_weapon_grenade_he
+ 33:53 Item: 10 ut_weapon_mp5k
+ 33:59 Item: 8 ut_weapon_lr
+ 34:00 ClientSpawn: 6
+ 34:04 Item: 8 ut_weapon_ump45
+ 34:04 Item: 8 ut_weapon_lr
+ 34:04 Item: 8 ut_weapon_beretta
+ 34:06 Item: 12 ut_weapon_mp5k
+ 34:12 ClientUserinfo: 2 \ip\16.60.213.12:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\X5qYK3iAYF9]DGc(\racefree\3\gear\GaIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 34:12 ClientUserinfoChanged: 2 n\[ACE]\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 34:18 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 34:22 Kill: 5 9 19: MAMBA killed Shalom by UT_MOD_LR300
+ 34:23 Item: 5 ut_weapon_beretta
+ 34:29 Kill: 4 5 20: Or killed MAMBA by UT_MOD_G36
+ 34:30 ClientSpawn: 7
+ 34:30 ClientSpawn: 5
+ 34:30 ClientSpawn: 9
+ 34:31 Item: 6 ut_weapon_mp5k
+ 34:34 Kill: 6 4 19: Seb killed Or by UT_MOD_LR300
+ 34:36 Kill: 1 12 38: godfather killed Drorkula by UT_MOD_M4
+ 34:40 Kill: 3 5 38: benD killed MAMBA by UT_MOD_M4
+ 34:42 Kill: 3 7 38: benD killed RODOV by UT_MOD_M4
+ 34:42 Item: 3 ut_weapon_grenade_he
+ 34:43 Item: 10 ut_weapon_m4
+ 34:43 Item: 10 ut_weapon_mp5k
+ 34:45 ClientSpawn: 12
+ 34:45 ClientSpawn: 7
+ 34:45 ClientSpawn: 4
+ 34:45 ClientSpawn: 5
+ 34:45 Kill: 7 3 23: RODOV killed benD by UT_MOD_BLED
+ 34:51 Kill: 6 9 19: Seb killed Shalom by UT_MOD_LR300
+ 34:52 Item: 1 ut_weapon_mp5k
+ 34:52 Item: 1 ut_weapon_grenade_he
+ 34:54 Item: 7 ut_weapon_deagle
+ 34:54 Item: 7 ut_weapon_negev
+ 34:54 Kill: 2 8 30: [ACE] killed Tal by UT_MOD_AK103
+ 34:57 Item: 5 ut_weapon_beretta
+ 34:59 Item: 5 ut_weapon_lr
+ 34:59 Kill: 4 6 20: Or killed Seb by UT_MOD_G36
+ 35:00 ClientSpawn: 6
+ 35:00 ClientSpawn: 8
+ 35:00 ClientSpawn: 9
+ 35:00 ClientSpawn: 3
+ 35:03 Item: 12 ut_weapon_mp5k
+ 35:08 Kill: 8 2 19: Tal killed [ACE] by UT_MOD_LR300
+ 35:13 Item: 9 ut_weapon_ak103
+ 35:14 Kill: 6 12 19: Seb killed Drorkula by UT_MOD_LR300
+ 35:15 ClientSpawn: 2
+ 35:15 ClientSpawn: 12
+ 35:17 Item: 6 ut_weapon_mp5k
+ 35:17 Kill: 4 10 20: Or killed deadwomanwalking by UT_MOD_G36
+ 35:19 Exit: Timelimit hit.
+ 35:19 red:3  blue:2
+ 35:19 score: 122  ping: 3  client: 3 benD
+ 35:19 score: 92  ping: 12  client: 4 Or
+ 35:19 score: 74  ping: 10  client: 0 MaorTheDestroyer
+ 35:19 score: 69  ping: 1  client: 8 Tal
+ 35:19 score: 66  ping: 0  client: 12 Drorkula
+ 35:19 score: 65  ping: 1  client: 6 Seb
+ 35:19 score: 64  ping: 12  client: 2 [ACE]
+ 35:19 score: 56  ping: 0  client: 1 godfather
+ 35:19 score: 50  ping: 6  client: 10 deadwomanwalking
+ 35:19 score: 43  ping: 4  client: 9 Shalom
+ 35:19 score: 40  ping: 0  client: 5 MAMBA
+ 35:19 score: 35  ping: 0  client: 7 RODOV
+ 35:19 score: 34  ping: 0  client: 11 Amir
+ 35:19 Item: 1 ut_weapon_m4
+ 35:20 Item: 4 ut_weapon_grenade_he
+ 35:20 Item: 4 ut_weapon_grenade_smoke
+ 35:20 ClientSpawn: 0
+ 35:20 ClientSpawn: 1
+ 35:20 ClientSpawn: 2
+ 35:20 ClientSpawn: 3
+ 35:20 ClientSpawn: 4
+ 35:20 ClientSpawn: 5
+ 35:20 ClientSpawn: 6
+ 35:20 ClientSpawn: 7
+ 35:20 ClientSpawn: 8
+ 35:20 ClientSpawn: 9
+ 35:20 ClientSpawn: 10
+ 35:20 ClientSpawn: 11
+ 35:20 ClientSpawn: 12
+ 35:35 ShutdownGame:
+ 35:35 ------------------------------------------------------------

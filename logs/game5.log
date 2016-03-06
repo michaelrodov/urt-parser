@@ -1,0 +1,45 @@
+
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\capturelimit\999\sv_hostname\MyAccount\g_followstrict\0\fraglimit\999\timelimit\35\g_swaproles\0\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\0\g_allowvote\0\g_armbands\1\g_funstuff\1\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\0\g_maxGameClients\0\g_deadchat\2\g_walljumps\3\g_stamina\0\g_skins\1\g_stratTime\0\version\ioQ3 1.35 urt 4.2.023 win-x86 Jan 17 2015\protocol\68\mapname\ut4_riyadh\sv_privateClients\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\auth\0\auth_status\off (local)\g_modversion\4.2.023
+  0:00 Warmup:
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\16.60.217.70:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\GMIOWAA\racefree\3\cl_time\Vyn7OHLAE=ZjkL]#\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:00 ClientUserinfoChanged: 0 n\[ACE]\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \ip\16.60.217.75:27960\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\|8ERA*1V_5O`21Rf\racefree\2\gear\FMAARWU\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:00 ClientUserinfoChanged: 2 n\Or\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfo: 4 \ip\16.60.217.74:27960\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FLJORAA\racefree\2\cl_time\O]i3E_X0>+nG9X|D\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:00 ClientUserinfoChanged: 4 n\Tal\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientConnect: 9
+  0:00 ClientUserinfo: 9 \ip\16.60.217.76:27960\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\________________\racefree\2\gear\FLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:00 ClientUserinfoChanged: 9 n\MAMBA\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientConnect: 10
+  0:00 ClientUserinfo: 10 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\gear\GeJORAA\racefree\2\cl_time\HGWxa<nV1yyCMyx`\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:00 ClientUserinfoChanged: 10 n\RODOV\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:01 ClientDisconnect: 9
+  0:08 ClientUserinfo: 10 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\gear\GeJORAA\racefree\2\cl_time\fVy|hn+4>++Tktay\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:08 ClientUserinfoChanged: 10 n\RODOV\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:08 ClientSpawn: 10
+  0:08 ClientBegin: 10
+  0:09 ClientUserinfo: 4 \ip\16.60.217.74:27960\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FLJORAA\racefree\2\cl_time\zQhH0Xr$a|A=9G6|\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:09 ClientUserinfoChanged: 4 n\Tal\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:09 ClientSpawn: 4
+  0:09 ClientBegin: 4
+  0:09 ClientUserinfo: 2 \ip\16.60.217.75:27960\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\FRn820c$GKQ2MGE+\racefree\2\gear\FMAARWU\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:09 ClientUserinfoChanged: 2 n\Or\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:09 ClientSpawn: 2
+  0:09 ClientBegin: 2
+  0:10 ------------------------------------------------------------
+  0:10 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\capturelimit\999\sv_hostname\MyAccount\g_followstrict\0\fraglimit\999\timelimit\35\g_swaproles\0\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\0\g_allowvote\0\g_armbands\1\g_funstuff\1\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\0\g_maxGameClients\0\g_deadchat\2\g_walljumps\3\g_stamina\0\g_skins\1\g_stratTime\0\version\ioQ3 1.35 urt 4.2.023 win-x86 Jan 17 2015\protocol\68\mapname\ut4_riyadh\sv_privateClients\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\auth\0\auth_status\off (local)\g_modversion\4.2.023
+  0:10 ClientSpawn: 2
+  0:10 ClientSpawn: 4
+  0:10 ClientSpawn: 10
+  0:11 ClientUserinfo: 0 \ip\16.60.217.70:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\GMIOWAA\racefree\3\cl_time\kC?G77Th_H9`2GR*\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:11 ClientUserinfoChanged: 0 n\[ACE]\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:11 ClientSpawn: 0
+  0:11 ClientBegin: 0
+  0:20 ClientDisconnect: 10
+  0:20 ClientDisconnect: 0
+  0:33 ShutdownGame:
+  0:33 ------------------------------------------------------------

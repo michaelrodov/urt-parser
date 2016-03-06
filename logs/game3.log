@@ -1,0 +1,1823 @@
+
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\capturelimit\999\sv_hostname\MyAccount\g_followstrict\0\fraglimit\999\timelimit\35\g_swaproles\0\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\0\g_allowvote\0\g_armbands\1\g_funstuff\1\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\0\g_maxGameClients\0\g_deadchat\2\g_walljumps\3\g_stamina\0\g_skins\1\g_stratTime\0\version\ioQ3 1.35 urt 4.2.023 win-x86 Jan 17 2015\protocol\68\mapname\ut4_riyadh\sv_privateClients\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\auth\0\auth_status\init\g_modversion\4.2.023
+  0:00 Warmup:
+  0:03 Session data initialised for client on slot 0 at 52814
+  0:03 ClientConnect: 0
+  0:03 ClientUserinfo: 0 \ip\16.60.217.70:27960\challenge\63046983\qport\35575\protocol\68\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\GMIOWAA\racefree\3\cl_time\+bkZ*GYh>F$U=X`a\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:03 ClientUserinfoChanged: 0 n\[ACE]\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:07 Session data initialised for client on slot 0 at 56537
+  0:07 ClientConnect: 1
+  0:07 ClientUserinfo: 1 \ip\16.60.217.81:27960\challenge\612631919\qport\55225\protocol\68\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\FMAORWA\racefree\2\cl_time\he34gGh4&=A9ZGE=\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:07 ClientUserinfoChanged: 1 n\Shalom\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:08 Session data initialised for client on slot 0 at 57631
+  0:08 ClientConnect: 2
+  0:08 ClientUserinfo: 2 \ip\16.60.217.75:27960\challenge\539513716\qport\57846\protocol\68\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\3z8xZ]Yh6<+*MX9q\racefree\2\gear\FMAARWU\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:08 ClientUserinfoChanged: 2 n\Or\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:08 Session data initialised for client on slot 0 at 57702
+  0:08 ClientConnect: 3
+  0:08 ClientUserinfo: 3 \ip\16.60.217.73:27960\challenge\1019237952\qport\41515\protocol\68\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\gear\GLIORAA\racefree\2\cl_time\hT*4iAG@6KqW]XM*\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:08 ClientUserinfoChanged: 3 n\Seb\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:13 ClientUserinfo: 0 \ip\16.60.217.70:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\GMIOWAA\racefree\3\cl_time\ri4X*ie@q5XV|y`b\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:13 ClientUserinfoChanged: 0 n\[ACE]\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:13 ClientBegin: 0
+  0:16 ClientUserinfo: 3 \ip\16.60.217.73:27960\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\gear\GLIORAA\racefree\2\cl_time\a8?ezCrVa5BVxLka\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:16 ClientUserinfoChanged: 3 n\Seb\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:16 ClientBegin: 3
+  0:16 ClientUserinfo: 2 \ip\16.60.217.75:27960\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\gX1t&<i[GKOZ51R+\racefree\2\gear\FMAARWU\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:16 ClientUserinfoChanged: 2 n\Or\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:16 ClientBegin: 2
+  0:17 ClientUserinfo: 0 \ip\16.60.217.70:27960\name\[ACE]\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\gear\GMIOWAA\racefree\3\cl_time\ri4X*ie@q5XV|y`b\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:17 ClientUserinfoChanged: 0 n\[ACE]\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:17 ClientSpawn: 0
+  0:17 ClientBegin: 0
+  0:19 ClientUserinfo: 1 \ip\16.60.217.81:27960\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\FMAORWA\racefree\2\cl_time\0yae9&CA>?n1xtKZ\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:19 ClientUserinfoChanged: 1 n\Shalom\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:19 ClientBegin: 1
+  0:19 Session data initialised for client on slot 0 at 68761
+  0:19 ClientConnect: 4
+  0:19 ClientUserinfo: 4 \ip\16.60.217.74:27960\challenge\760439839\qport\52471\protocol\68\name\Tal\rate\8000\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+  0:19 ClientUserinfoChanged: 4 n\Tal\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:20 ClientUserinfo: 2 \ip\16.60.217.75:27960\name\Or\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\gX1t&<i[GKOZ51R+\racefree\2\gear\FMAARWU\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:20 ClientUserinfoChanged: 2 n\Or\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:20 ClientSpawn: 2
+  0:20 ClientBegin: 2
+  0:21 ------------------------------------------------------------
+  0:21 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\capturelimit\999\sv_hostname\MyAccount\g_followstrict\0\fraglimit\999\timelimit\35\g_swaproles\0\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\0\g_allowvote\0\g_armbands\1\g_funstuff\1\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_clientsPerIp\0\g_maxGameClients\0\g_deadchat\2\g_walljumps\3\g_stamina\0\g_skins\1\g_stratTime\0\version\ioQ3 1.35 urt 4.2.023 win-x86 Jan 17 2015\protocol\68\mapname\ut4_riyadh\sv_privateClients\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\auth\0\auth_status\off (local)\g_modversion\4.2.023
+  0:21 ClientSpawn: 0
+  0:21 ClientSpawn: 2
+  0:27 Session data initialised for client on slot 0 at 76493
+  0:27 ClientConnect: 5
+  0:27 ClientUserinfo: 5 \ip\16.60.218.160:27960\challenge\2081494962\qport\42476\protocol\68\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\[T7@tT?A&]3O=1RM\racefree\2\gear\FMJORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:27 ClientUserinfoChanged: 5 n\Amir\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:28 Session data initialised for client on slot 0 at 77844
+  0:28 ClientConnect: 6
+  0:28 ClientUserinfo: 6 \ip\16.60.217.78:27960\challenge\1529637186\qport\18907\protocol\68\name\Alik\rate\8000\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+  0:28 ClientUserinfoChanged: 6 n\Alik\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:30 ClientUserinfo: 4 \ip\16.60.217.74:27960\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FLJORAA\racefree\2\cl_time\0yae9&X@>ca1`tKZ\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:30 ClientUserinfoChanged: 4 n\Tal\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:30 ClientBegin: 4
+  0:33 Session data initialised for client on slot 0 at 82602
+  0:33 ClientConnect: 7
+  0:33 ClientUserinfo: 7 \ip\16.60.217.71:27960\challenge\967759045\qport\25593\protocol\68\name\Ed\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FaIORAA\racefree\2\cl_time\c_x#HLG@TF(D2Gcb\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:33 ClientUserinfoChanged: 7 n\Ed\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:34 ClientUserinfo: 5 \ip\16.60.218.160:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\re8kbYGh>KjDD?<T\racefree\2\gear\FMJORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:34 ClientUserinfoChanged: 5 n\Amir\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:34 ClientBegin: 5
+  0:35 ClientUserinfo: 4 \ip\16.60.217.74:27960\name\Tal\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FLJORAA\racefree\2\cl_time\0yae9&X@>ca1`tKZ\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:35 ClientUserinfoChanged: 4 n\Tal\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:35 ClientSpawn: 4
+  0:35 ClientBegin: 4
+  0:35 ClientUserinfo: 1 \ip\16.60.217.81:27960\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\FMAORWA\racefree\2\cl_time\0yae9&CA>?n1xtKZ\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:35 ClientUserinfoChanged: 1 n\Shalom\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:35 ClientSpawn: 1
+  0:35 ClientBegin: 1
+  0:37 ClientUserinfo: 3 \ip\16.60.217.73:27960\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\gear\GLIORAA\racefree\2\cl_time\a8?ezCrVa5BVxLka\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:37 ClientUserinfoChanged: 3 n\Seb\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:37 ClientSpawn: 3
+  0:37 ClientBegin: 3
+  0:37 ClientUserinfo: 6 \ip\16.60.217.78:27960\name\Alik\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FeIORAA\racefree\2\cl_time\k+KG6X<41FCf9X9n\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:37 ClientUserinfoChanged: 6 n\Alik\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:37 ClientBegin: 6
+  0:40 ClientUserinfo: 7 \ip\16.60.217.71:27960\name\Ed\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FaIORAA\racefree\2\cl_time\rc0XTzt@YKO]D1ce\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:40 ClientUserinfoChanged: 7 n\Ed\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:40 ClientBegin: 7
+  0:42 Session data initialised for client on slot 0 at 91440
+  0:42 ClientConnect: 8
+  0:42 ClientUserinfo: 8 \ip\16.60.218.135:27960\challenge\599650238\qport\4455\protocol\68\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\OOAcjy4V&DK6Ztay\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:42 ClientUserinfoChanged: 8 n\Knite\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:42 ClientUserinfo: 7 \ip\16.60.217.71:27960\name\Ed\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FaIORAA\racefree\2\cl_time\rc0XTzt@YKO]D1ce\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  0:42 ClientUserinfoChanged: 7 n\Ed\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:42 ClientSpawn: 7
+  0:42 ClientBegin: 7
+  0:43 Session data initialised for client on slot 0 at 92453
+  0:43 ClientConnect: 9
+  0:43 ClientUserinfo: 9 \ip\16.60.218.159:27961\challenge\1915155016\qport\33822\protocol\68\name\RODOV\rate\8000\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+  0:43 ClientUserinfoChanged: 9 n\RODOV\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:43 Session data initialised for client on slot 0 at 92822
+  0:43 ClientConnect: 10
+  0:43 ClientUserinfo: 10 \ip\16.60.217.76:27960\challenge\724477549\qport\41529\protocol\68\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\WttF$yt[1y_Zgt+6\racefree\2\gear\FLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:43 ClientUserinfoChanged: 10 n\MAMBA\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:47 Item: 0 team_CTF_redflag
+  0:47 ClientUserinfo: 5 \ip\16.60.218.160:27960\name\Amir\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\re8kbYGh>KjDD?<T\racefree\2\gear\FMJORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:47 ClientUserinfoChanged: 5 n\Amir\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:47 ClientSpawn: 5
+  0:47 ClientBegin: 5
+  0:50 Item: 2 team_CTF_blueflag
+  0:51 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:51 ClientUserinfoChanged: 8 n\Knite\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:51 ClientBegin: 8
+  0:51 ClientUserinfo: 10 \ip\16.60.217.76:27960\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\EOQ=_#n0Yy@qkLZ#\racefree\2\gear\FLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:51 ClientUserinfoChanged: 10 n\MAMBA\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:51 ClientBegin: 10
+  0:52 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  0:52 ClientUserinfoChanged: 8 n\Knite\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:52 ClientSpawn: 8
+  0:52 ClientBegin: 8
+  0:53 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\3\cl_time\9=cED9ehnH+7]X9*\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:53 ClientUserinfoChanged: 9 n\RODOV\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:53 ClientBegin: 9
+  0:53 ClientUserinfo: 10 \ip\16.60.217.76:27960\name\MAMBA\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\EOQ=_#n0Yy@qkLZ#\racefree\2\gear\FLIORAA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:53 ClientUserinfoChanged: 10 n\MAMBA\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:53 ClientSpawn: 10
+  0:53 ClientBegin: 10
+  0:54 ClientUserinfo: 6 \ip\16.60.217.78:27960\name\Alik\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\FeIORAA\racefree\2\cl_time\k+KG6X<41FCf9X9n\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:54 ClientUserinfoChanged: 6 n\Alik\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:54 ClientSpawn: 6
+  0:54 ClientBegin: 6
+  0:56 Kill: 3 0 19: Seb killed [ACE] by UT_MOD_LR300
+  0:56 Flag: 0 0: team_CTF_redflag
+  0:56 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\3\cl_time\9=cED9ehnH+7]X9*\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  0:56 ClientUserinfoChanged: 9 n\RODOV\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:56 ClientSpawn: 9
+  0:56 ClientBegin: 9
+  1:00 ClientSpawn: 0
+  1:01 Flag: 3 1: team_CTF_redflag
+  1:01 Item: 3 ut_weapon_deagle
+  1:13 Flag: 2 2: team_CTF_redflag
+  1:13 FlagCaptureTime: 2: 23400
+  1:14 Session data initialised for client on slot 0 at 123831
+  1:14 ClientConnect: 11
+  1:14 ClientUserinfo: 11 \ip\16.60.218.156:27960\challenge\1190419524\qport\41060\protocol\68\name\Drorkula\rate\8000\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+  1:14 ClientUserinfoChanged: 11 n\Drorkula\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  1:17 Kill: 0 5 20: [ACE] killed Amir by UT_MOD_G36
+  1:20 Kill: 1 0 20: Shalom killed [ACE] by UT_MOD_G36
+  1:24 Item: 1 ut_weapon_mp5k
+  1:29 Item: 6 ut_weapon_beretta
+  1:30 ClientSpawn: 5
+  1:30 ClientSpawn: 0
+  1:32 Kill: 9 1 38: RODOV killed Shalom by UT_MOD_M4
+  1:34 ClientUserinfo: 11 \ip\16.60.218.156:27960\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\feAORWA\racefree\2\cl_time\y|eXxGX$T?21HGyZ\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  1:34 ClientUserinfoChanged: 11 n\Drorkula\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  1:34 ClientBegin: 11
+  1:35 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+  1:41 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+  1:42 ClientUserinfo: 11 \ip\16.60.218.156:27960\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\feAORWA\racefree\2\cl_time\y|eXxGX$T?21HGyZ\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+  1:42 ClientUserinfoChanged: 11 n\Drorkula\t\2\r\0\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  1:42 ClientSpawn: 11
+  1:42 ClientBegin: 11
+  1:45 ClientSpawn: 10
+  1:45 ClientSpawn: 1
+  1:45 ClientSpawn: 4
+  1:56 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+  1:59 Item: 9 ut_weapon_deagle
+  2:00 ClientSpawn: 0
+  2:01 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+  2:06 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+  2:10 Item: 8 team_CTF_redflag
+  2:12 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+  2:15 ClientSpawn: 7
+  2:15 ClientSpawn: 10
+  2:15 ClientSpawn: 2
+  2:18 Item: 0 ut_weapon_mp5k
+  2:18 Item: 0 ut_weapon_g36
+  2:20 Kill: 11 1 38: Drorkula killed Shalom by UT_MOD_M4
+  2:20 Kill: 6 9 38: Alik killed RODOV by UT_MOD_M4
+  2:22 Kill: 3 8 19: Seb killed Knite by UT_MOD_LR300
+  2:22 Flag: 8 0: team_CTF_redflag
+  2:25 Flag: 3 1: team_CTF_redflag
+  2:25 Item: 3 ut_weapon_lr
+  2:26 Kill: 11 3 38: Drorkula killed Seb by UT_MOD_M4
+  2:27 Kill: 2 11 20: Or killed Drorkula by UT_MOD_G36
+  2:30 ClientSpawn: 9
+  2:30 ClientSpawn: 11
+  2:30 ClientSpawn: 8
+  2:30 ClientSpawn: 3
+  2:30 ClientSpawn: 1
+  2:35 Session data initialised for client on slot 0 at 204450
+  2:35 ClientConnect: 12
+  2:35 ClientUserinfo: 12 \ip\16.60.217.81:27961\challenge\1542867061\qport\37855\protocol\68\name\Shalom\rate\8000\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+  2:35 ClientUserinfoChanged: 12 n\Shalom_12\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  2:37 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+  2:45 ClientSpawn: 0
+  2:45 Item: 2 ut_weapon_ump45
+  2:47 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+  2:49 Item: 3 ut_weapon_deagle
+  2:49 Kill: 2 8 20: Or killed Knite by UT_MOD_G36
+  2:49 Item: 3 ut_weapon_lr
+  2:50 Item: 3 ut_weapon_deagle
+  2:53 Kill: 3 4 19: Seb killed Tal by UT_MOD_LR300
+  2:54 Item: 2 ut_weapon_grenade_he
+  2:55 Kill: 10 11 19: MAMBA killed Drorkula by UT_MOD_LR300
+  2:56 Kill: 2 9 20: Or killed RODOV by UT_MOD_G36
+  2:57 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+  3:00 ClientSpawn: 11
+  3:00 ClientSpawn: 9
+  3:00 ClientSpawn: 8
+  3:00 ClientSpawn: 7
+  3:00 ClientSpawn: 2
+  3:00 ClientSpawn: 4
+  3:01 Kill: 10 0 19: MAMBA killed [ACE] by UT_MOD_LR300
+  3:03 Item: 10 ut_weapon_mp5k
+  3:07 ClientUserinfo: 12 \ip\16.60.217.81:27961\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\HYfxf2K4_]3<M1F3\racefree\2\gear\FMAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  3:07 ClientUserinfoChanged: 12 n\Shalom_12\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  3:07 ClientBegin: 12
+  3:08 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+  3:09 Kill: 3 4 19: Seb killed Tal by UT_MOD_LR300
+  3:10 ClientUserinfo: 12 \ip\16.60.217.81:27961\name\Shalom\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\HYfxf2K4_]3<M1F3\racefree\2\gear\FMAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110200000020002000
+  3:10 ClientUserinfoChanged: 12 n\Shalom_12\t\2\r\1\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  3:10 ClientSpawn: 12
+  3:10 ClientBegin: 12
+  3:12 Item: 11 ut_weapon_mp5k
+  3:15 ClientSpawn: 10
+  3:15 ClientSpawn: 4
+  3:15 ClientSpawn: 0
+  3:16 Item: 3 ut_weapon_lr
+  3:20 Item: 12 ut_weapon_ump45
+  3:20 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+  3:20 Kill: 12 3 20: Shalom_12 killed Seb by UT_MOD_G36
+  3:20 Kill: 9 2 38: RODOV killed Or by UT_MOD_M4
+  3:30 ClientSpawn: 2
+  3:30 ClientSpawn: 7
+  3:30 ClientSpawn: 3
+  3:37 Item: 0 ut_weapon_mp5k
+  3:41 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+  3:42 Item: 7 ut_weapon_ak103
+  3:43 Kill: 11 2 38: Drorkula killed Or by UT_MOD_M4
+  3:43 Kill: 2 0 23: Or killed [ACE] by UT_MOD_BLED
+  3:45 ClientSpawn: 4
+  3:45 ClientSpawn: 2
+  3:45 ClientSpawn: 0
+  3:46 Kill: 12 10 20: Shalom_12 killed MAMBA by UT_MOD_G36
+  3:52 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+  3:54 Kill: 12 6 20: Shalom_12 killed Alik by UT_MOD_G36
+  3:56 Kill: 8 5 19: Knite killed Amir by UT_MOD_LR300
+  3:56 Item: 8 ut_weapon_grenade_he
+  3:56 Item: 8 ut_weapon_ump45
+  3:57 Item: 0 ut_weapon_mp5k
+  4:00 ClientSpawn: 10
+  4:00 ClientSpawn: 6
+  4:00 ClientSpawn: 5
+  4:00 ClientSpawn: 7
+  4:02 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+  4:05 Item: 0 ut_weapon_mp5k
+  4:11 Kill: 11 10 38: Drorkula killed MAMBA by UT_MOD_M4
+  4:15 ClientSpawn: 10
+  4:15 ClientSpawn: 3
+  4:15 Kill: 0 5 20: [ACE] killed Amir by UT_MOD_G36
+  4:20 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+  4:21 Item: 0 team_CTF_redflag
+  4:25 Kill: 2 11 14: Or killed Drorkula by UT_MOD_BERETTA
+  4:26 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+  4:29 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+  4:30 ClientSpawn: 5
+  4:30 ClientSpawn: 2
+  4:30 ClientSpawn: 11
+  4:30 ClientSpawn: 3
+  4:30 ClientSpawn: 6
+  4:33 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+  4:34 Item: 7 ut_weapon_beretta
+  4:34 Item: 7 ut_weapon_grenade_he
+  4:36 Item: 7 ut_weapon_beretta
+  4:36 Item: 6 ut_weapon_mp5k
+  4:36 Item: 6 ut_weapon_beretta
+  4:40 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+  4:41 Item: 3 ut_weapon_mp5k
+  4:45 ClientSpawn: 10
+  4:45 ClientSpawn: 12
+  4:45 Kill: 2 8 20: Or killed Knite by UT_MOD_G36
+  4:46 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+  4:49 Kill: 11 6 38: Drorkula killed Alik by UT_MOD_M4
+  4:49 Flag: 0 2: team_CTF_blueflag
+  4:49 FlagCaptureTime: 0: 28200
+  4:51 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+  4:53 Item: 7 ut_weapon_beretta
+  4:53 Kill: 5 4 20: Amir killed Tal by UT_MOD_G36
+  4:54 Item: 7 ut_weapon_mp5k
+  4:55 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+  4:59 Item: 3 ut_weapon_mp5k
+  5:00 ClientSpawn: 8
+  5:00 ClientSpawn: 11
+  5:00 ClientSpawn: 7
+  5:00 ClientSpawn: 4
+  5:00 ClientSpawn: 2
+  5:00 ClientSpawn: 6
+  5:06 Item: 3 ut_weapon_lr
+  5:14 Item: 2 ut_weapon_grenade_he
+  5:15 Kill: 5 9 20: Amir killed RODOV by UT_MOD_G36
+  5:18 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+  5:19 Item: 0 ut_weapon_mp5k
+  5:21 Item: 0 team_CTF_redflag
+  5:25 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+  5:25 Flag: 0 0: team_CTF_redflag
+  5:30 ClientSpawn: 10
+  5:30 ClientSpawn: 0
+  5:30 ClientSpawn: 9
+  5:30 Item: 2 ut_weapon_mp5k
+  5:31 Flag: 2 1: team_CTF_redflag
+  5:32 Kill: 11 5 25: Drorkula killed Amir by UT_MOD_HEGRENADE
+  5:33 Item: 2 ut_weapon_g36
+  5:35 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+  5:36 Item: 3 team_CTF_blueflag
+  5:37 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+  5:37 Flag: 3 0: team_CTF_blueflag
+  5:41 Flag: 0 1: team_CTF_blueflag
+  5:45 ClientSpawn: 2
+  5:45 ClientSpawn: 5
+  5:45 ClientSpawn: 3
+  5:48 Kill: 8 10 19: Knite killed MAMBA by UT_MOD_LR300
+  5:48 Kill: 6 8 38: Alik killed Knite by UT_MOD_M4
+  5:54 ClientUserinfo: 3 \ip\16.60.217.73:27960\name\Seb\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_physics\1\gear\GLIQRAA\racefree\2\cl_time\a8?ezCrVa5BVxLka\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+  5:54 ClientUserinfoChanged: 3 n\Seb\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  5:56 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+  6:00 ClientSpawn: 10
+  6:00 ClientSpawn: 7
+  6:00 ClientSpawn: 8
+  6:02 Item: 2 ut_weapon_grenade_he
+  6:02 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+  6:02 Kill: 12 2 20: Shalom_12 killed Or by UT_MOD_G36
+  6:07 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+  6:10 Item: 0 ut_weapon_grenade_smoke
+  6:10 Item: 0 ut_weapon_mp5k
+  6:13 Kill: 5 12 20: Amir killed Shalom_12 by UT_MOD_G36
+  6:13 Item: 5 ut_weapon_beretta
+  6:13 Item: 5 ut_weapon_g36
+  6:15 ClientSpawn: 3
+  6:15 ClientSpawn: 2
+  6:15 ClientSpawn: 11
+  6:15 ClientSpawn: 12
+  6:27 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+  6:30 ClientSpawn: 7
+  6:31 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+  6:33 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+  6:43 Kill: 2 8 20: Or killed Knite by UT_MOD_G36
+  6:45 ClientSpawn: 6
+  6:45 ClientSpawn: 3
+  6:45 ClientSpawn: 8
+  6:48 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+  7:00 ClientSpawn: 2
+  7:03 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+  7:04 Kill: 9 5 38: RODOV killed Amir by UT_MOD_M4
+  7:05 Item: 7 ut_weapon_beretta
+  7:06 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+  7:08 Item: 0 ut_weapon_deagle
+  7:11 Item: 6 ut_weapon_beretta
+  7:12 Item: 6 ut_weapon_mp5k
+  7:13 Kill: 8 6 19: Knite killed Alik by UT_MOD_LR300
+  7:15 ClientSpawn: 5
+  7:15 ClientSpawn: 6
+  7:15 ClientSpawn: 7
+  7:15 ClientSpawn: 3
+  7:17 Kill: 2 8 20: Or killed Knite by UT_MOD_G36
+  7:24 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+  7:28 Kill: 2 12 14: Or killed Shalom_12 by UT_MOD_BERETTA
+  7:28 Item: 0 ut_weapon_mp5k
+  7:28 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+  7:30 ClientSpawn: 2
+  7:30 ClientSpawn: 8
+  7:30 ClientSpawn: 6
+  7:30 ClientSpawn: 12
+  7:44 Kill: 11 10 38: Drorkula killed MAMBA by UT_MOD_M4
+  7:44 Kill: 4 2 19: Tal killed Or by UT_MOD_LR300
+  7:44 Item: 11 ut_weapon_mp5k
+  7:45 ClientSpawn: 2
+  7:45 ClientSpawn: 10
+  7:47 Kill: 1022 0 6: <world> killed [ACE] by MOD_FALLING
+  7:48 Kill: 6 4 38: Alik killed Tal by UT_MOD_M4
+  7:49 Kill: 7 5 30: Ed killed Amir by UT_MOD_AK103
+  7:53 Kill: 8 6 19: Knite killed Alik by UT_MOD_LR300
+  7:57 Item: 7 ut_weapon_beretta
+  7:58 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+  7:59 Kill: 2 8 20: Or killed Knite by UT_MOD_G36
+  8:00 ClientSpawn: 4
+  8:00 ClientSpawn: 0
+  8:00 ClientSpawn: 6
+  8:00 ClientSpawn: 7
+  8:00 ClientSpawn: 5
+  8:00 ClientSpawn: 8
+  8:01 Item: 2 ut_weapon_beretta
+  8:01 Item: 2 ut_weapon_ump45
+  8:01 Item: 2 ut_weapon_beretta
+  8:08 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+  8:09 Kill: 9 6 38: RODOV killed Alik by UT_MOD_M4
+  8:11 Item: 0 ut_weapon_g36
+  8:14 Kill: 10 11 19: MAMBA killed Drorkula by UT_MOD_LR300
+  8:15 ClientSpawn: 6
+  8:15 ClientSpawn: 2
+  8:15 ClientSpawn: 11
+  8:20 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+  8:27 Kill: 6 9 38: Alik killed RODOV by UT_MOD_M4
+  8:27 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+  8:30 ClientSpawn: 6
+  8:30 ClientSpawn: 4
+  8:30 ClientSpawn: 9
+  8:31 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+  8:33 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+  8:36 Item: 12 ut_weapon_beretta
+  8:37 Item: 7 ut_weapon_mp5k
+  8:38 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+  8:41 Item: 6 ut_weapon_beretta
+  8:45 ClientSpawn: 2
+  8:45 ClientSpawn: 0
+  8:45 ClientSpawn: 7
+  8:45 Item: 11 team_CTF_redflag
+  8:46 Kill: 3 12 19: Seb killed Shalom_12 by UT_MOD_LR300
+  8:53 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+  8:53 Item: 11 ut_weapon_ump45
+  8:54 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+  8:59 Kill: 1022 8 6: <world> killed Knite by MOD_FALLING
+  9:00 ClientSpawn: 5
+  9:00 ClientSpawn: 8
+  9:00 ClientSpawn: 6
+  9:00 ClientSpawn: 12
+  9:08 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+  9:09 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+  9:11 Kill: 9 5 38: RODOV killed Amir by UT_MOD_M4
+  9:15 ClientSpawn: 7
+  9:15 ClientSpawn: 10
+  9:15 ClientSpawn: 5
+  9:17 Kill: 2 11 20: Or killed Drorkula by UT_MOD_G36
+  9:17 Flag: 11 0: team_CTF_redflag
+  9:18 Kill: 11 2 23: Drorkula killed Or by UT_MOD_BLED
+  9:24 Item: 8 team_CTF_redflag
+  9:25 Item: 4 ut_weapon_ump45
+  9:25 Kill: 5 9 20: Amir killed RODOV by UT_MOD_G36
+  9:25 Item: 5 ut_weapon_ump45
+  9:27 Flag: 8 2: team_CTF_blueflag
+  9:27 FlagCaptureTime: 8: 41750
+  9:29 Item: 7 ut_weapon_beretta
+  9:30 ClientSpawn: 2
+  9:30 ClientSpawn: 9
+  9:30 ClientSpawn: 11
+  9:30 Item: 0 team_CTF_redflag
+  9:31 Kill: 9 5 23: RODOV killed Amir by UT_MOD_BLED
+  9:33 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+  9:35 Kill: 10 8 19: MAMBA killed Knite by UT_MOD_LR300
+  9:40 Kill: 12 10 20: Shalom_12 killed MAMBA by UT_MOD_G36
+  9:43 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+  9:45 ClientSpawn: 4
+  9:45 ClientSpawn: 5
+  9:45 ClientSpawn: 10
+  9:45 ClientSpawn: 2
+  9:45 ClientSpawn: 8
+  9:49 Item: 9 ut_weapon_ump45
+  9:49 Flag: 0 2: team_CTF_blueflag
+  9:49 FlagCaptureTime: 0: 18300
+  9:49 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+  9:49 Item: 11 ut_weapon_mp5k
+  9:53 Item: 10 ut_weapon_beretta
+  9:57 Item: 2 ut_weapon_beretta
+  9:57 Item: 2 ut_weapon_g36
+ 10:00 ClientSpawn: 6
+ 10:02 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 10:02 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+ 10:02 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+ 10:04 Item: 2 ut_weapon_grenade_he
+ 10:06 Kill: 8 2 19: Knite killed Or by UT_MOD_LR300
+ 10:08 Item: 11 team_CTF_redflag
+ 10:13 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+ 10:15 ClientSpawn: 10
+ 10:15 ClientSpawn: 4
+ 10:15 ClientSpawn: 7
+ 10:15 ClientSpawn: 5
+ 10:15 ClientSpawn: 2
+ 10:17 Item: 3 ut_weapon_grenade_he
+ 10:18 Item: 6 ut_weapon_mp5k
+ 10:25 Kill: 10 0 19: MAMBA killed [ACE] by UT_MOD_LR300
+ 10:26 Item: 10 ut_weapon_mp5k
+ 10:29 Kill: 9 3 38: RODOV killed Seb by UT_MOD_M4
+ 10:30 ClientSpawn: 3
+ 10:30 ClientSpawn: 0
+ 10:32 Item: 9 ut_weapon_grenade_smoke
+ 10:32 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+ 10:33 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 10:34 Kill: 7 5 30: Ed killed Amir by UT_MOD_AK103
+ 10:37 Item: 7 ut_weapon_beretta
+ 10:39 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 10:43 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 10:45 ClientSpawn: 3
+ 10:45 ClientSpawn: 5
+ 10:45 ClientSpawn: 10
+ 10:45 ClientSpawn: 6
+ 10:45 ClientSpawn: 2
+ 10:47 Flag: 11 2: team_CTF_blueflag
+ 10:47 FlagCaptureTime: 11: 38850
+ 10:50 Item: 3 ut_weapon_mp5k
+ 10:50 Item: 3 ut_weapon_deagle
+ 10:51 Item: 2 ut_weapon_grenade_smoke
+ 10:52 Kill: 7 6 23: Ed killed Alik by UT_MOD_BLED
+ 10:53 Item: 3 ut_weapon_lr
+ 10:54 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 10:58 Kill: 9 2 38: RODOV killed Or by UT_MOD_M4
+ 11:00 ClientSpawn: 6
+ 11:00 ClientSpawn: 2
+ 11:00 ClientSpawn: 3
+ 11:01 Item: 2 ut_weapon_mp5k
+ 11:02 Item: 5 ut_weapon_grenade_smoke
+ 11:03 Item: 9 team_CTF_redflag
+ 11:04 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 11:04 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 11:04 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 11:04 Item: 2 ut_weapon_beretta
+ 11:04 Item: 2 ut_weapon_mp5k
+ 11:08 Item: 5 ut_weapon_beretta
+ 11:12 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+ 11:12 Kill: 5 11 20: Amir killed Drorkula by UT_MOD_G36
+ 11:12 Item: 3 ut_weapon_deagle
+ 11:13 Kill: 10 9 23: MAMBA killed RODOV by UT_MOD_BLED
+ 11:13 Flag: 9 0: team_CTF_redflag
+ 11:15 ClientSpawn: 11
+ 11:15 ClientSpawn: 9
+ 11:15 ClientSpawn: 7
+ 11:15 ClientSpawn: 6
+ 11:15 ClientSpawn: 10
+ 11:15 ClientSpawn: 4
+ 11:15 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 11:15 Kill: 5 0 20: Amir killed [ACE] by UT_MOD_G36
+ 11:16 Item: 10 ut_weapon_beretta
+ 11:16 Item: 8 ut_weapon_mp5k
+ 11:16 Item: 8 ut_weapon_lr
+ 11:17 Item: 6 ut_weapon_m4
+ 11:19 Item: 5 ut_weapon_g36
+ 11:19 Item: 5 ut_weapon_beretta
+ 11:20 Kill: 10 8 19: MAMBA killed Knite by UT_MOD_LR300
+ 11:20 Item: 6 ut_weapon_m4
+ 11:20 Item: 10 ut_weapon_mp5k
+ 11:20 Item: 10 ut_weapon_lr
+ 11:20 Item: 6 ut_weapon_beretta
+ 11:21 Item: 6 ut_weapon_mp5k
+ 11:30 ClientSpawn: 0
+ 11:30 ClientSpawn: 2
+ 11:30 ClientSpawn: 8
+ 11:32 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+ 11:34 Item: 11 ut_weapon_ump45
+ 11:36 Kill: 11 10 38: Drorkula killed MAMBA by UT_MOD_M4
+ 11:39 Kill: 10 12 23: MAMBA killed Shalom_12 by UT_MOD_BLED
+ 11:39 Item: 11 ut_weapon_grenade_smoke
+ 11:39 Item: 11 ut_weapon_m4
+ 11:40 Item: 11 ut_weapon_ump45
+ 11:41 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 11:43 Kill: 9 2 38: RODOV killed Or by UT_MOD_M4
+ 11:43 Flag Return: RED
+ 11:44 Item: 11 team_CTF_redflag
+ 11:45 ClientSpawn: 12
+ 11:45 ClientSpawn: 7
+ 11:45 ClientSpawn: 10
+ 11:45 ClientSpawn: 2
+ 11:45 ClientSpawn: 5
+ 11:51 Kill: 10 9 19: MAMBA killed RODOV by UT_MOD_LR300
+ 11:53 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 11:58 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 12:00 ClientSpawn: 3
+ 12:00 ClientSpawn: 9
+ 12:00 ClientSpawn: 6
+ 12:03 Kill: 11 2 38: Drorkula killed Or by UT_MOD_M4
+ 12:05 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+ 12:05 Item: 12 ut_weapon_beretta
+ 12:06 Item: 12 ut_weapon_g36
+ 12:10 Item: 12 ut_weapon_beretta
+ 12:15 ClientSpawn: 10
+ 12:15 ClientSpawn: 2
+ 12:15 Kill: 6 11 38: Alik killed Drorkula by UT_MOD_M4
+ 12:15 Flag: 11 0: team_CTF_redflag
+ 12:18 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 12:19 Kill: 8 3 19: Knite killed Seb by UT_MOD_LR300
+ 12:19 Flag: 6 1: team_CTF_redflag
+ 12:19 Item: 6 ut_weapon_m4
+ 12:19 Item: 0 ut_weapon_mp5k
+ 12:20 Kill: 3 8 23: Seb killed Knite by UT_MOD_BLED
+ 12:27 Item: 10 ut_weapon_grenade_smoke
+ 12:29 Kill: 12 2 20: Shalom_12 killed Or by UT_MOD_G36
+ 12:30 ClientSpawn: 8
+ 12:30 ClientSpawn: 11
+ 12:30 ClientSpawn: 2
+ 12:30 ClientSpawn: 7
+ 12:30 ClientSpawn: 3
+ 12:35 Item: 2 ut_weapon_beretta
+ 12:35 Item: 2 ut_weapon_grenade_he
+ 12:35 Item: 2 ut_weapon_mp5k
+ 12:36 Item: 5 team_CTF_blueflag
+ 12:38 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 12:41 Item: 0 team_CTF_redflag
+ 12:43 Kill: 4 3 17: Tal killed Seb by UT_MOD_UMP45
+ 12:44 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+ 12:44 Item: 2 ut_weapon_mp5k
+ 12:44 Item: 2 ut_weapon_grenade_smoke
+ 12:45 ClientSpawn: 3
+ 12:45 ClientSpawn: 4
+ 12:45 ClientSpawn: 9
+ 12:49 Item: 6 ut_weapon_m4
+ 12:51 Item: 6 ut_weapon_beretta
+ 12:52 Item: 3 ut_weapon_grenade_he
+ 12:53 Kill: 7 5 14: Ed killed Amir by UT_MOD_BERETTA
+ 12:53 Flag: 5 0: team_CTF_blueflag
+ 12:53 Flag: 7 1: team_CTF_blueflag
+ 12:53 Item: 7 ut_weapon_beretta
+ 12:56 Kill: 11 3 38: Drorkula killed Seb by UT_MOD_M4
+ 12:57 Kill: 4 2 19: Tal killed Or by UT_MOD_LR300
+ 12:57 Item: 10 ut_weapon_mp5k
+ 12:57 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 13:00 ClientSpawn: 5
+ 13:00 ClientSpawn: 3
+ 13:00 ClientSpawn: 2
+ 13:00 ClientSpawn: 10
+ 13:01 Item: 8 ut_weapon_grenade_smoke
+ 13:07 Item: 10 ut_weapon_lr
+ 13:07 Item: 5 ut_weapon_ump45
+ 13:10 Kill: 10 8 19: MAMBA killed Knite by UT_MOD_LR300
+ 13:11 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 13:13 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 13:14 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 13:14 Flag: 0 0: team_CTF_redflag
+ 13:15 ClientSpawn: 10
+ 13:15 ClientSpawn: 0
+ 13:15 ClientSpawn: 8
+ 13:15 ClientSpawn: 12
+ 13:16 Item: 6 ut_weapon_beretta
+ 13:17 Item: 2 ut_weapon_mp5k
+ 13:17 Item: 2 ut_weapon_g36
+ 13:17 Flag: 2 1: team_CTF_redflag
+ 13:17 Item: 3 ut_weapon_lr
+ 13:18 Item: 3 ut_weapon_deagle
+ 13:19 Item: 5 ut_weapon_grenade_smoke
+ 13:19 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 13:20 Item: 2 ut_weapon_beretta
+ 13:21 Item: 2 ut_weapon_mp5k
+ 13:22 Kill: 9 5 17: RODOV killed Amir by UT_MOD_UMP45
+ 13:25 Item: 9 ut_weapon_grenade_smoke
+ 13:25 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 13:30 ClientSpawn: 7
+ 13:30 ClientSpawn: 5
+ 13:30 ClientSpawn: 2
+ 13:30 Item: 0 ut_weapon_g36
+ 13:31 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 13:37 Item: 7 ut_weapon_mp5k
+ 13:38 Kill: 9 3 17: RODOV killed Seb by UT_MOD_UMP45
+ 13:39 Item: 7 ut_weapon_ak103
+ 13:45 ClientSpawn: 3
+ 13:45 ClientSpawn: 6
+ 13:47 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+ 13:48 Item: 0 ut_weapon_mp5k
+ 13:48 Item: 0 ut_weapon_deagle
+ 13:54 Kill: 12 1 20: Shalom_12 killed Shalom by UT_MOD_G36
+ 13:58 Item: 12 ut_weapon_g36
+ 13:58 Item: 12 ut_weapon_beretta
+ 13:59 Kill: 3 0 19: Seb killed [ACE] by UT_MOD_LR300
+ 14:00 ClientSpawn: 0
+ 14:00 ClientSpawn: 4
+ 14:00 ClientSpawn: 1
+ 14:02 Kill: 12 1 20: Shalom_12 killed Shalom by UT_MOD_G36
+ 14:03 Item: 7 ut_weapon_beretta
+ 14:06 Item: 12 ut_weapon_g36
+ 14:06 Item: 4 ut_weapon_lr
+ 14:09 Kill: 9 3 38: RODOV killed Seb by UT_MOD_M4
+ 14:11 Kill: 10 9 19: MAMBA killed RODOV by UT_MOD_LR300
+ 14:12 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 14:13 Kill: 7 5 30: Ed killed Amir by UT_MOD_AK103
+ 14:15 ClientSpawn: 10
+ 14:15 ClientSpawn: 5
+ 14:15 Item: 3 ut_weapon_grenade_he
+ 14:15 ClientSpawn: 3
+ 14:15 ClientSpawn: 9
+ 14:15 ClientSpawn: 1
+ 14:15 Item: 7 ut_weapon_beretta
+ 14:17 Kill: 5 7 20: Amir killed Ed by UT_MOD_G36
+ 14:17 Item: 10 ut_weapon_mp5k
+ 14:20 Item: 5 ut_weapon_g36
+ 14:26 Kill: 3 0 19: Seb killed [ACE] by UT_MOD_LR300
+ 14:28 Kill: 8 6 19: Knite killed Alik by UT_MOD_LR300
+ 14:29 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 14:30 ClientSpawn: 12
+ 14:30 ClientSpawn: 0
+ 14:30 ClientSpawn: 6
+ 14:30 ClientSpawn: 7
+ 14:31 Item: 3 ut_weapon_deagle
+ 14:31 Item: 11 ut_weapon_mp5k
+ 14:31 Item: 3 ut_weapon_mp5k
+ 14:35 Kill: 8 5 19: Knite killed Amir by UT_MOD_LR300
+ 14:35 Item: 8 ut_weapon_ump45
+ 14:39 Item: 9 ut_weapon_deagle
+ 14:40 Item: 4 ut_weapon_beretta
+ 14:42 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 14:44 Item: 0 ut_weapon_mp5k
+ 14:45 ClientSpawn: 3
+ 14:45 ClientSpawn: 5
+ 14:48 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+ 14:51 Item: 12 ut_weapon_grenade_smoke
+ 14:54 Kill: 6 4 18: Alik killed Tal by UT_MOD_MP5K
+ 14:54 Item: 6 ut_weapon_beretta
+ 14:55 Kill: 10 11 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 14:59 Item: 0 team_CTF_redflag
+ 15:00 ClientSpawn: 11
+ 15:00 ClientSpawn: 7
+ 15:00 ClientSpawn: 4
+ 15:09 Kill: 3 12 19: Seb killed Shalom_12 by UT_MOD_LR300
+ 15:10 Kill: 5 9 20: Amir killed RODOV by UT_MOD_G36
+ 15:11 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 15:14 Item: 3 ut_weapon_grenade_he
+ 15:15 ClientSpawn: 2
+ 15:15 ClientSpawn: 9
+ 15:15 ClientSpawn: 12
+ 15:15 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 15:17 Item: 11 ut_weapon_mp5k
+ 15:17 Kill: 11 3 38: Drorkula killed Seb by UT_MOD_M4
+ 15:19 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 15:20 Item: 11 ut_weapon_grenade_smoke
+ 15:20 Kill: 5 4 20: Amir killed Tal by UT_MOD_G36
+ 15:20 Item: 11 ut_weapon_mp5k
+ 15:21 Kill: 8 6 19: Knite killed Alik by UT_MOD_LR300
+ 15:30 ClientSpawn: 4
+ 15:30 ClientSpawn: 10
+ 15:30 ClientSpawn: 6
+ 15:30 ClientSpawn: 7
+ 15:30 ClientSpawn: 3
+ 15:32 Kill: 2 9 20: Or killed RODOV by UT_MOD_G36
+ 15:33 Flag: 0 2: team_CTF_blueflag
+ 15:33 FlagCaptureTime: 0: 34000
+ 15:33 Item: 12 ut_weapon_beretta
+ 15:34 Item: 2 ut_weapon_grenade_he
+ 15:38 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 15:39 Kill: 11 2 38: Drorkula killed Or by UT_MOD_M4
+ 15:43 Item: 11 ut_weapon_mp5k
+ 15:45 ClientSpawn: 9
+ 15:45 ClientSpawn: 0
+ 15:45 ClientSpawn: 2
+ 15:46 Item: 4 ut_weapon_beretta
+ 15:47 Kill: 5 12 23: Amir killed Shalom_12 by UT_MOD_BLED
+ 15:47 Kill: 6 11 38: Alik killed Drorkula by UT_MOD_M4
+ 15:53 Item: 10 ut_weapon_grenade_smoke
+ 15:54 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+ 15:55 Kill: 3 0 19: Seb killed [ACE] by UT_MOD_LR300
+ 15:59 Item: 3 ut_weapon_grenade_he
+ 16:00 ClientSpawn: 2
+ 16:00 ClientSpawn: 11
+ 16:00 ClientSpawn: 0
+ 16:00 ClientSpawn: 12
+ 16:00 Item: 10 team_CTF_blueflag
+ 16:01 Item: 6 ut_weapon_mp5k
+ 16:02 Kill: 7 5 30: Ed killed Amir by UT_MOD_AK103
+ 16:03 Item: 7 ut_weapon_beretta
+ 16:04 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 16:04 Flag: 10 0: team_CTF_blueflag
+ 16:05 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 16:05 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 16:06 Flag: 4 1: team_CTF_blueflag
+ 16:06 Kill: 6 0 23: Alik killed [ACE] by UT_MOD_BLED
+ 16:06 Item: 4 ut_weapon_lr
+ 16:06 Item: 4 ut_weapon_beretta
+ 16:06 Item: 11 ut_weapon_mp5k
+ 16:08 Item: 11 ut_weapon_m4
+ 16:08 Item: 9 ut_weapon_grenade_smoke
+ 16:08 Item: 9 ut_weapon_deagle
+ 16:10 Item: 7 team_CTF_redflag
+ 16:12 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+ 16:12 Item: 7 ut_weapon_beretta
+ 16:13 Item: 11 ut_weapon_mp5k
+ 16:14 Item: 11 ut_weapon_grenade_smoke
+ 16:15 ClientSpawn: 3
+ 16:15 ClientSpawn: 10
+ 16:15 ClientSpawn: 2
+ 16:15 ClientSpawn: 6
+ 16:15 ClientSpawn: 5
+ 16:15 ClientSpawn: 0
+ 16:20 Item: 0 ut_weapon_g36
+ 16:20 Item: 0 ut_weapon_deagle
+ 16:25 Kill: 10 9 19: MAMBA killed RODOV by UT_MOD_LR300
+ 16:27 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+ 16:29 Item: 0 ut_weapon_deagle
+ 16:30 ClientSpawn: 9
+ 16:30 ClientSpawn: 4
+ 16:34 Kill: 12 10 20: Shalom_12 killed MAMBA by UT_MOD_G36
+ 16:38 Kill: 12 5 20: Shalom_12 killed Amir by UT_MOD_G36
+ 16:40 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 16:44 Flag: 7 2: team_CTF_blueflag
+ 16:44 FlagCaptureTime: 7: 34150
+ 16:45 ClientSpawn: 5
+ 16:45 ClientSpawn: 6
+ 16:45 ClientSpawn: 10
+ 16:46 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 16:46 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 16:48 Kill: 4 2 19: Tal killed Or by UT_MOD_LR300
+ 16:51 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 16:53 Item: 9 ut_weapon_m4
+ 16:54 Item: 4 ut_weapon_beretta
+ 16:54 Item: 9 ut_weapon_ump45
+ 16:54 Item: 9 ut_weapon_grenade_smoke
+ 16:58 Kill: 10 9 19: MAMBA killed RODOV by UT_MOD_LR300
+ 17:00 ClientSpawn: 7
+ 17:00 ClientSpawn: 9
+ 17:00 ClientSpawn: 11
+ 17:00 ClientSpawn: 2
+ 17:00 ClientSpawn: 12
+ 17:01 Item: 10 ut_weapon_beretta
+ 17:02 Item: 10 ut_weapon_grenade_smoke
+ 17:04 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+ 17:04 Item: 10 ut_weapon_beretta
+ 17:04 Item: 10 ut_weapon_lr
+ 17:04 Kill: 1022 8 6: <world> killed Knite by MOD_FALLING
+ 17:08 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 17:09 Item: 6 ut_weapon_m4
+ 17:11 Kill: 7 5 30: Ed killed Amir by UT_MOD_AK103
+ 17:11 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 17:12 Item: 0 ut_weapon_deagle
+ 17:12 Item: 0 ut_weapon_grenade_smoke
+ 17:13 Kill: 12 6 20: Shalom_12 killed Alik by UT_MOD_G36
+ 17:15 ClientSpawn: 10
+ 17:15 ClientSpawn: 3
+ 17:15 ClientSpawn: 4
+ 17:15 ClientSpawn: 8
+ 17:15 ClientSpawn: 6
+ 17:15 ClientSpawn: 5
+ 17:16 Item: 11 ut_weapon_mp5k
+ 17:21 Item: 12 ut_weapon_mp5k
+ 17:22 Item: 12 ut_weapon_grenade_smoke
+ 17:23 Item: 12 ut_weapon_beretta
+ 17:26 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 17:27 Kill: 9 3 38: RODOV killed Seb by UT_MOD_M4
+ 17:28 Kill: 10 12 19: MAMBA killed Shalom_12 by UT_MOD_LR300
+ 17:30 ClientSpawn: 11
+ 17:30 ClientSpawn: 12
+ 17:30 ClientSpawn: 3
+ 17:30 Kill: 5 8 23: Amir killed Knite by UT_MOD_BLED
+ 17:31 Kill: 9 5 38: RODOV killed Amir by UT_MOD_M4
+ 17:33 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 17:36 Kill: 6 9 38: Alik killed RODOV by UT_MOD_M4
+ 17:40 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 17:45 ClientSpawn: 9
+ 17:45 ClientSpawn: 5
+ 17:45 ClientSpawn: 0
+ 17:45 ClientSpawn: 10
+ 17:45 ClientSpawn: 8
+ 17:45 Kill: 3 4 19: Seb killed Tal by UT_MOD_LR300
+ 17:45 Item: 7 team_CTF_redflag
+ 17:45 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 17:46 Item: 7 ut_weapon_mp5k
+ 17:46 Item: 7 ut_weapon_beretta
+ 17:47 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 17:47 Flag: 7 0: team_CTF_redflag
+ 17:48 Item: 3 ut_weapon_mp5k
+ 17:48 Item: 2 ut_weapon_mp5k
+ 17:48 Item: 2 ut_weapon_beretta
+ 17:48 Item: 3 ut_weapon_grenade_smoke
+ 17:48 Item: 3 ut_weapon_lr
+ 17:48 Item: 3 ut_weapon_deagle
+ 17:48 Flag: 2 1: team_CTF_redflag
+ 17:54 Item: 10 ut_weapon_beretta
+ 17:54 Kill: 11 3 38: Drorkula killed Seb by UT_MOD_M4
+ 17:54 Item: 12 ut_weapon_mp5k
+ 17:55 Item: 12 ut_weapon_beretta
+ 17:57 Kill: 10 12 19: MAMBA killed Shalom_12 by UT_MOD_LR300
+ 17:57 Item: 10 ut_weapon_beretta
+ 17:57 Item: 10 ut_weapon_mp5k
+ 17:59 Kill: 8 8 10: Knite killed Knite by MOD_CHANGE_TEAM
+ 17:59 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+ 17:59 ClientUserinfoChanged: 8 n\Knite\t\1\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 17:59 ClientSpawn: 8
+ 17:59 ClientBegin: 8
+ 18:00 ClientSpawn: 7
+ 18:00 ClientSpawn: 6
+ 18:00 ClientSpawn: 3
+ 18:00 ClientSpawn: 4
+ 18:00 ClientSpawn: 12
+ 18:00 ClientDisconnect: 9
+ 18:01 Item: 10 ut_weapon_lr
+ 18:04 Item: 5 ut_weapon_grenade_smoke
+ 18:07 Kill: 0 5 20: [ACE] killed Amir by UT_MOD_G36
+ 18:13 Kill: 11 10 38: Drorkula killed MAMBA by UT_MOD_M4
+ 18:15 ClientSpawn: 5
+ 18:15 ClientSpawn: 10
+ 18:17 Item: 3 ut_weapon_deagle
+ 18:17 Item: 3 ut_weapon_mp5k
+ 18:19 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 18:20 Item: 11 ut_weapon_mp5k
+ 18:21 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 18:22 Kill: 8 8 10: Knite killed Knite by MOD_CHANGE_TEAM
+ 18:22 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+ 18:22 ClientUserinfoChanged: 8 n\Knite\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 18:22 ClientSpawn: 8
+ 18:22 ClientBegin: 8
+ 18:25 Item: 3 ut_weapon_grenade_he
+ 18:26 Item: 3 ut_weapon_mp5k
+ 18:26 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 18:29 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+ 18:30 ClientSpawn: 7
+ 18:30 ClientSpawn: 6
+ 18:30 ClientSpawn: 11
+ 18:30 ClientSpawn: 4
+ 18:31 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 18:31 Kill: 12 10 20: Shalom_12 killed MAMBA by UT_MOD_G36
+ 18:33 Item: 12 ut_weapon_mp5k
+ 18:37 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 18:45 ClientSpawn: 10
+ 18:45 ClientSpawn: 0
+ 18:45 ClientSpawn: 3
+ 18:47 Item: 12 team_CTF_redflag
+ 18:49 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 18:49 Flag: 12 0: team_CTF_redflag
+ 18:51 Item: 2 ut_weapon_beretta
+ 18:51 Item: 2 ut_weapon_grenade_he
+ 18:51 Flag: 2 1: team_CTF_redflag
+ 18:52 Item: 2 ut_weapon_mp5k
+ 18:53 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 18:53 Item: 7 ut_weapon_beretta
+ 18:55 Item: 8 ut_weapon_lr
+ 18:55 Session data initialised for client on slot 0 at 1185043
+ 18:55 ClientConnect: 9
+ 18:55 ClientUserinfo: 9 \ip\16.60.218.159:27961\challenge\1915155016\qport\33822\protocol\68\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\3\cl_time\9=cED9ehnH+7]X9*\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 18:55 ClientUserinfoChanged: 9 n\RODOV\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+ 18:56 Kill: 8 10 19: Knite killed MAMBA by UT_MOD_LR300
+ 19:00 ClientSpawn: 10
+ 19:00 ClientSpawn: 6
+ 19:00 ClientSpawn: 12
+ 19:00 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 19:03 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\3\cl_time\0&O]nx&0Yc(L`Gyz\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 19:03 ClientUserinfoChanged: 9 n\RODOV\t\3\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+ 19:03 ClientBegin: 9
+ 19:06 Item: 7 ut_weapon_beretta
+ 19:06 Item: 8 team_CTF_redflag
+ 19:06 Item: 7 ut_weapon_mp5k
+ 19:07 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\3\cl_time\0&O]nx&0Yc(L`Gyz\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 19:07 ClientUserinfoChanged: 9 n\RODOV\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 19:07 ClientSpawn: 9
+ 19:07 ClientBegin: 9
+ 19:07 Kill: 2 8 14: Or killed Knite by UT_MOD_BERETTA
+ 19:07 Flag: 8 0: team_CTF_redflag
+ 19:07 Flag: 2 1: team_CTF_redflag
+ 19:10 Item: 7 ut_weapon_mp5k
+ 19:10 Item: 6 ut_weapon_grenade_smoke
+ 19:10 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+ 19:10 Item: 6 ut_weapon_beretta
+ 19:10 Item: 6 ut_weapon_mp5k
+ 19:15 ClientSpawn: 7
+ 19:15 ClientSpawn: 8
+ 19:15 ClientSpawn: 3
+ 19:16 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 19:18 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+ 19:18 Item: 11 ut_weapon_ump45
+ 19:21 Kill: 8 8 10: Knite killed Knite by MOD_CHANGE_TEAM
+ 19:21 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+ 19:21 ClientUserinfoChanged: 8 n\Knite\t\1\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 19:21 ClientSpawn: 8
+ 19:21 ClientBegin: 8
+ 19:22 Kill: 8 8 10: Knite killed Knite by MOD_CHANGE_TEAM
+ 19:22 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+ 19:22 ClientUserinfoChanged: 8 n\Knite\t\2\r\3\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 19:22 ClientSpawn: 8
+ 19:22 ClientBegin: 8
+ 19:24 Item: 0 ut_weapon_g36
+ 19:28 Kill: 3 12 19: Seb killed Shalom_12 by UT_MOD_LR300
+ 19:30 ClientSpawn: 10
+ 19:30 ClientSpawn: 5
+ 19:30 ClientSpawn: 12
+ 19:30 Kill: 0 6 23: [ACE] killed Alik by UT_MOD_BLED
+ 19:31 Item: 3 ut_weapon_grenade_he
+ 19:31 Kill: 7 3 30: Ed killed Seb by UT_MOD_AK103
+ 19:32 Item: 0 team_CTF_redflag
+ 19:33 Kill: 8 8 10: Knite killed Knite by MOD_CHANGE_TEAM
+ 19:33 ClientUserinfo: 8 \ip\16.60.218.135:27960\name\Knite\racered\3\raceblue\3\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\YYVQBF$[aH5ekLZD\racefree\3\gear\GLAORTA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110210000020002000
+ 19:33 ClientUserinfoChanged: 8 n\Knite\t\1\r\3\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 19:33 ClientSpawn: 8
+ 19:33 ClientBegin: 8
+ 19:37 Kill: 9 4 38: RODOV killed Tal by UT_MOD_M4
+ 19:38 Item: 0 ut_weapon_deagle
+ 19:38 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 19:38 Flag: 0 0: team_CTF_redflag
+ 19:39 Kill: 10 11 19: MAMBA killed Drorkula by UT_MOD_LR300
+ 19:40 Item: 2 ut_weapon_beretta
+ 19:40 Item: 2 ut_weapon_g36
+ 19:40 Item: 2 ut_weapon_grenade_smoke
+ 19:41 Item: 2 ut_weapon_mp5k
+ 19:41 Kill: 4 9 23: Tal killed RODOV by UT_MOD_BLED
+ 19:41 Flag: 2 1: team_CTF_redflag
+ 19:44 Item: 8 ut_weapon_deagle
+ 19:45 ClientSpawn: 9
+ 19:45 ClientSpawn: 6
+ 19:45 ClientSpawn: 3
+ 19:45 ClientSpawn: 0
+ 19:45 ClientSpawn: 11
+ 19:45 ClientSpawn: 4
+ 19:45 Item: 8 ut_weapon_ump45
+ 19:47 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+ 19:47 Item: 10 ut_weapon_beretta
+ 19:47 Item: 10 ut_weapon_mp5k
+ 19:51 Item: 3 ut_weapon_grenade_he
+ 19:55 Item: 2 team_CTF_blueflag
+ 19:55 Item: 10 ut_weapon_mp5k
+ 19:56 Item: 10 ut_weapon_lr
+ 19:58 Kill: 4 8 19: Tal killed Knite by UT_MOD_LR300
+ 19:58 Kill: 9 9 10: RODOV killed RODOV by MOD_CHANGE_TEAM
+ 19:58 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\3\cl_time\0&O]nx&0Yc(L`Gyz\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 19:58 ClientUserinfoChanged: 9 n\RODOV\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 19:58 ClientSpawn: 9
+ 19:58 ClientBegin: 9
+ 20:00 ClientSpawn: 8
+ 20:00 ClientSpawn: 7
+ 20:02 Kill: 4 2 19: Tal killed Or by UT_MOD_LR300
+ 20:02 Flag: 2 0: team_CTF_blueflag
+ 20:03 Kill: 3 4 19: Seb killed Tal by UT_MOD_LR300
+ 20:07 Item: 11 ut_weapon_grenade_smoke
+ 20:07 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 20:08 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 20:11 Flag: 0 1: team_CTF_blueflag
+ 20:11 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 20:13 Item: 0 ut_weapon_mp5k
+ 20:13 Item: 0 ut_weapon_deagle
+ 20:15 ClientSpawn: 10
+ 20:15 ClientSpawn: 2
+ 20:15 ClientSpawn: 4
+ 20:15 ClientSpawn: 11
+ 20:15 ClientSpawn: 3
+ 20:16 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\cg_physics\1\gear\GeJORAA\racefree\2\cl_time\0&O]nx&0Yc(L`Gyz\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 20:16 ClientUserinfoChanged: 9 n\RODOV\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 20:16 Item: 12 ut_weapon_ump45
+ 20:21 Kill: 8 0 19: Knite killed [ACE] by UT_MOD_LR300
+ 20:23 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 20:26 Kill: 3 7 23: Seb killed Ed by UT_MOD_BLED
+ 20:26 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 20:30 ClientSpawn: 6
+ 20:30 ClientSpawn: 0
+ 20:30 ClientSpawn: 7
+ 20:30 ClientSpawn: 12
+ 20:34 Item: 4 ut_weapon_lr
+ 20:39 Kill: 3 4 19: Seb killed Tal by UT_MOD_LR300
+ 20:40 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 20:41 Kill: 10 0 19: MAMBA killed [ACE] by UT_MOD_LR300
+ 20:45 ClientSpawn: 0
+ 20:45 ClientSpawn: 4
+ 20:45 ClientSpawn: 3
+ 20:47 Item: 12 ut_weapon_beretta
+ 20:47 Item: 12 ut_weapon_ump45
+ 20:47 Item: 7 ut_weapon_mp5k
+ 20:51 Kill: 11 3 38: Drorkula killed Seb by UT_MOD_M4
+ 20:53 Item: 10 team_CTF_blueflag
+ 20:53 Item: 0 ut_weapon_deagle
+ 20:54 Item: 0 ut_weapon_g36
+ 20:54 Item: 0 ut_weapon_mp5k
+ 20:54 Kill: 7 8 30: Ed killed Knite by UT_MOD_AK103
+ 20:55 Item: 11 ut_weapon_mp5k
+ 20:55 Kill: 10 0 19: MAMBA killed [ACE] by UT_MOD_LR300
+ 21:00 ClientSpawn: 0
+ 21:00 ClientSpawn: 8
+ 21:00 ClientSpawn: 3
+ 21:00 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 21:00 Flag: 10 0: team_CTF_blueflag
+ 21:01 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+ 21:06 Item: 4 ut_weapon_beretta
+ 21:06 Item: 4 ut_weapon_lr
+ 21:07 Flag: 4 1: team_CTF_blueflag
+ 21:07 Kill: 11 6 38: Drorkula killed Alik by UT_MOD_M4
+ 21:08 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 21:10 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 21:11 Item: 3 ut_weapon_deagle
+ 21:11 Item: 3 ut_weapon_lr
+ 21:11 Item: 8 ut_weapon_mp5k
+ 21:11 Kill: 12 8 17: Shalom_12 killed Knite by UT_MOD_UMP45
+ 21:12 Item: 12 ut_weapon_grenade_he
+ 21:14 Item: 12 ut_weapon_beretta
+ 21:15 ClientSpawn: 8
+ 21:15 ClientSpawn: 7
+ 21:15 ClientSpawn: 10
+ 21:15 ClientSpawn: 5
+ 21:15 ClientSpawn: 11
+ 21:15 ClientSpawn: 6
+ 21:16 Kill: 8 12 23: Knite killed Shalom_12 by UT_MOD_BLED
+ 21:21 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 21:29 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+ 21:30 ClientSpawn: 10
+ 21:30 ClientSpawn: 3
+ 21:30 ClientSpawn: 12
+ 21:34 Item: 0 team_CTF_redflag
+ 21:34 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 21:34 Flag: 0 0: team_CTF_redflag
+ 21:35 Kill: 11 8 38: Drorkula killed Knite by UT_MOD_M4
+ 21:37 Item: 2 ut_weapon_mp5k
+ 21:37 Flag: 2 1: team_CTF_redflag
+ 21:37 Kill: 6 4 38: Alik killed Tal by UT_MOD_M4
+ 21:38 Item: 2 ut_weapon_g36
+ 21:43 Item: 6 ut_weapon_beretta
+ 21:44 ClientUserinfo: 9 \ip\16.60.218.159:27961\name\RODOV\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_physics\1\gear\GeJORAA\racefree\2\cl_time\0&O]nx&0Yc(L`Gyz\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 21:44 ClientUserinfoChanged: 9 n\RODOV\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 21:44 Item: 10 ut_weapon_beretta
+ 21:45 ClientSpawn: 0
+ 21:45 ClientSpawn: 8
+ 21:45 ClientSpawn: 4
+ 21:46 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+ 21:46 Item: 7 team_CTF_redflag
+ 21:52 Kill: 7 10 23: Ed killed MAMBA by UT_MOD_BLED
+ 21:54 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 21:54 Flag: 7 0: team_CTF_redflag
+ 21:54 Kill: 12 5 20: Shalom_12 killed Amir by UT_MOD_G36
+ 21:55 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 21:56 Flag: 8 1: team_CTF_redflag
+ 22:00 ClientSpawn: 10
+ 22:00 ClientSpawn: 7
+ 22:00 ClientSpawn: 2
+ 22:00 ClientSpawn: 5
+ 22:00 ClientSpawn: 12
+ 22:01 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 22:07 Item: 0 ut_weapon_g36
+ 22:07 Kill: 11 3 39: Drorkula killed Seb by UT_MOD_GLOCK
+ 22:09 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+ 22:11 Kill: 2 11 20: Or killed Drorkula by UT_MOD_G36
+ 22:13 Item: 2 ut_weapon_beretta
+ 22:15 ClientSpawn: 11
+ 22:15 ClientSpawn: 10
+ 22:15 ClientSpawn: 6
+ 22:15 ClientSpawn: 3
+ 22:15 Item: 2 ut_weapon_grenade_he
+ 22:21 Kill: 0 5 18: [ACE] killed Amir by UT_MOD_MP5K
+ 22:25 Kill: 2 7 20: Or killed Ed by UT_MOD_G36
+ 22:25 Item: 10 ut_weapon_lr
+ 22:25 Item: 0 team_CTF_redflag
+ 22:26 Item: 10 ut_weapon_mp5k
+ 22:26 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 22:26 Flag: 0 0: team_CTF_redflag
+ 22:28 Item: 2 ut_weapon_mp5k
+ 22:29 Flag: 2 1: team_CTF_redflag
+ 22:30 ClientSpawn: 0
+ 22:30 ClientSpawn: 7
+ 22:30 ClientSpawn: 5
+ 22:31 Kill: 12 6 20: Shalom_12 killed Alik by UT_MOD_G36
+ 22:32 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 22:35 Item: 11 ut_weapon_mp5k
+ 22:35 Kill: 7 8 30: Ed killed Knite by UT_MOD_AK103
+ 22:35 Item: 11 ut_weapon_grenade_smoke
+ 22:37 Item: 11 ut_weapon_m4
+ 22:37 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 22:39 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 22:42 Kill: 9 5 38: RODOV killed Amir by UT_MOD_M4
+ 22:45 ClientSpawn: 8
+ 22:45 ClientSpawn: 10
+ 22:45 ClientSpawn: 3
+ 22:45 ClientSpawn: 5
+ 22:45 ClientSpawn: 11
+ 22:45 ClientSpawn: 6
+ 22:49 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 22:51 Item: 4 ut_weapon_beretta
+ 22:52 Item: 10 ut_weapon_beretta
+ 22:53 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 22:54 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 22:55 Item: 4 team_CTF_redflag
+ 22:55 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+ 22:55 Flag: 4 0: team_CTF_redflag
+ 22:57 Item: 6 ut_weapon_mp5k
+ 22:58 Item: 8 ut_weapon_ump45
+ 22:59 Flag: 2 1: team_CTF_redflag
+ 23:00 ClientSpawn: 12
+ 23:00 ClientSpawn: 0
+ 23:00 ClientSpawn: 10
+ 23:00 ClientSpawn: 4
+ 23:00 Item: 9 ut_weapon_ump45
+ 23:01 Item: 3 ut_weapon_grenade_he
+ 23:03 Item: 3 ut_weapon_deagle
+ 23:05 Item: 4 ut_weapon_lr
+ 23:05 Kill: 9 1 38: RODOV killed Shalom by UT_MOD_M4
+ 23:08 Kill: 9 10 38: RODOV killed MAMBA by UT_MOD_M4
+ 23:11 Item: 2 ut_weapon_beretta
+ 23:14 Kill: 12 8 20: Shalom_12 killed Knite by UT_MOD_G36
+ 23:15 ClientSpawn: 10
+ 23:15 ClientSpawn: 8
+ 23:15 ClientSpawn: 1
+ 23:15 Kill: 0 5 20: [ACE] killed Amir by UT_MOD_G36
+ 23:16 Item: 12 ut_weapon_ump45
+ 23:17 Item: 10 ut_weapon_beretta
+ 23:18 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 23:20 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 23:22 Item: 7 ut_weapon_mp5k
+ 23:22 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+ 23:23 Kill: 6 0 38: Alik killed [ACE] by UT_MOD_M4
+ 23:24 Item: 6 ut_weapon_mp5k
+ 23:26 Item: 6 ut_weapon_beretta
+ 23:28 Item: 6 ut_weapon_mp5k
+ 23:30 ClientSpawn: 12
+ 23:30 ClientSpawn: 5
+ 23:30 ClientSpawn: 0
+ 23:30 ClientSpawn: 7
+ 23:30 ClientSpawn: 3
+ 23:31 Item: 4 ut_weapon_ump45
+ 23:34 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 23:35 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 23:38 Item: 7 ut_weapon_mp5k
+ 23:40 Item: 12 ut_weapon_beretta
+ 23:40 Item: 11 team_CTF_redflag
+ 23:41 Kill: 2 11 20: Or killed Drorkula by UT_MOD_G36
+ 23:41 Flag: 11 0: team_CTF_redflag
+ 23:41 Item: 0 ut_weapon_g36
+ 23:42 Item: 3 ut_weapon_grenade_he
+ 23:42 Flag: 2 1: team_CTF_redflag
+ 23:45 Kill: 0 8 20: [ACE] killed Knite by UT_MOD_G36
+ 23:45 ClientSpawn: 9
+ 23:45 ClientSpawn: 6
+ 23:45 ClientSpawn: 11
+ 23:48 Kill: 5 7 20: Amir killed Ed by UT_MOD_G36
+ 23:53 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 23:58 Kill: 12 3 20: Shalom_12 killed Seb by UT_MOD_G36
+ 23:58 Item: 11 ut_weapon_m4
+ 23:59 Kill: 5 12 20: Amir killed Shalom_12 by UT_MOD_G36
+ 24:00 ClientSpawn: 8
+ 24:00 ClientSpawn: 7
+ 24:00 ClientSpawn: 10
+ 24:00 ClientSpawn: 12
+ 24:00 ClientSpawn: 3
+ 24:01 Kill: 6 0 38: Alik killed [ACE] by UT_MOD_M4
+ 24:02 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 24:06 Kill: 5 4 20: Amir killed Tal by UT_MOD_G36
+ 24:07 Item: 5 ut_weapon_ump45
+ 24:10 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+ 24:15 ClientSpawn: 0
+ 24:15 ClientSpawn: 5
+ 24:15 ClientSpawn: 4
+ 24:15 ClientSpawn: 6
+ 24:17 Item: 11 ut_weapon_mp5k
+ 24:19 Kill: 10 12 19: MAMBA killed Shalom_12 by UT_MOD_LR300
+ 24:21 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 24:21 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 24:26 Item: 11 ut_weapon_grenade_smoke
+ 24:27 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 24:29 Kill: 11 5 38: Drorkula killed Amir by UT_MOD_M4
+ 24:30 ClientSpawn: 9
+ 24:30 ClientSpawn: 5
+ 24:30 ClientSpawn: 10
+ 24:30 ClientSpawn: 7
+ 24:30 ClientSpawn: 12
+ 24:31 Item: 8 ut_weapon_mp5k
+ 24:33 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 24:37 Item: 11 ut_weapon_mp5k
+ 24:37 Item: 11 ut_weapon_m4
+ 24:40 Item: 3 team_CTF_blueflag
+ 24:41 Item: 5 ut_weapon_beretta
+ 24:41 Kill: 2 11 20: Or killed Drorkula by UT_MOD_G36
+ 24:42 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 24:44 Kill: 12 3 20: Shalom_12 killed Seb by UT_MOD_G36
+ 24:44 Flag: 3 0: team_CTF_blueflag
+ 24:44 Kill: 2 0 20: Or killed [ACE] by UT_MOD_G36
+ 24:45 ClientSpawn: 3
+ 24:45 ClientSpawn: 11
+ 24:45 ClientSpawn: 10
+ 24:45 ClientSpawn: 0
+ 24:45 ClientSpawn: 6
+ 24:46 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 24:49 Item: 9 ut_weapon_deagle
+ 24:50 Item: 9 ut_weapon_m4
+ 24:52 Item: 5 ut_weapon_beretta
+ 24:56 Item: 12 ut_weapon_grenade_smoke
+ 24:56 Flag: 12 1: team_CTF_blueflag
+ 24:58 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 24:59 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 25:00 ClientSpawn: 10
+ 25:00 ClientSpawn: 9
+ 25:00 ClientSpawn: 7
+ 25:00 Kill: 0 8 20: [ACE] killed Knite by UT_MOD_G36
+ 25:00 Item: 6 ut_weapon_mp5k
+ 25:04 Item: 11 ut_weapon_mp5k
+ 25:06 Kill: 0 6 20: [ACE] killed Alik by UT_MOD_G36
+ 25:09 Kill: 4 5 19: Tal killed Amir by UT_MOD_LR300
+ 25:11 Kill: 3 0 19: Seb killed [ACE] by UT_MOD_LR300
+ 25:11 Item: 4 ut_weapon_ump45
+ 25:15 ClientSpawn: 8
+ 25:15 ClientSpawn: 0
+ 25:15 ClientSpawn: 5
+ 25:15 ClientSpawn: 6
+ 25:19 Kill: 7 3 30: Ed killed Seb by UT_MOD_AK103
+ 25:23 Kill: 11 10 23: Drorkula killed MAMBA by UT_MOD_BLED
+ 25:24 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 25:24 Item: 6 ut_weapon_grenade_smoke
+ 25:29 Kill: 4 8 17: Tal killed Knite by UT_MOD_UMP45
+ 25:30 ClientSpawn: 3
+ 25:30 ClientSpawn: 10
+ 25:30 ClientSpawn: 8
+ 25:30 ClientSpawn: 12
+ 25:35 Item: 0 ut_weapon_deagle
+ 25:36 Kill: 6 11 38: Alik killed Drorkula by UT_MOD_M4
+ 25:36 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 25:37 Item: 10 ut_weapon_beretta
+ 25:38 Item: 3 ut_weapon_mp5k
+ 25:38 Item: 6 ut_weapon_m4
+ 25:38 Item: 6 ut_weapon_mp5k
+ 25:38 Item: 3 ut_weapon_grenade_he
+ 25:41 Kill: 4 8 17: Tal killed Knite by UT_MOD_UMP45
+ 25:44 Item: 0 team_CTF_redflag
+ 25:45 ClientSpawn: 7
+ 25:45 ClientSpawn: 8
+ 25:45 ClientSpawn: 11
+ 25:47 Kill: 5 4 20: Amir killed Tal by UT_MOD_G36
+ 25:50 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 25:51 Kill: 10 12 19: MAMBA killed Shalom_12 by UT_MOD_LR300
+ 25:52 Item: 10 ut_weapon_beretta
+ 25:53 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 25:53 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 25:56 Kill: 7 3 30: Ed killed Seb by UT_MOD_AK103
+ 25:58 Item: 0 ut_weapon_mp5k
+ 26:00 ClientSpawn: 4
+ 26:00 ClientSpawn: 9
+ 26:00 ClientSpawn: 2
+ 26:00 ClientSpawn: 10
+ 26:00 ClientSpawn: 3
+ 26:00 Item: 7 ut_weapon_mp5k
+ 26:00 ClientSpawn: 12
+ 26:06 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 26:06 Item: 4 ut_weapon_beretta
+ 26:07 Item: 3 ut_weapon_deagle
+ 26:10 Flag: 0 2: team_CTF_blueflag
+ 26:10 FlagCaptureTime: 0: 25900
+ 26:10 Kill: 8 9 19: Knite killed RODOV by UT_MOD_LR300
+ 26:11 Kill: 11 8 38: Drorkula killed Knite by UT_MOD_M4
+ 26:12 Kill: 5 11 20: Amir killed Drorkula by UT_MOD_G36
+ 26:13 Kill: 4 5 19: Tal killed Amir by UT_MOD_LR300
+ 26:15 ClientSpawn: 8
+ 26:15 ClientSpawn: 5
+ 26:15 ClientSpawn: 9
+ 26:15 ClientSpawn: 11
+ 26:15 ClientSpawn: 6
+ 26:17 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+ 26:19 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 26:20 Kill: 10 0 19: MAMBA killed [ACE] by UT_MOD_LR300
+ 26:20 Item: 2 ut_weapon_grenade_he
+ 26:21 Item: 2 ut_weapon_ump45
+ 26:22 Item: 7 ut_weapon_grenade_smoke
+ 26:23 Item: 11 ut_weapon_mp5k
+ 26:23 Item: 11 ut_weapon_grenade_smoke
+ 26:24 Kill: 11 3 38: Drorkula killed Seb by UT_MOD_M4
+ 26:24 Item: 10 ut_weapon_mp5k
+ 26:26 Item: 10 team_CTF_blueflag
+ 26:29 Kill: 2 9 20: Or killed RODOV by UT_MOD_G36
+ 26:29 Item: 2 ut_weapon_ump45
+ 26:30 ClientSpawn: 12
+ 26:30 ClientSpawn: 4
+ 26:30 ClientSpawn: 0
+ 26:30 ClientSpawn: 3
+ 26:30 ClientSpawn: 9
+ 26:30 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 26:34 Kill: 2 11 17: Or killed Drorkula by UT_MOD_UMP45
+ 26:40 Item: 0 ut_weapon_g36
+ 26:40 Kill: 2 7 17: Or killed Ed by UT_MOD_UMP45
+ 26:41 Item: 3 ut_weapon_mp5k
+ 26:45 ClientSpawn: 11
+ 26:45 ClientSpawn: 7
+ 26:45 ClientSpawn: 6
+ 26:46 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 26:51 Item: 0 ut_weapon_mp5k
+ 26:52 Item: 0 ut_weapon_grenade_smoke
+ 26:52 Item: 7 ut_weapon_grenade_smoke
+ 26:53 Item: 7 ut_weapon_mp5k
+ 26:54 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 26:54 Item: 0 team_CTF_redflag
+ 26:55 Kill: 5 4 20: Amir killed Tal by UT_MOD_G36
+ 26:56 Kill: 11 8 38: Drorkula killed Knite by UT_MOD_M4
+ 26:57 Kill: 5 12 23: Amir killed Shalom_12 by UT_MOD_BLED
+ 26:57 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+ 26:57 Flag: 10 0: team_CTF_blueflag
+ 26:57 Kill: 6 9 38: Alik killed RODOV by UT_MOD_M4
+ 26:58 Kill: 3 11 19: Seb killed Drorkula by UT_MOD_LR300
+ 26:58 Flag: 0 1: team_CTF_blueflag
+ 27:00 ClientSpawn: 12
+ 27:00 ClientSpawn: 11
+ 27:00 ClientSpawn: 7
+ 27:00 ClientSpawn: 9
+ 27:00 ClientSpawn: 10
+ 27:00 ClientSpawn: 2
+ 27:00 ClientSpawn: 8
+ 27:00 ClientSpawn: 4
+ 27:04 Item: 5 ut_weapon_beretta
+ 27:05 Kill: 0 5 15: [ACE] killed Amir by UT_MOD_DEAGLE
+ 27:08 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 27:10 Item: 12 ut_weapon_grenade_smoke
+ 27:10 Item: 12 ut_weapon_mp5k
+ 27:15 ClientSpawn: 5
+ 27:15 ClientSpawn: 3
+ 27:17 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 27:19 Item: 12 ut_weapon_beretta
+ 27:19 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 27:19 Item: 12 ut_weapon_g36
+ 27:20 Kill: 12 10 20: Shalom_12 killed MAMBA by UT_MOD_G36
+ 27:22 Item: 12 ut_weapon_beretta
+ 27:22 Item: 3 ut_weapon_grenade_he
+ 27:22 Item: 3 ut_weapon_lr
+ 27:23 Kill: 8 12 19: Knite killed Shalom_12 by UT_MOD_LR300
+ 27:24 Kill: 9 8 38: RODOV killed Knite by UT_MOD_M4
+ 27:24 Item: 5 ut_weapon_beretta
+ 27:25 Item: 5 ut_weapon_g36
+ 27:28 Item: 5 ut_weapon_ump45
+ 27:29 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 27:30 ClientSpawn: 8
+ 27:30 ClientSpawn: 10
+ 27:30 ClientSpawn: 2
+ 27:30 ClientSpawn: 3
+ 27:30 ClientSpawn: 6
+ 27:30 ClientSpawn: 12
+ 27:32 Kill: 7 3 25: Ed killed Seb by UT_MOD_HEGRENADE
+ 27:32 Kill: 7 6 25: Ed killed Alik by UT_MOD_HEGRENADE
+ 27:34 Item: 10 ut_weapon_mp5k
+ 27:37 Item: 7 ut_weapon_beretta
+ 27:38 Kill: 8 4 19: Knite killed Tal by UT_MOD_LR300
+ 27:38 Item: 7 ut_weapon_mp5k
+ 27:38 Item: 7 ut_weapon_grenade_he
+ 27:38 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 27:39 Flag: 0 2: team_CTF_blueflag
+ 27:39 FlagCaptureTime: 0: 44950
+ 27:41 Item: 8 ut_weapon_mp5k
+ 27:42 Item: 8 ut_weapon_lr
+ 27:43 Kill: 9 8 23: RODOV killed Knite by UT_MOD_BLED
+ 27:45 ClientSpawn: 8
+ 27:45 ClientSpawn: 3
+ 27:45 ClientSpawn: 10
+ 27:45 ClientSpawn: 6
+ 27:45 ClientSpawn: 4
+ 27:47 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 27:48 Item: 7 ut_weapon_mp5k
+ 27:48 Item: 7 ut_weapon_beretta
+ 27:49 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+ 27:49 Item: 8 ut_weapon_mp5k
+ 27:49 Item: 8 ut_weapon_lr
+ 27:50 Item: 5 ut_weapon_beretta
+ 27:50 Item: 10 ut_weapon_beretta
+ 27:50 Item: 10 ut_weapon_mp5k
+ 27:53 Kill: 12 5 20: Shalom_12 killed Amir by UT_MOD_G36
+ 27:56 Item: 8 ut_weapon_grenade_smoke
+ 27:56 Item: 10 ut_weapon_beretta
+ 27:57 Kill: 12 8 20: Shalom_12 killed Knite by UT_MOD_G36
+ 28:00 ClientSpawn: 8
+ 28:00 ClientSpawn: 6
+ 28:00 ClientSpawn: 5
+ 28:00 ClientSpawn: 7
+ 28:03 Kill: 8 12 23: Knite killed Shalom_12 by UT_MOD_BLED
+ 28:04 Kill: 9 3 38: RODOV killed Seb by UT_MOD_M4
+ 28:04 Item: 4 ut_weapon_lr
+ 28:04 Item: 4 ut_weapon_beretta
+ 28:05 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 28:05 Item: 8 ut_weapon_mp5k
+ 28:05 Item: 8 ut_weapon_lr
+ 28:06 Kill: 4 8 19: Tal killed Knite by UT_MOD_LR300
+ 28:10 Kill: 6 0 38: Alik killed [ACE] by UT_MOD_M4
+ 28:11 Item: 6 ut_weapon_mp5k
+ 28:11 Item: 6 ut_weapon_grenade_smoke
+ 28:15 ClientSpawn: 10
+ 28:15 ClientSpawn: 3
+ 28:15 ClientSpawn: 0
+ 28:15 ClientSpawn: 8
+ 28:15 ClientSpawn: 12
+ 28:23 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 28:24 Item: 3 ut_weapon_lr
+ 28:24 Item: 3 ut_weapon_deagle
+ 28:25 Session data initialised for client on slot 0 at 1755205
+ 28:25 ClientConnect: 13
+ 28:25 ClientUserinfo: 13 \ip\16.60.218.156:27961\challenge\474757946\qport\32817\protocol\68\name\Drorkula\rate\8000\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E
+ 28:25 ClientUserinfoChanged: 13 n\Drorkula_13\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+ 28:27 Kill: 8 4 19: Knite killed Tal by UT_MOD_LR300
+ 28:30 ClientSpawn: 4
+ 28:30 ClientSpawn: 7
+ 28:30 Item: 10 ut_weapon_mp5k
+ 28:36 Kill: 10 12 19: MAMBA killed Shalom_12 by UT_MOD_LR300
+ 28:36 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 28:37 Item: 3 ut_weapon_deagle
+ 28:37 Item: 3 ut_weapon_grenade_he
+ 28:40 Item: 10 ut_weapon_beretta
+ 28:43 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+ 28:45 ClientSpawn: 9
+ 28:45 ClientSpawn: 7
+ 28:45 ClientSpawn: 12
+ 28:46 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 28:57 ClientUserinfo: 13 \ip\16.60.218.156:27961\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\j(@f<U?[j|L5O?<e\racefree\2\gear\feAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 28:57 ClientUserinfoChanged: 13 n\Drorkula_13\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+ 28:57 ClientBegin: 13
+ 29:00 ClientSpawn: 10
+ 29:00 ClientUserinfo: 13 \ip\16.60.218.156:27961\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\j(@f<U?[j|L5O?<e\racefree\2\gear\feAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 29:00 ClientUserinfoChanged: 13 n\Drorkula_13\t\1\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 29:00 ClientSpawn: 13
+ 29:00 ClientBegin: 13
+ 29:04 Kill: 9 5 38: RODOV killed Amir by UT_MOD_M4
+ 29:07 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+ 29:07 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+ 29:11 Item: 3 team_CTF_blueflag
+ 29:15 Item: 0 team_CTF_redflag
+ 29:15 ClientSpawn: 7
+ 29:15 ClientSpawn: 5
+ 29:15 ClientSpawn: 4
+ 29:18 Kill: 8 0 19: Knite killed [ACE] by UT_MOD_LR300
+ 29:18 Flag: 0 0: team_CTF_redflag
+ 29:18 Flag: 8 1: team_CTF_redflag
+ 29:19 Item: 10 ut_weapon_mp5k
+ 29:22 Kill: 13 13 10: Drorkula_13 killed Drorkula_13 by MOD_CHANGE_TEAM
+ 29:22 ClientUserinfo: 13 \ip\16.60.218.156:27961\name\Drorkula\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\snaps\20\color1\4\color2\5\handicap\100\sex\male\cg_autoPickup\-1\cg_ghost\0\cl_time\j(@f<U?[j|L5O?<e\racefree\2\gear\feAORWA\authc\0\cl_guid\A3BDF4E8FCD71B5BB1589ABC2E92F30E\weapmodes\00000110220000020002000
+ 29:22 ClientUserinfoChanged: 13 n\Drorkula_13\t\2\r\0\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 29:22 ClientSpawn: 13
+ 29:22 ClientBegin: 13
+ 29:27 Kill: 9 2 38: RODOV killed Or by UT_MOD_M4
+ 29:30 ClientSpawn: 0
+ 29:30 ClientSpawn: 2
+ 29:32 Kill: 9 8 38: RODOV killed Knite by UT_MOD_M4
+ 29:34 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 29:37 Kill: 8 9 23: Knite killed RODOV by UT_MOD_BLED
+ 29:39 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+ 29:39 Item: 4 ut_weapon_beretta
+ 29:45 ClientSpawn: 8
+ 29:45 ClientSpawn: 10
+ 29:45 ClientSpawn: 7
+ 29:45 ClientSpawn: 9
+ 29:45 Kill: 0 2 20: [ACE] killed Or by UT_MOD_G36
+ 29:49 Kill: 4 5 19: Tal killed Amir by UT_MOD_LR300
+ 29:50 Kill: 9 3 38: RODOV killed Seb by UT_MOD_M4
+ 29:50 Flag: 3 0: team_CTF_blueflag
+ 29:53 Item: 0 team_CTF_redflag
+ 29:53 Flag: 9 1: team_CTF_blueflag
+ 29:55 Kill: 6 0 18: Alik killed [ACE] by UT_MOD_MP5K
+ 29:55 Flag: 0 0: team_CTF_redflag
+ 29:56 Flag: 6 1: team_CTF_redflag
+ 29:56 Item: 6 ut_weapon_mp5k
+ 29:57 Kill: 4 8 19: Tal killed Knite by UT_MOD_LR300
+ 29:58 Kill: 8 12 23: Knite killed Shalom_12 by UT_MOD_BLED
+ 30:00 ClientSpawn: 8
+ 30:00 ClientSpawn: 2
+ 30:00 ClientSpawn: 5
+ 30:00 ClientSpawn: 0
+ 30:00 ClientSpawn: 3
+ 30:00 ClientSpawn: 12
+ 30:01 Kill: 13 10 38: Drorkula_13 killed MAMBA by UT_MOD_M4
+ 30:01 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 30:04 Item: 4 ut_weapon_lr
+ 30:08 Item: 2 ut_weapon_g36
+ 30:09 Kill: 7 2 30: Ed killed Or by UT_MOD_AK103
+ 30:10 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 30:12 Kill: 0 8 20: [ACE] killed Knite by UT_MOD_G36
+ 30:14 Kill: 0 5 20: [ACE] killed Amir by UT_MOD_G36
+ 30:15 ClientSpawn: 2
+ 30:15 ClientSpawn: 8
+ 30:15 ClientSpawn: 7
+ 30:15 ClientSpawn: 6
+ 30:15 ClientSpawn: 10
+ 30:15 ClientSpawn: 5
+ 30:20 Item: 13 team_CTF_redflag
+ 30:21 Item: 2 ut_weapon_ump45
+ 30:21 Item: 2 ut_weapon_grenade_he
+ 30:22 Item: 2 ut_weapon_beretta
+ 30:22 Kill: 3 13 19: Seb killed Drorkula_13 by UT_MOD_LR300
+ 30:22 Flag: 13 0: team_CTF_redflag
+ 30:22 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 30:24 Item: 0 team_CTF_redflag
+ 30:26 Item: 5 ut_weapon_g36
+ 30:27 Kill: 8 0 19: Knite killed [ACE] by UT_MOD_LR300
+ 30:27 Flag: 0 0: team_CTF_redflag
+ 30:27 Item: 10 ut_weapon_grenade_smoke
+ 30:27 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 30:28 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 30:29 Item: 8 ut_weapon_deagle
+ 30:29 Item: 8 ut_weapon_lr
+ 30:29 Flag: 8 1: team_CTF_redflag
+ 30:29 Item: 8 ut_weapon_mp5k
+ 30:30 ClientSpawn: 13
+ 30:30 ClientSpawn: 0
+ 30:30 ClientSpawn: 12
+ 30:30 ClientSpawn: 6
+ 30:30 ClientSpawn: 3
+ 30:31 Kill: 9 5 38: RODOV killed Amir by UT_MOD_M4
+ 30:31 Item: 2 ut_weapon_beretta
+ 30:31 Item: 2 ut_weapon_ump45
+ 30:31 Item: 2 ut_weapon_g36
+ 30:32 Kill: 2 9 20: Or killed RODOV by UT_MOD_G36
+ 30:35 Kill: 10 4 19: MAMBA killed Tal by UT_MOD_LR300
+ 30:35 Item: 2 ut_weapon_beretta
+ 30:35 Item: 2 ut_weapon_g36
+ 30:36 Item: 10 ut_weapon_beretta
+ 30:36 Item: 10 ut_weapon_lr
+ 30:39 Kill: 10 0 19: MAMBA killed [ACE] by UT_MOD_LR300
+ 30:41 Kill: 7 3 30: Ed killed Seb by UT_MOD_AK103
+ 30:41 Item: 10 ut_weapon_mp5k
+ 30:44 Item: 6 ut_weapon_mp5k
+ 30:44 Kill: 12 10 20: Shalom_12 killed MAMBA by UT_MOD_G36
+ 30:44 Item: 12 ut_weapon_beretta
+ 30:44 Item: 12 ut_weapon_mp5k
+ 30:44 Item: 12 ut_weapon_grenade_smoke
+ 30:45 ClientSpawn: 9
+ 30:45 ClientSpawn: 0
+ 30:45 ClientSpawn: 10
+ 30:45 ClientSpawn: 5
+ 30:45 ClientSpawn: 4
+ 30:45 ClientSpawn: 3
+ 30:54 Item: 2 ut_weapon_g36
+ 30:57 Kill: 4 6 19: Tal killed Alik by UT_MOD_LR300
+ 30:57 Kill: 3 12 19: Seb killed Shalom_12 by UT_MOD_LR300
+ 31:00 ClientSpawn: 6
+ 31:00 ClientSpawn: 12
+ 31:00 Kill: 8 4 19: Knite killed Tal by UT_MOD_LR300
+ 31:01 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 31:10 Kill: 10 13 19: MAMBA killed Drorkula_13 by UT_MOD_LR300
+ 31:11 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 31:15 ClientSpawn: 4
+ 31:15 ClientSpawn: 7
+ 31:15 ClientSpawn: 13
+ 31:15 ClientSpawn: 3
+ 31:15 Item: 0 ut_weapon_mp5k
+ 31:16 Item: 0 ut_weapon_deagle
+ 31:17 Item: 6 ut_weapon_mp5k
+ 31:18 Item: 6 ut_weapon_beretta
+ 31:20 Kill: 5 0 20: Amir killed [ACE] by UT_MOD_G36
+ 31:20 Item: 5 ut_weapon_g36
+ 31:21 Kill: 6 12 38: Alik killed Shalom_12 by UT_MOD_M4
+ 31:22 Kill: 10 13 19: MAMBA killed Drorkula_13 by UT_MOD_LR300
+ 31:24 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 31:26 Item: 8 team_CTF_blueflag
+ 31:27 Kill: 8 7 19: Knite killed Ed by UT_MOD_LR300
+ 31:27 Item: 8 ut_weapon_mp5k
+ 31:29 Kill: 8 11 19: Knite killed Drorkula by UT_MOD_LR300
+ 31:29 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 31:30 ClientSpawn: 0
+ 31:30 ClientSpawn: 7
+ 31:30 ClientSpawn: 13
+ 31:30 ClientSpawn: 10
+ 31:30 ClientSpawn: 6
+ 31:30 ClientSpawn: 11
+ 31:30 ClientSpawn: 12
+ 31:33 Kill: 9 8 38: RODOV killed Knite by UT_MOD_M4
+ 31:33 Flag: 8 0: team_CTF_blueflag
+ 31:34 Kill: 3 4 19: Seb killed Tal by UT_MOD_LR300
+ 31:40 Item: 0 ut_weapon_mp5k
+ 31:41 Item: 0 ut_weapon_deagle
+ 31:41 Flag: 0 1: team_CTF_blueflag
+ 31:42 Item: 7 ut_weapon_mp5k
+ 31:44 Kill: 6 0 38: Alik killed [ACE] by UT_MOD_M4
+ 31:45 ClientSpawn: 0
+ 31:45 ClientSpawn: 8
+ 31:45 ClientSpawn: 4
+ 31:46 Kill: 13 6 38: Drorkula_13 killed Alik by UT_MOD_M4
+ 31:47 Item: 10 ut_weapon_mp5k
+ 31:48 Item: 10 ut_weapon_beretta
+ 31:49 Item: 13 ut_weapon_mp5k
+ 31:50 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 31:50 Item: 13 ut_weapon_mp5k
+ 31:50 Item: 7 ut_weapon_mp5k
+ 31:50 Item: 7 ut_weapon_beretta
+ 31:59 Kill: 12 5 20: Shalom_12 killed Amir by UT_MOD_G36
+ 31:59 Kill: 4 3 19: Tal killed Seb by UT_MOD_LR300
+ 32:00 ClientSpawn: 10
+ 32:00 ClientSpawn: 5
+ 32:00 ClientSpawn: 3
+ 32:00 ClientSpawn: 6
+ 32:11 Kill: 0 8 20: [ACE] killed Knite by UT_MOD_G36
+ 32:12 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 32:12 Item: 7 ut_weapon_grenade_he
+ 32:12 Kill: 3 12 19: Seb killed Shalom_12 by UT_MOD_LR300
+ 32:14 Kill: 10 13 19: MAMBA killed Drorkula_13 by UT_MOD_LR300
+ 32:14 Item: 10 ut_weapon_mp5k
+ 32:15 ClientSpawn: 12
+ 32:15 ClientSpawn: 8
+ 32:15 ClientSpawn: 6
+ 32:15 ClientSpawn: 13
+ 32:16 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+ 32:18 Kill: 6 7 38: Alik killed Ed by UT_MOD_M4
+ 32:18 Kill: 6 0 38: Alik killed [ACE] by UT_MOD_M4
+ 32:25 Item: 8 ut_weapon_lr
+ 32:25 Item: 8 ut_weapon_mp5k
+ 32:27 Kill: 8 9 19: Knite killed RODOV by UT_MOD_LR300
+ 32:28 Kill: 4 8 19: Tal killed Knite by UT_MOD_LR300
+ 32:30 ClientSpawn: 10
+ 32:30 ClientSpawn: 7
+ 32:30 ClientSpawn: 8
+ 32:30 ClientSpawn: 9
+ 32:30 ClientSpawn: 0
+ 32:30 Kill: 4 2 19: Tal killed Or by UT_MOD_LR300
+ 32:33 Kill: 5 4 20: Amir killed Tal by UT_MOD_G36
+ 32:36 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 32:37 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 32:38 Kill: 13 6 38: Drorkula_13 killed Alik by UT_MOD_M4
+ 32:43 Item: 13 ut_weapon_m4
+ 32:43 Item: 13 ut_weapon_mp5k
+ 32:43 Kill: 10 13 19: MAMBA killed Drorkula_13 by UT_MOD_LR300
+ 32:45 ClientSpawn: 2
+ 32:45 ClientSpawn: 7
+ 32:45 ClientSpawn: 4
+ 32:45 ClientSpawn: 13
+ 32:45 ClientSpawn: 3
+ 32:45 ClientSpawn: 6
+ 32:45 Kill: 5 0 20: Amir killed [ACE] by UT_MOD_G36
+ 32:46 Kill: 10 12 19: MAMBA killed Shalom_12 by UT_MOD_LR300
+ 32:47 Item: 10 ut_weapon_beretta
+ 32:53 Kill: 4 5 19: Tal killed Amir by UT_MOD_LR300
+ 33:00 ClientSpawn: 12
+ 33:00 ClientSpawn: 5
+ 33:00 ClientSpawn: 0
+ 33:00 Kill: 7 8 30: Ed killed Knite by UT_MOD_AK103
+ 33:06 Item: 6 ut_weapon_m4
+ 33:07 Kill: 13 6 38: Drorkula_13 killed Alik by UT_MOD_M4
+ 33:11 Kill: 3 13 19: Seb killed Drorkula_13 by UT_MOD_LR300
+ 33:13 Item: 10 team_CTF_blueflag
+ 33:15 ClientSpawn: 8
+ 33:15 ClientSpawn: 6
+ 33:15 ClientSpawn: 13
+ 33:16 Kill: 10 7 19: MAMBA killed Ed by UT_MOD_LR300
+ 33:17 Kill: 0 10 20: [ACE] killed MAMBA by UT_MOD_G36
+ 33:17 Flag: 10 0: team_CTF_blueflag
+ 33:18 Kill: 2 9 20: Or killed RODOV by UT_MOD_G36
+ 33:19 Kill: 3 0 19: Seb killed [ACE] by UT_MOD_LR300
+ 33:21 Kill: 5 12 20: Amir killed Shalom_12 by UT_MOD_G36
+ 33:26 Item: 3 team_CTF_blueflag
+ 33:26 Item: 3 ut_weapon_lr
+ 33:26 Kill: 4 3 17: Tal killed Seb by UT_MOD_UMP45
+ 33:26 Flag: 3 0: team_CTF_blueflag
+ 33:30 ClientSpawn: 9
+ 33:30 ClientSpawn: 7
+ 33:30 ClientSpawn: 10
+ 33:30 ClientSpawn: 3
+ 33:30 ClientSpawn: 0
+ 33:30 ClientSpawn: 12
+ 33:31 Item: 4 ut_weapon_lr
+ 33:31 Flag: 4 1: team_CTF_blueflag
+ 33:34 Kill: 5 13 23: Amir killed Drorkula_13 by UT_MOD_BLED
+ 33:38 Item: 0 ut_weapon_deagle
+ 33:39 Kill: 0 8 20: [ACE] killed Knite by UT_MOD_G36
+ 33:41 Kill: 5 0 20: Amir killed [ACE] by UT_MOD_G36
+ 33:42 Kill: 12 5 20: Shalom_12 killed Amir by UT_MOD_G36
+ 33:43 Item: 9 ut_weapon_grenade_smoke
+ 33:45 Item: 12 ut_weapon_g36
+ 33:45 ClientSpawn: 8
+ 33:45 ClientSpawn: 0
+ 33:45 ClientSpawn: 13
+ 33:45 ClientSpawn: 5
+ 33:47 Kill: 9 6 38: RODOV killed Alik by UT_MOD_M4
+ 33:48 Item: 3 ut_weapon_grenade_he
+ 33:49 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 33:50 Kill: 3 9 19: Seb killed RODOV by UT_MOD_LR300
+ 33:50 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 33:51 Item: 3 ut_weapon_lr
+ 33:51 Item: 2 ut_weapon_grenade_he
+ 33:51 Item: 2 ut_weapon_g36
+ 33:52 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 33:53 Kill: 7 3 23: Ed killed Seb by UT_MOD_BLED
+ 33:57 Item: 0 ut_weapon_grenade_smoke
+ 34:00 ClientSpawn: 12
+ 34:00 ClientSpawn: 10
+ 34:00 ClientSpawn: 7
+ 34:00 ClientSpawn: 9
+ 34:00 ClientSpawn: 3
+ 34:00 ClientSpawn: 6
+ 34:00 Item: 0 ut_weapon_mp5k
+ 34:02 Item: 4 ut_weapon_mp5k
+ 34:03 Kill: 2 4 20: Or killed Tal by UT_MOD_G36
+ 34:06 Item: 5 ut_weapon_beretta
+ 34:13 Item: 9 ut_weapon_ump45
+ 34:15 ClientSpawn: 4
+ 34:15 Item: 7 ut_weapon_beretta
+ 34:16 Item: 7 ut_weapon_grenade_smoke
+ 34:16 Kill: 0 3 20: [ACE] killed Seb by UT_MOD_G36
+ 34:19 Item: 9 ut_weapon_deagle
+ 34:19 Item: 12 ut_weapon_beretta
+ 34:20 Kill: 13 10 23: Drorkula_13 killed MAMBA by UT_MOD_BLED
+ 34:22 Item: 12 ut_weapon_grenade_smoke
+ 34:26 Kill: 6 4 23: Alik killed Tal by UT_MOD_BLED
+ 34:30 ClientSpawn: 10
+ 34:30 ClientSpawn: 4
+ 34:30 ClientSpawn: 3
+ 34:31 Kill: 6 0 38: Alik killed [ACE] by UT_MOD_M4
+ 34:31 Item: 12 ut_weapon_g36
+ 34:33 Kill: 13 5 38: Drorkula_13 killed Amir by UT_MOD_M4
+ 34:40 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 34:42 Kill: 8 12 19: Knite killed Shalom_12 by UT_MOD_LR300
+ 34:43 Kill: 9 3 38: RODOV killed Seb by UT_MOD_M4
+ 34:43 Kill: 8 9 19: Knite killed RODOV by UT_MOD_LR300
+ 34:45 ClientSpawn: 5
+ 34:45 ClientSpawn: 0
+ 34:45 ClientSpawn: 9
+ 34:45 ClientSpawn: 3
+ 34:45 ClientSpawn: 7
+ 34:45 ClientSpawn: 12
+ 34:49 Item: 4 ut_weapon_beretta
+ 34:49 Item: 4 ut_weapon_lr
+ 34:50 Kill: 4 10 19: Tal killed MAMBA by UT_MOD_LR300
+ 34:53 Item: 4 ut_weapon_lr
+ 34:56 Item: 3 ut_weapon_deagle
+ 34:57 Item: 3 ut_weapon_lr
+ 34:57 Item: 3 ut_weapon_mp5k
+ 35:00 ClientSpawn: 10
+ 35:00 Kill: 7 6 30: Ed killed Alik by UT_MOD_AK103
+ 35:01 Kill: 0 5 23: [ACE] killed Amir by UT_MOD_BLED
+ 35:03 Kill: 8 4 19: Knite killed Tal by UT_MOD_LR300
+ 35:05 Kill: 2 12 20: Or killed Shalom_12 by UT_MOD_G36
+ 35:09 Kill: 7 10 30: Ed killed MAMBA by UT_MOD_AK103
+ 35:10 Kill: 3 7 19: Seb killed Ed by UT_MOD_LR300
+ 35:15 ClientSpawn: 12
+ 35:15 ClientSpawn: 5
+ 35:15 ClientSpawn: 10
+ 35:15 ClientSpawn: 4
+ 35:15 ClientSpawn: 7
+ 35:15 ClientSpawn: 6
+ 35:21 Exit: Timelimit hit.
+ 35:21 red:1  blue:8
+ 35:21 score: 169  ping: 0  client: 0 [ACE]
+ 35:21 score: 153  ping: 1  client: 4 Tal
+ 35:21 score: 136  ping: 0  client: 7 Ed
+ 35:21 score: 115  ping: 3  client: 11 Drorkula
+ 35:21 score: 108  ping: 6  client: 2 Or
+ 35:21 score: 108  ping: 3  client: 12 Shalom_12
+ 35:21 score: 108  ping: 9  client: 8 Knite
+ 35:21 score: 67  ping: 3  client: 3 Seb
+ 35:21 score: 57  ping: 0  client: 10 MAMBA
+ 35:21 score: 53  ping: 1  client: 6 Alik
+ 35:21 score: 40  ping: 0  client: 9 RODOV
+ 35:21 score: 34  ping: 0  client: 5 Amir
+ 35:21 score: 11  ping: 3  client: 1 Shalom
+ 35:21 score: 6  ping: 3  client: 13 Drorkula_13
+ 35:22 ClientSpawn: 0
+ 35:22 ClientSpawn: 1
+ 35:22 ClientSpawn: 2
+ 35:22 ClientSpawn: 3
+ 35:22 ClientSpawn: 4
+ 35:22 ClientSpawn: 5
+ 35:22 ClientSpawn: 6
+ 35:22 ClientSpawn: 7
+ 35:22 ClientSpawn: 8
+ 35:22 ClientSpawn: 9
+ 35:22 ClientSpawn: 10
+ 35:22 ClientSpawn: 11
+ 35:22 ClientSpawn: 12
+ 35:22 ClientSpawn: 13
+ 35:37 ShutdownGame:
+ 35:37 ------------------------------------------------------------
