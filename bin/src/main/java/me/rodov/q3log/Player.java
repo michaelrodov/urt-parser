@@ -1,32 +1,37 @@
 package me.rodov.q3log;
 
+import java.util.HashMap;
+
 /**
  * Created by rudov on 29/02/2016.
  */
-public class Players {
+public class Player {
     private int deaths;
     private int kills;
     private int type;
     private int score;
     private String name;
     private String team;
+    private HashMap<String, Integer> weapons;
 
     //todo replace by enum
     public final static int DEATH = 1;
     public final static int KILL = 2;
     public final static int SCORE = 3;
 
-    public Players(){
-        deaths=0;
-        kills=0;
-        score=0;
+    public Player() {
+        deaths = 0;
+        kills = 0;
+        score = 0;
+        weapons = new HashMap<String, Integer>();
     }
-    public Players(String name) {
+
+    public Player(String name) {
         this();
         this.name = name;
     }
 
-    public Players(int deaths, int kills, int type, int score, String name) {
+    public Player(int deaths, int kills, int type, int score, String name) {
         this(name);
         this.deaths = deaths;
         this.kills = kills;
@@ -81,5 +86,21 @@ public class Players {
 
     public void setTeam(String team) {
         this.team = team;
+    }
+
+    public HashMap<String, Integer> getWeapons() {
+        return weapons;
+    }
+
+    public void setWeapons(HashMap<String, Integer> weapons) {
+        this.weapons = weapons;
+    }
+
+    public void addToWeapons(String weapon) {
+        if (!this.weapons.containsKey(weapon)) {
+            weapons.put(weapon, 1);
+        } else {
+            weapons.put(weapon, weapons.get(weapon)+1);
+        }
     }
 }

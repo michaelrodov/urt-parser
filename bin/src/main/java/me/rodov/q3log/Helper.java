@@ -3,7 +3,6 @@ package me.rodov.q3log;
 import ru.lanwen.verbalregex.VerbalExpression;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.lang.Exception;
 
 /**
@@ -17,6 +16,7 @@ public class Helper {
     public final static int GAME_END_REASON_LINE = 3;
     public final static int SCORE_LINE = 4;
     public final static int KILL_LINE = 5;
+    public final static int GAME_RESULT_LINE = 6;
 
 
     private final static String MAP = "mapname";
@@ -29,6 +29,10 @@ public class Helper {
     public static VerbalExpression gameStart = VerbalExpression.regex()
             .find("InitRound: ").capture().anything().endCapture().build();
 
+    //red:3  blue:0
+    public static VerbalExpression gameResult = VerbalExpression.regex()
+            .capture().find(" red:").anything().endCapture().build();
+
     //20:44 ShutdownGame:
     public static VerbalExpression gameEnd = VerbalExpression.regex()
             .startOfLine().then(" ").capture().anything().endCapture().then(" ShutdownGame:").build();
@@ -39,7 +43,7 @@ public class Helper {
 
     //20:23 score: 73  ping: 6  client: 5 Seb
     public static VerbalExpression playerScore = VerbalExpression.regex()
-            .find("score: ").capture().digit().oneOrMore().endCapture().space().find("client: ")
+            .find("score: ").capture().digit().oneOrMore().endCapture().anything().then("client: ")
             .digit().oneOrMore().space().capture().anything().endCapture().build();
 
     //19:44 Kill: 9 2 17: RODOV killed Seb by UT_MOD_UMP45
@@ -59,8 +63,20 @@ public class Helper {
     public static VerbalExpression initGetGameType = VerbalExpression.regex().find("\\g_gametype\\").capture().digit().oneOrMore().endCapture().then("\\").build();
     public static VerbalExpression initGetGameTimeLimit = VerbalExpression.regex().find("\\timelimit\\").capture().digit().oneOrMore().endCapture().then("\\").build();
 
+    private static long toSeconds(String duration) {
+        String[] durationParsed = duration.trim().split(":");
+        long durationSec = 0;
+        if (durationParsed.length > 0) {
+            durationSec += Long.valueOf(durationParsed[0]) * 60;
+        }
+        if (durationParsed.length > 1) {
+            durationSec += Long.valueOf(durationParsed[1]);
+        }
+        return durationSec;
+    }
 
-    public static Games readLog(BufferedReader log) throws Exception {
+
+    public static Games readLog(BufferedReader log, String timelimit) throws Exception {
         int inx = 1;
         String line = new String();
         Games games = new Games();
@@ -75,24 +91,25 @@ public class Helper {
                     lineType = getLineType(line); //analyze game type //TODO improve missing some states and too complicated
 
                     if (lineType == Helper.GAME_START_LINE) {
-                        currentGame = new Game("game" + inx);
+                        currentGame = new Game(inx + "_");
                         currentGame.init(line);
                     } else if (lineType == Helper.GAME_END_LINE) {
                         currentGame.setLength(Helper.gameEnd.getText(line, 1));
-                        games.add(currentGame); //add a new Game to games list
+                        if (toSeconds(currentGame.getLength()) > toSeconds(timelimit)) {
+                            games.add(currentGame); //add a new Game to games list
+                        }
                         inx++;
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {
                         currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
-
+                    } else if (lineType == Helper.GAME_RESULT_LINE) {
+                        currentGame.setGameResult(Helper.gameResult.getText(line, 1));
                     } else if (lineType == Helper.KILL_LINE) {
                         //kills and deaths are added and not set
-                        currentGame.setPlayer(Helper.playerKill.getText(line, 2), Players.KILL, 1); //+1 kill to the killer
-                        currentGame.setPlayer(Helper.playerKill.getText(line, 1), Players.DEATH, 1);//+1 death to the victim
-                        //TODO add weapons (Helper.playerKill.getText(line, 3) to the killer
-
+                        currentGame.setPlayer(Helper.playerKill.getText(line, 2), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
+                        currentGame.setPlayer(Helper.playerKill.getText(line, 1), Player.DEATH, 1, null);//+1 death to the victim
                     } else if (lineType == Helper.SCORE_LINE) {
                         //add the score (not added but set)
-                        currentGame.setPlayer(Helper.playerScore.getText(line, 2), Players.KILL, Integer.valueOf(Helper.playerScore.getText(line, 1)));
+                        currentGame.setPlayer(Helper.playerScore.getText(line, 2), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
                     }
 
                 }
@@ -110,16 +127,19 @@ public class Helper {
         //TODO GAME END -  20:44 ShutdownGame:
         //TODO GAME END REASON -  20:23 Exit: Timelimit hit.
         //TODO GAME SCORE X PLAYER -  20:23 score: 73  ping: 6  client: 5 Seb
-        if(Helper.playerKill.test(line))
+        //TODO GAME RESULT - 20:28 red:3  blue:2
+        if (Helper.playerKill.test(line))
             return Helper.KILL_LINE;
-        if(Helper.playerScore.test(line))
+        if (Helper.playerScore.test(line))
             return Helper.SCORE_LINE;
-        if(Helper.gameStart.test(line))
+        if (Helper.gameStart.test(line))
             return Helper.GAME_START_LINE;
-        if(Helper.gameEnd.test(line))
+        if (Helper.gameEnd.test(line))
             return Helper.GAME_END_LINE;
-        if(Helper.gameEndReason.test(line))
+        if (Helper.gameEndReason.test(line))
             return Helper.GAME_END_REASON_LINE;
+        if (Helper.gameResult.test(line))
+            return Helper.GAME_RESULT_LINE;
 
         return 0;
     }

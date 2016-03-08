@@ -9,27 +9,28 @@ public class Game {
     private String gameId;
     private String mapName;
     private String gameType;
+    private String gameResult;
     private String length;
     private String gameEndReason;
     private Date gameDate;
-    private HashMap<String, Players> players;
+    private HashMap<String, Player> players;
     private final static String[] GAME_TYPES =
             {"Unknown",
-            "Last Man Standing",
-            "Free for All",
-            "Team Deathmatch",
-            "Team Survivor",
-            "Follow the Leader",
-            "Capture & Hold",
-            "Capture The Flag",
-            "Bomb & Defuse",
-            "Jump Mode",
-            "Freeze Tag"};
+                    "Last Man Standing",
+                    "Free for All",
+                    "Team Deathmatch",
+                    "Team Survivor",
+                    "Follow the Leader",
+                    "Capture & Hold",
+                    "Capture The Flag",
+                    "Bomb & Defuse",
+                    "Jump Mode",
+                    "Freeze Tag"};
 
     public Game(String gameId) {
         setGameDate(new Date());
         this.gameId = gameId;
-        this.setPlayers(new HashMap<String, Players>());
+        this.setPlayers(new HashMap<String, Player>());
     }
 
     public Game(String gameId, String gameDefLine) {
@@ -40,6 +41,7 @@ public class Game {
 
     public void init(String line) {
         setMapName(Helper.initGetMap.getText(line, 1));
+        appendGameId(getMapName());
         setGameType(Integer.valueOf(Helper.initGetGameType.getText(line, 1)));
         setLength(Helper.initGetGameTimeLimit.getText(line, 1));
     }
@@ -52,25 +54,34 @@ public class Game {
         this.length = length;
     }
 
+    public void setPlayer(String name) {
+        if (!this.players.containsKey(name)) {
+            players.put(name, new Player(name));
+        }
+    }
 
-    public void setPlayer(String name, int valueType, int value) {
-       Players player;
-        if(!this.players.containsKey(name)){
-            players.put(name, new Players(name));
+    public void setPlayer(String name, int valueType, int value, String weapon) {
+        Player player;
+        if (!this.players.containsKey(name)) {
+            players.put(name, new Player(name));
         }
 
         player = players.get(name);
 
-        if(valueType == Players.DEATH){
-            player.setDeaths(player.getDeaths()+value);
-        }else if(valueType == Players.SCORE){
+        if (valueType == Player.DEATH) {
+            player.setDeaths(player.getDeaths() + value);
+        } else if (valueType == Player.SCORE) {
             player.setScore(value);
-        }else if(valueType == Players.KILL){
+        } else if (valueType == Player.KILL) {
             player.setKills(player.getKills() + value);
+            if(weapon != null){
+                player.addToWeapons(weapon);
+            }
+
+        }
+
+
     }
-
-
-}
 
     public String getGameId() {
         return gameId;
@@ -78,6 +89,10 @@ public class Game {
 
     public void setGameId(String gameId) {
         this.gameId = gameId;
+    }
+
+    public void appendGameId(String appendix) {
+        this.setGameId(this.gameId + appendix);
     }
 
     public String getMapName() {
@@ -92,11 +107,10 @@ public class Game {
         return gameType;
     }
 
-    public void setGameType(int gameTypeId)
-    {
+    public void setGameType(int gameTypeId) {
         try {
             setGameType(GAME_TYPES[gameTypeId]);
-        }catch (Exception e){
+        } catch (Exception e) {
             setGameType(GAME_TYPES[0]);
         }
     }
@@ -121,12 +135,19 @@ public class Game {
         this.gameDate = gameDate;
     }
 
-    public HashMap<String, Players> getPlayers() {
+    public HashMap<String, Player> getPlayers() {
         return players;
     }
 
-    public void setPlayers(HashMap<String, Players> players) {
+    public void setPlayers(HashMap<String, Player> players) {
         this.players = players;
     }
 
+    public String getGameResult() {
+        return gameResult;
+    }
+
+    public void setGameResult(String gameResult) {
+        this.gameResult = gameResult;
+    }
 }
