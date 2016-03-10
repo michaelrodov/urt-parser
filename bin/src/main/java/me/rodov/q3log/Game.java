@@ -60,6 +60,28 @@ public class Game {
         }
     }
 
+    /***
+     * TODO overload the + operator for Player
+     * Sums the player stats if already exists
+     * @param player - player to merge
+     */
+    public void mergePlayer(Player player){
+        if(players.containsKey(player.getName())){
+           Player basePlayer = players.get(player.getName());
+            basePlayer.setGamesPlayed(basePlayer.getGamesPlayed()+1);
+            basePlayer.setDeaths(basePlayer.getDeaths() + player.getDeaths());
+            basePlayer.setKills(basePlayer.getKills() + player.getKills());
+            basePlayer.setScore(basePlayer.getScore() + player.getScore());
+        }
+    }
+
+    public void addPlayer(Player player){
+        if(!players.containsKey(player.getName())){
+            players.put(player.getName(), new Player(player.getName()));
+        }
+            mergePlayer(player);
+
+    }
     public void setPlayer(String name, int valueType, int value, String weapon) {
         Player player;
         if (!this.players.containsKey(name)) {

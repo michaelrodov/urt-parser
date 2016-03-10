@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class Player {
     private int deaths;
     private int kills;
-    private int type;
+    private int gamesPlayed;
     private int score;
     private String name;
     private String team;
@@ -23,6 +23,7 @@ public class Player {
         deaths = 0;
         kills = 0;
         score = 0;
+        gamesPlayed = 1;
         weapons = new HashMap<String, Integer>();
     }
 
@@ -31,11 +32,11 @@ public class Player {
         this.name = name;
     }
 
-    public Player(int deaths, int kills, int type, int score, String name) {
+    public Player(int deaths, int kills, int gamesPlayed, int score, String name) {
         this(name);
         this.deaths = deaths;
         this.kills = kills;
-        this.type = type;
+        this.gamesPlayed = gamesPlayed;
         this.score = score;
     }
 
@@ -63,12 +64,12 @@ public class Player {
         this.kills = kills;
     }
 
-    public int getType() {
-        return type;
+    public int getGamesPlayed() {
+        return gamesPlayed;
     }
 
-    public void setType(int type) {
-        this.type = type;
+    public void setGamesPlayed(int gamesPlayed) {
+        this.gamesPlayed = gamesPlayed;
     }
 
     public String getName() {

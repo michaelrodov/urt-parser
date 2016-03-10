@@ -47,6 +47,7 @@ public class Helper {
             .digit().oneOrMore().space().capture().anything().endCapture().build();
 
     //19:44 Kill: 9 2 17: RODOV killed Seb by UT_MOD_UMP45
+    //<world> is technical game persona, not needed in stats
     public static VerbalExpression playerKill = VerbalExpression.regex()
             .find("Kill: ").anything().then(": ").capture().anything().endCapture().then(" killed ")
             .capture().anything().endCapture().then(" by ")
@@ -105,8 +106,10 @@ public class Helper {
                         currentGame.setGameResult(Helper.gameResult.getText(line, 1));
                     } else if (lineType == Helper.KILL_LINE) {
                         //kills and deaths are added and not set
-                        currentGame.setPlayer(Helper.playerKill.getText(line, 2), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
-                        currentGame.setPlayer(Helper.playerKill.getText(line, 1), Player.DEATH, 1, null);//+1 death to the victim
+                        if(!Helper.playerKill.getText(line, 1).contains("world")) {
+                            currentGame.setPlayer(Helper.playerKill.getText(line, 1), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
+                            currentGame.setPlayer(Helper.playerKill.getText(line, 2), Player.DEATH, 1, null);//+1 death to the victim
+                        }
                     } else if (lineType == Helper.SCORE_LINE) {
                         //add the score (not added but set)
                         currentGame.setPlayer(Helper.playerScore.getText(line, 2), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
@@ -114,6 +117,7 @@ public class Helper {
 
                 }
             }
+            games.add(games.getSummaryGame()); //add summary of all games as the final game
         } catch (Exception e) {
             throw e;
         }

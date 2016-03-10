@@ -1,6 +1,7 @@
 package me.rodov.q3log;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -17,6 +18,26 @@ public class Games {
     public void add(Game game){
         games.put(game.getGameId(), game);
     }
+
+    public Game getSummaryGame(){
+        Game summary = new Game("SUMMARY");
+        //TODO add with operator overload and
+        for(Game game : this.games.values()){
+            for(Player player : game.getPlayers().values()) {
+                summary.addPlayer(player);
+            }
+        }
+        summary.setLength("0");
+        summary.setGameType("SUMMARY");
+        summary.setGameDate(new Date());
+        summary.setGameEndReason("-");
+        summary.setGameResult("");
+        summary.setMapName("SUMMARY");
+
+        return summary;
+    }
+
+
 
     public HashMap<String, Game> getGames() {
         return games;

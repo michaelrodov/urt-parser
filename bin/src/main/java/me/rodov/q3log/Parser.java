@@ -45,7 +45,7 @@ public class Parser {
                 System.out.println("Parsing finished successfully.");
 
             } catch (FileNotFoundException e) {
-                System.err.println("Log file not found in "+logPath+"\n\n" + e.getMessage());
+                System.err.println("There was a problem reading log OR writing output.\n\n" + e.getMessage());
                 resultString = "FAILED";
             } catch (IOException e) {
                 System.err.println("IO failed: \n\n" + e.getMessage());
