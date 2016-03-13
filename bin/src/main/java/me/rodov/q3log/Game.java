@@ -10,7 +10,7 @@ public class Game {
     private String mapName;
     private String gameType;
     private String gameResult;
-    private String length;
+    private String gameLength;
     private String gameEndReason;
     private Date gameDate;
     private HashMap<String, Player> players;
@@ -43,15 +43,15 @@ public class Game {
         setMapName(Helper.initGetMap.getText(line, 1));
         appendGameId(getMapName());
         setGameType(Integer.valueOf(Helper.initGetGameType.getText(line, 1)));
-        setLength(Helper.initGetGameTimeLimit.getText(line, 1));
+        setGameLength(Helper.initGetGameTimeLimit.getText(line, 1));
     }
 
-    public String getLength() {
-        return length;
+    public String getGameLength() {
+        return gameLength;
     }
 
-    public void setLength(String length) {
-        this.length = length;
+    public void setGameLength(String gameLength) {
+        this.gameLength = gameLength;
     }
 
     public void setPlayer(String name) {

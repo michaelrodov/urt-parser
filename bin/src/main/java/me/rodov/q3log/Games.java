@@ -1,9 +1,7 @@
 package me.rodov.q3log;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * Created by rudov on 21/02/2016.
@@ -27,7 +25,7 @@ public class Games {
                 summary.addPlayer(player);
             }
         }
-        summary.setLength("0");
+        summary.setGameLength("0");
         summary.setGameType("SUMMARY");
         summary.setGameDate(new Date());
         summary.setGameEndReason("-");

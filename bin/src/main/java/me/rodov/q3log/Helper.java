@@ -27,7 +27,7 @@ public class Helper {
 
     // 0:29 InitRound: \sv_allowdownlo...
     public static VerbalExpression gameStart = VerbalExpression.regex()
-            .find("InitRound: ").capture().anything().endCapture().build();
+            .find("InitGame: ").capture().anything().endCapture().build();
 
     //red:3  blue:0
     public static VerbalExpression gameResult = VerbalExpression.regex()
@@ -78,10 +78,9 @@ public class Helper {
 
 
     public static Games readLog(BufferedReader log, String timelimit) throws Exception {
-        int inx = 1;
         String line = new String();
         Games games = new Games();
-        Game currentGame = new Game("game" + inx); //create a new Game. the processing is linear so we can do it like this
+        Game currentGame = new Game("game"); //create a new Game. the processing is linear so we can do it like this
 
         int lineType;
 
@@ -92,14 +91,13 @@ public class Helper {
                     lineType = getLineType(line); //analyze game type //TODO improve missing some states and too complicated
 
                     if (lineType == Helper.GAME_START_LINE) {
-                        currentGame = new Game(inx + "_");
+                        currentGame = new Game(games.getGames().size() + "_");
                         currentGame.init(line);
                     } else if (lineType == Helper.GAME_END_LINE) {
-                        currentGame.setLength(Helper.gameEnd.getText(line, 1));
-                        if (toSeconds(currentGame.getLength()) > toSeconds(timelimit)) {
+                        currentGame.setGameLength(Helper.gameEnd.getText(line, 1));
+                        if (toSeconds(currentGame.getGameLength()) > toSeconds(timelimit)) {
                             games.add(currentGame); //add a new Game to games list
                         }
-                        inx++;
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {
                         currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
                     } else if (lineType == Helper.GAME_RESULT_LINE) {
