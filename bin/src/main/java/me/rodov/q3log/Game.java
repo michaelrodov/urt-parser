@@ -10,6 +10,8 @@ public class Game {
     private String mapName;
     private String gameType;
     private String gameResult;
+    private int gameTotalDeaths;
+    private int gameTotalScore;
     private String gameLength;
     private String gameEndReason;
     private Date gameDate;
@@ -44,6 +46,8 @@ public class Game {
         appendGameId(getMapName());
         setGameType(Integer.valueOf(Helper.initGetGameType.getText(line, 1)));
         setGameLength(Helper.initGetGameTimeLimit.getText(line, 1));
+        setGameTotalDeaths(0);
+        setGameTotalScore(0);
     }
 
     public String getGameLength() {
@@ -171,5 +175,22 @@ public class Game {
 
     public void setGameResult(String gameResult) {
         this.gameResult = gameResult;
+    }
+
+
+    public int getGameTotalDeaths() {
+        return gameTotalDeaths;
+    }
+
+    public void setGameTotalDeaths(int gameTotalDeaths) {
+        this.gameTotalDeaths = gameTotalDeaths;
+    }
+
+    public int getGameTotalScore() {
+        return gameTotalScore;
+    }
+
+    public void setGameTotalScore(int gameTotalScore) {
+        this.gameTotalScore = gameTotalScore;
     }
 }

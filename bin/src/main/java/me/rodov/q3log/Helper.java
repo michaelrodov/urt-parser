@@ -107,10 +107,12 @@ public class Helper {
                         if(!Helper.playerKill.getText(line, 1).contains("world")) {
                             currentGame.setPlayer(Helper.playerKill.getText(line, 1), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
                             currentGame.setPlayer(Helper.playerKill.getText(line, 2), Player.DEATH, 1, null);//+1 death to the victim
+                            currentGame.setGameTotalDeaths(currentGame.getGameTotalDeaths()+1);
                         }
                     } else if (lineType == Helper.SCORE_LINE) {
                         //add the score (not added but set)
                         currentGame.setPlayer(Helper.playerScore.getText(line, 2), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
+                        currentGame.setGameTotalScore(currentGame.getGameTotalScore()+ Integer.valueOf(Helper.playerScore.getText(line, 1)));
                     }
 
                 }
