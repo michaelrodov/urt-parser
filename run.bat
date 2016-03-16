@@ -1,0 +1,1 @@
+java -jar urtlog-1.0.jar -l ..\..\logs\games.log -o "C:\Users\Carlos\Dropbox\urt\DATA\games.json" -lim 15

@@ -1,4 +1,4 @@
-package me.rodov.q3log;
+package me.rodov.urtlog;
 
 import java.util.HashMap;
 

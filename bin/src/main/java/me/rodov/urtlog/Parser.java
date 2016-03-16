@@ -1,4 +1,4 @@
-package me.rodov.q3log;
+package me.rodov.urtlog;
 
 import com.google.gson.Gson;
 import org.apache.commons.cli.*;
