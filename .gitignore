@@ -4,3 +4,4 @@ gitignore
 output/arena/*
 output/*
 bin/target/*
+logs/games.log

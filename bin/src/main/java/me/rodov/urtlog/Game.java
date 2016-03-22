@@ -17,17 +17,17 @@ public class Game {
     private Date gameDate;
     private HashMap<String, Player> players;
     private final static String[] GAME_TYPES =
-            {"Unknown",
-                    "Last Man Standing",
-                    "Free for All",
-                    "Team Deathmatch",
-                    "Team Survivor",
-                    "Follow the Leader",
-                    "Capture & Hold",
-                    "Capture The Flag",
-                    "Bomb & Defuse",
-                    "Jump Mode",
-                    "Freeze Tag"};
+            {"Free for All",
+                    "Uknown",
+                    "Uknown",
+                    "Team Deathmatch", //3
+                    "Team Survivor", //4
+                    "Follow the Leader", //5
+                    "Capture & Hold", //6
+                    "Capture The Flag", //7
+                    "Bomb & Defuse", //8
+                    "Jump Mode", //9
+                    "Freeze Tag"}; //10
 
     public Game(String gameId) {
         setGameDate(new Date());
@@ -137,7 +137,7 @@ public class Game {
         try {
             setGameType(GAME_TYPES[gameTypeId]);
         } catch (Exception e) {
-            setGameType(GAME_TYPES[0]);
+            setGameType("Unknown");
         }
     }
 
