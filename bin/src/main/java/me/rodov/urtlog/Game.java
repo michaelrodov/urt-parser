@@ -132,7 +132,16 @@ public class Game {
     public String getGameType() {
         return gameType;
     }
+    public int getGameTypeId() {
+        int ret=-1;
+        for (int i = 0; i < GAME_TYPES.length; i++) {
+            if(GAME_TYPES[i].equalsIgnoreCase(this.getGameType())){
+                return i;
+            }
 
+        }
+        return ret;
+    }
     public void setGameType(int gameTypeId) {
         try {
             setGameType(GAME_TYPES[gameTypeId]);

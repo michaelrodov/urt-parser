@@ -41,11 +41,21 @@ public class Player {
     }
 
     public int getScore() {
-        return score;
+        if(this.score != 0){
+            return score;
+        }else{
+            return kills;
+        }
+
     }
 
     public void setScore(int score) {
-        this.score = score;
+        if(score == 0 && this.kills > 0){
+            this.score = this.kills;
+        }else{
+            this.score = score;
+        }
+
     }
 
     public int getDeaths() {

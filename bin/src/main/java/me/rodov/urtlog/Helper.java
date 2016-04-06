@@ -77,7 +77,7 @@ public class Helper {
     }
 
 
-    public static Games readLog(BufferedReader log, String timelimit) throws Exception {
+    public static Games readLog(BufferedReader log, String timelimit, String includedGameTypes) throws Exception {
         String line = new String();
         Games games = new Games();
         Game currentGame = new Game("game"); //create a new Game. the processing is linear so we can do it like this
@@ -95,7 +95,8 @@ public class Helper {
                         currentGame.init(line);
                     } else if (lineType == Helper.GAME_END_LINE) {
                         currentGame.setGameLength(Helper.gameEnd.getText(line, 1));
-                        if (toSeconds(currentGame.getGameLength()) > toSeconds(timelimit)) {
+                        if (toSeconds(currentGame.getGameLength()) > toSeconds(timelimit)
+                                && includedGameTypes.contains(String.valueOf(currentGame.getGameTypeId()))) {
                             games.add(currentGame); //add a new Game to games list
                         }
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {

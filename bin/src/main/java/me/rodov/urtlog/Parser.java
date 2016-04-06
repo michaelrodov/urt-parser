@@ -22,20 +22,34 @@ public class Parser {
         options.addOption("l",true, "log file location");
         options.addOption("o",true, "output json file location");
         options.addOption("lim",true, "Optional. Filter out games shorter then X minutes.");
+        options.addOption("types",true, "Optional. Include only certain game types and filter out others.\nIf not specified all games will be included\n" +
+                "0-Free for All\n" +
+                "3-Team Deathmatch\n" +
+                "4-Team Survivor\n" +
+                "5-Follow the Leader\n" +
+                "6-Capture & Hold\n" +
+                "7-Capture The Flag\n" +
+                "8-Bomb & Defuse\n" +
+                "9-Jump Mode\n" +
+                "10-Freeze Tag\n");
+
         CommandLineParser parser = new DefaultParser();
         try {
             CommandLine cmd = parser.parse( options, args);
             String logPath = cmd.getOptionValue("l");
             String timelimit = "0";
+            String includedGameTypes = "0345678910"; //TODO rename freeze tag game type 10
             if(cmd.hasOption("lim")){
                 timelimit = cmd.getOptionValue("lim");
             }
-
+            if(cmd.hasOption("types")){
+                includedGameTypes = cmd.getOptionValue("types");
+            }
             try {
                 fileReader = new FileReader(logPath);
                 fileWriter = new FileWriter(cmd.getOptionValue("o"));
 
-                games = Helper.readLog(new BufferedReader(fileReader), timelimit);
+                games = Helper.readLog(new BufferedReader(fileReader), timelimit, includedGameTypes);
                 Gson gson = new Gson();
                 String json = gson.toJson(games);
                 fileWriter.write(json);
