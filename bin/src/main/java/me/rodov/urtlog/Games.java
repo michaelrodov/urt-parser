@@ -17,12 +17,15 @@ public class Games {
         games.put(game.getGameId(), game);
     }
 
-    public Game getSummaryGame() {
+    public Game getSummaryGame(String excludedPlayers) {
         Game summary = new Game("SUMMARY");
         //TODO add with operator overload and
         for (Game game : this.games.values()) {
             for (Player player : game.getPlayers().values()) {
-                summary.addPlayer(player);
+                //exclude players that appear in the "exclude" option from summary
+                if (!excludedPlayers.contains(" " + player.getName() + " ")) {
+                    summary.addPlayer(player);
+                }
             }
             summary.setGameTotalDeaths(summary.getGameTotalDeaths() + game.getGameTotalDeaths());
             summary.setGameTotalScore(summary.getGameTotalScore() + game.getGameTotalScore());

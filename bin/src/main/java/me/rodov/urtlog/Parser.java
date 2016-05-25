@@ -19,10 +19,12 @@ public class Parser {
 
 
         Options options = new Options();
-        options.addOption("l",true, "log file location");
-        options.addOption("o",true, "output json file location");
-        options.addOption("lim",true, "Optional. Filter out games shorter then X minutes.");
-        options.addOption("types",true, "Optional. Include only certain game types and filter out others.\nIf not specified all games will be included\n" +
+        options.addOption("l", true, "log file location");
+        options.addOption("o", true, "output json file location");
+        options.addOption("exclude", true, "exclude these players from games summary." +
+                "\nPlayers list need to be delimited by colon, i.e. pla1,pla3");
+        options.addOption("lim", true, "Optional. Filter out games shorter then X minutes.");
+        options.addOption("types", true, "Optional. Include only certain game types and filter out others.\nIf not specified all games will be included\n" +
                 "0-Free for All\n" +
                 "3-Team Deathmatch\n" +
                 "4-Team Survivor\n" +
@@ -35,21 +37,25 @@ public class Parser {
 
         CommandLineParser parser = new DefaultParser();
         try {
-            CommandLine cmd = parser.parse( options, args);
+            CommandLine cmd = parser.parse(options, args);
             String logPath = cmd.getOptionValue("l");
             String timelimit = "0";
             String includedGameTypes = "0345678910"; //TODO rename freeze tag game type 10
-            if(cmd.hasOption("lim")){
+            String excludedPlayers = "";
+            if (cmd.hasOption("lim")) {
                 timelimit = cmd.getOptionValue("lim");
             }
-            if(cmd.hasOption("types")){
+            if (cmd.hasOption("types")) {
                 includedGameTypes = cmd.getOptionValue("types");
+            }
+            if (cmd.hasOption("exclude")) {
+                excludedPlayers = " "+cmd.getOptionValue("exclude").replace(","," ")+" ";
             }
             try {
                 fileReader = new FileReader(logPath);
                 fileWriter = new FileWriter(cmd.getOptionValue("o"));
 
-                games = Helper.readLog(new BufferedReader(fileReader), timelimit, includedGameTypes);
+                games = Helper.readLog(new BufferedReader(fileReader), timelimit, includedGameTypes, excludedPlayers);
                 Gson gson = new Gson();
                 String json = gson.toJson(games);
                 fileWriter.write(json);
@@ -74,6 +80,6 @@ public class Parser {
             System.err.println("Parsing failed: " + e.getMessage());
             resultString = "FAILED";
         }
-        System.out.println("\n\n"+resultString);
+        System.out.println("\n\n" + resultString);
     }
 }
