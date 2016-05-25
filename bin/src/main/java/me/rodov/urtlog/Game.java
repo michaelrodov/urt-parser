@@ -42,7 +42,7 @@ public class Game {
     }
 
     public void init(String line) {
-        setMapName(Helper.initGetMap.getText(line, 1).replace("UT4_", ""));
+        setMapName(Helper.initGetMap.getText(line, 1).replace("ut4_", ""));
         appendGameId(getMapName());
         setGameType(Integer.valueOf(Helper.initGetGameType.getText(line, 1)));
         setGameLength(Helper.initGetGameTimeLimit.getText(line, 1));
