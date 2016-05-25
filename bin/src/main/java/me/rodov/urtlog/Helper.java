@@ -23,7 +23,7 @@ public class Helper {
     private final static String TYPE = "g_gametype";
     private final static String HOSTNAME = "sv_hostname";
     private final static String TIMELIMIT = "timelimit";
-    public final static String bannedWeapons = "UT4_MOD_CHANGE_TEAM,UT_MOD_BLED";
+    public final static String bannedWeapons = "MOD_CHANGE_TEAM,UT_MOD_BLED";
 
 
     // 0:29 InitRound: \sv_allowdownlo...
@@ -103,17 +103,17 @@ public class Helper {
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {
                         currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
                     } else if (lineType == Helper.GAME_RESULT_LINE) {
-                        currentGame.setGameResult(Helper.gameResult.getText(line, 1));
+                        currentGame.appendGameResult(Helper.gameResult.getText(line, 1));
                     } else if (lineType == Helper.KILL_LINE) {
                         //kills and deaths are added and not set
                         if (!Helper.playerKill.getText(line, 1).contains("world")) {
-                            currentGame.setPlayer(Helper.playerKill.getText(line, 1), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
-                            currentGame.setPlayer(Helper.playerKill.getText(line, 2), Player.DEATH, 1, null);//+1 death to the victim
+                            currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 1)), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
+                            currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 2)), Player.DEATH, 1, null);//+1 death to the victim
                             currentGame.setGameTotalDeaths(currentGame.getGameTotalDeaths() + 1);
                         }
                     } else if (lineType == Helper.SCORE_LINE) {
                         //add the score (not added but set)
-                        currentGame.setPlayer(Helper.playerScore.getText(line, 2), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
+                        currentGame.setPlayer(Helper.sanitizeName(Helper.playerScore.getText(line, 2)), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
                         currentGame.setGameTotalScore(currentGame.getGameTotalScore() + Integer.valueOf(Helper.playerScore.getText(line, 1)));
                     }
                 }
@@ -149,4 +149,10 @@ public class Helper {
         return 0;
     }
 
+    public static String sanitizeName(String name){
+        if(name.startsWith("RODOV")){
+            return "RODOV";
+        }
+        return name;
+    }
 }

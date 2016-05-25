@@ -15,6 +15,7 @@ public class Game {
     private String gameLength;
     private String gameEndReason;
     private Date gameDate;
+    private int gameRounds;
     private HashMap<String, Player> players;
     private final static String[] GAME_TYPES =
             {"Free for All",
@@ -32,6 +33,8 @@ public class Game {
     public Game(String gameId) {
         setGameDate(new Date());
         this.gameId = gameId;
+        this.gameRounds = 0;
+        this.gameResult = "";
         this.setPlayers(new HashMap<String, Player>());
     }
 
@@ -67,25 +70,27 @@ public class Game {
     /***
      * TODO overload the + operator for Player
      * Sums the player stats if already exists
+     *
      * @param player - player to merge
      */
-    public void mergePlayer(Player player){
-        if(players.containsKey(player.getName())){
-           Player basePlayer = players.get(player.getName());
-            basePlayer.setGamesPlayed(basePlayer.getGamesPlayed()+1);
+    public void mergePlayer(Player player) {
+        if (players.containsKey(player.getName())) {
+            Player basePlayer = players.get(player.getName());
+            basePlayer.setGamesPlayed(basePlayer.getGamesPlayed() + 1);
             basePlayer.setDeaths(basePlayer.getDeaths() + player.getDeaths());
             basePlayer.setKills(basePlayer.getKills() + player.getKills());
             basePlayer.setScore(basePlayer.getScore() + player.getScore());
         }
     }
 
-    public void addPlayer(Player player){
-        if(!players.containsKey(player.getName())){
+    public void addPlayer(Player player) {
+        if (!players.containsKey(player.getName())) {
             players.put(player.getName(), new Player(player.getName()));
         }
-            mergePlayer(player);
+        mergePlayer(player);
 
     }
+
     public void setPlayer(String name, int valueType, int value, String weapon) {
         Player player;
         if (!this.players.containsKey(name)) {
@@ -97,10 +102,10 @@ public class Game {
         if (valueType == Player.DEATH) {
             player.setDeaths(player.getDeaths() + value);
         } else if (valueType == Player.SCORE) {
-            player.setScore(value);
+            player.addScore(value);
         } else if (valueType == Player.KILL) {
             player.setKills(player.getKills() + value);
-            if(weapon != null){
+            if (weapon != null) {
                 player.addToWeapons(weapon);
             }
 
@@ -132,16 +137,18 @@ public class Game {
     public String getGameType() {
         return gameType;
     }
+
     public int getGameTypeId() {
-        int ret=-1;
+        int ret = -1;
         for (int i = 0; i < GAME_TYPES.length; i++) {
-            if(GAME_TYPES[i].equalsIgnoreCase(this.getGameType())){
+            if (GAME_TYPES[i].equalsIgnoreCase(this.getGameType())) {
                 return i;
             }
 
         }
         return ret;
     }
+
     public void setGameType(int gameTypeId) {
         try {
             setGameType(GAME_TYPES[gameTypeId]);
@@ -182,10 +189,15 @@ public class Game {
         return gameResult;
     }
 
+    public void appendGameResult(String gameResult) {
+        setGameRounds(getGameRounds() + 1);
+        this.gameResult += "Round " + this.getGameRounds() + ": " + gameResult + " ";
+    }
+
+
     public void setGameResult(String gameResult) {
         this.gameResult = gameResult;
     }
-
 
     public int getGameTotalDeaths() {
         return gameTotalDeaths;
@@ -201,5 +213,13 @@ public class Game {
 
     public void setGameTotalScore(int gameTotalScore) {
         this.gameTotalScore = gameTotalScore;
+    }
+
+    public int getGameRounds() {
+        return gameRounds;
+    }
+
+    public void setGameRounds(int gameRounds) {
+        this.gameRounds = gameRounds;
     }
 }

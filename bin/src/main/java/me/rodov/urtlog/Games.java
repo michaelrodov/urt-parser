@@ -34,7 +34,7 @@ public class Games {
         summary.setGameType("SUMMARY");
         summary.setGameDate(new Date());
         summary.setGameEndReason("-");
-        summary.setGameResult("");
+        summary.appendGameResult("");
         summary.setMapName("SUMMARY");
 
         return summary;

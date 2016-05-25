@@ -29,7 +29,7 @@ public class Player {
 
     public Player(String name) {
         this();
-        this.name = name;
+        setName(Helper.sanitizeName(name));
     }
 
     public Player(int deaths, int kills, int gamesPlayed, int score, String name) {
@@ -55,9 +55,11 @@ public class Player {
         } else {
             this.score = score;
         }
-
     }
 
+    public void addScore(int score){
+        setScore(getScore() + score);
+    }
     public int getDeaths() {
         return deaths;
     }
