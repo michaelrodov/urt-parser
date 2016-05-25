@@ -23,6 +23,7 @@ public class Helper {
     private final static String TYPE = "g_gametype";
     private final static String HOSTNAME = "sv_hostname";
     private final static String TIMELIMIT = "timelimit";
+    public final static String bannedWeapons = "UT4_MOD_CHANGE_TEAM,UT_MOD_BLED";
 
 
     // 0:29 InitRound: \sv_allowdownlo...

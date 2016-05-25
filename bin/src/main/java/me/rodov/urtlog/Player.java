@@ -41,18 +41,18 @@ public class Player {
     }
 
     public int getScore() {
-        if(this.score != 0){
+        if (this.score != 0) {
             return score;
-        }else{
+        } else {
             return kills;
         }
 
     }
 
     public void setScore(int score) {
-        if(score == 0 && this.kills > 0){
+        if (score == 0 && this.kills > 0) {
             this.score = this.kills;
-        }else{
+        } else {
             this.score = score;
         }
 
@@ -103,15 +103,31 @@ public class Player {
         return weapons;
     }
 
+    /***
+     * Add weapons but remove all the banned (usually system notifications for a death type)
+     * @param weapons
+     */
     public void setWeapons(HashMap<String, Integer> weapons) {
+        String[] bannedWeps = Helper.bannedWeapons.split(",");
+        for (int i = 0; i < bannedWeps.length; i++) {
+            weapons.remove(bannedWeps[i]);
+        }
         this.weapons = weapons;
     }
 
+
+    /***
+     * Add to weapons list (+1) but remove the weaponse that were banned
+     * @param weapon
+     */
     public void addToWeapons(String weapon) {
-        if (!this.weapons.containsKey(weapon)) {
-            weapons.put(weapon, 1);
-        } else {
-            weapons.put(weapon, weapons.get(weapon)+1);
+        if (!Helper.bannedWeapons.contains(weapon)) {
+            weapon = weapon.replace("UT_MOD_", "");
+            if (!weapons.containsKey(weapon)) {
+                weapons.put(weapon, 1);
+            } else {
+                weapons.put(weapon, weapons.get(weapon) + 1);
+            }
         }
     }
 }
