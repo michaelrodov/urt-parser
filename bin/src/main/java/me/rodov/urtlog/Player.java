@@ -46,7 +46,6 @@ public class Player {
         } else {
             return kills;
         }
-
     }
 
     public void setScore(int score) {
@@ -58,7 +57,7 @@ public class Player {
     }
 
     public void addScore(int score){
-        setScore(getScore() + score);
+        setScore(this.score + score);
     }
     public int getDeaths() {
         return deaths;
