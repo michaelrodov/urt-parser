@@ -23,7 +23,7 @@ public class Games {
         for (Game game : this.games.values()) {
             for (Player player : game.getPlayers().values()) {
                 //exclude players that appear in the "exclude" option from summary
-                if (!excludedPlayers.contains(" " + player.getName() + " ")) {
+                if (!Helper.isExcluded(excludedPlayers, player.getName())) {
                     summary.addPlayer(player);
                 }
             }

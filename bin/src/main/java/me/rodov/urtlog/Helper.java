@@ -98,7 +98,7 @@ public class Helper {
                         currentGame.setGameLength(Helper.gameEnd.getText(line, 1));
                         if (toSeconds(currentGame.getGameLength()) > toSeconds(timelimit)
                                 && includedGameTypes.contains(String.valueOf(currentGame.getGameTypeId()))) {
-                            games.add(currentGame); //add a new Game to games list
+                                    games.add(currentGame); //add a new Game to games list
                         }
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {
                         currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
@@ -154,5 +154,16 @@ public class Helper {
             return "RODOV";
         }
         return name;
+    }
+
+    /***
+     * Filters out exluded players by matching these player names to a regex that is supplied via CLI
+     * @param excluded
+     * @param playerName
+     * @return comapre result
+     */
+    public static boolean isExcluded(String excluded, String playerName){
+        //playerName = playerName.replaceAll("\\*|\\[|\\]|\\?|\\.|\\+|\\{|\\}|\\(|\\)|\\$|\\^|\\+|\\|","_");
+        return playerName.matches(excluded);
     }
 }

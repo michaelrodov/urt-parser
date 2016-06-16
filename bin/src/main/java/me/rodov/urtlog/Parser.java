@@ -49,7 +49,8 @@ public class Parser {
                 includedGameTypes = cmd.getOptionValue("types");
             }
             if (cmd.hasOption("exclude")) {
-                excludedPlayers = " "+cmd.getOptionValue("exclude").replace(","," ")+" ";
+                excludedPlayers = cmd.getOptionValue("exclude").replaceAll("[ ]*|\t*","");
+                /*excludedPlayers = " "+cmd.getOptionValue("exclude").replace(","," ")+" ";*/
             }
             try {
                 fileReader = new FileReader(logPath);
