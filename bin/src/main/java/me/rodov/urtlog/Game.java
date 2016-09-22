@@ -17,6 +17,7 @@ public class Game {
     private Date gameDate;
     private int gameRounds;
     private HashMap<String, Player> players;
+    private HashMap<Integer, String> playersRegister;
     private final static String[] GAME_TYPES =
             {"Free for All",
                     "Uknown",
@@ -36,6 +37,7 @@ public class Game {
         this.gameRounds = 0;
         this.gameResult = "";
         this.setPlayers(new HashMap<String, Player>());
+        this.playersRegister = new HashMap<Integer, String>();
     }
 
     public Game(String gameId, String gameDefLine) {
@@ -80,6 +82,10 @@ public class Game {
             basePlayer.setDeaths(basePlayer.getDeaths() + player.getDeaths());
             basePlayer.setKills(basePlayer.getKills() + player.getKills());
             basePlayer.setScore(basePlayer.getScore() + player.getScore());
+            basePlayer.setFlagCaptures(basePlayer.getFlagCaptures() + player.getFlagCaptures());
+            basePlayer.setFlagReturns(basePlayer.getFlagReturns() + player.getFlagReturns());
+            basePlayer.setFlagSteals(basePlayer.getFlagSteals() + player.getFlagSteals());
+
         }
     }
 
@@ -103,6 +109,12 @@ public class Game {
             player.setDeaths(player.getDeaths() + value);
         } else if (valueType == Player.SCORE) {
             player.addScore(value);
+        } else if (valueType == Player.FLAG_RETURN) {
+            player.setFlagReturns(player.getFlagReturns() + value);
+        } else if (valueType == Player.FLAG_CAPTURE) {
+            player.setFlagCaptures(player.getFlagCaptures() + value);
+        } else if (valueType == Player.FLAG_STEAL) {
+            player.setFlagSteals(player.getFlagSteals() + value);
         } else if (valueType == Player.KILL) {
             player.setKills(player.getKills() + value);
             if (weapon != null) {
@@ -137,9 +149,8 @@ public class Game {
     public String getGameType() {
         return gameType;
     }
-
     public int getGameTypeId() {
-        int ret = -1;
+        int ret=-1;
         for (int i = 0; i < GAME_TYPES.length; i++) {
             if (GAME_TYPES[i].equalsIgnoreCase(this.getGameType())) {
                 return i;
@@ -148,7 +159,6 @@ public class Game {
         }
         return ret;
     }
-
     public void setGameType(int gameTypeId) {
         try {
             setGameType(GAME_TYPES[gameTypeId]);
@@ -199,6 +209,7 @@ public class Game {
         this.gameResult = gameResult;
     }
 
+
     public int getGameTotalDeaths() {
         return gameTotalDeaths;
     }
@@ -221,5 +232,13 @@ public class Game {
 
     public void setGameRounds(int gameRounds) {
         this.gameRounds = gameRounds;
+    }
+
+    public String getPlayersRegistrationId(Integer id) {
+        return playersRegister.get(id);
+    }
+
+    public void registerPlayer(Integer id, String name) {
+        this.playersRegister.put(id, name);
     }
 }

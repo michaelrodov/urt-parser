@@ -12,11 +12,15 @@ public class Helper {
     //test
     //todo replace by enum
     public final static int GAME_START_LINE = 1;
+    public final static int PLAYER_REGISTRATION = 10;
     public final static int GAME_END_LINE = 2;
     public final static int GAME_END_REASON_LINE = 3;
     public final static int SCORE_LINE = 4;
     public final static int KILL_LINE = 5;
     public final static int GAME_RESULT_LINE = 6;
+    public final static int FLAG_CAPTURE = 7;
+    public final static int FLAG_RETURN = 8;
+    public final static int FLAG_STEAL = 9;
 
 
     private final static String MAP = "mapname";
@@ -29,6 +33,12 @@ public class Helper {
     // 0:29 InitRound: \sv_allowdownlo...
     public static VerbalExpression gameStart = VerbalExpression.regex()
             .find("InitGame: ").capture().anything().endCapture().build();
+
+    //0:00 ClientUserinfo: 0 \ip\16.60.214.141:27960\name\Kilaka\
+    public static VerbalExpression playerRegistration = VerbalExpression.regex()
+            .find("ClientUserinfo: ").capture().digit().oneOrMore().endCapture().anything()
+            .then("\\name\\").capture().anything().endCapture().then("\\").build();
+
 
     //red:3  blue:0
     public static VerbalExpression gameResult = VerbalExpression.regex()
@@ -59,6 +69,18 @@ public class Helper {
             .find("ClientUserinfo: ").anything().then(": ").capture().anything().endCapture().then(" killed ")
             .capture().anything().endCapture().then(" by ")
             .capture().anything().endCapture().build();
+
+    //  3:05 FlagCaptureTime: 6: 25650
+    public static VerbalExpression flagCapture = VerbalExpression.regex()
+            .find("FlagCaptureTime: ").capture().digit().oneOrMore().endCapture().then(": ").build();
+
+    //  9:08 Flag: 3 1: team_CTF_redflag
+    public static VerbalExpression flagReturn = VerbalExpression.regex()
+            .find("Flag: ").capture().digit().oneOrMore().endCapture().then(" ").anythingBut("0").then(":").build();
+
+    //  2:02 Item: 1 team_CTF_redflag
+    public static VerbalExpression flagSteal = VerbalExpression.regex()
+            .find("Item: ").capture().digit().oneOrMore().endCapture().then(" team_CTF_").anything().then("flag").build();
 
     public static VerbalExpression initGetMap = VerbalExpression.regex().find("\\mapname\\").capture().anything().endCapture().then("\\sv_privateClients").build();
     public static VerbalExpression initGetHost = VerbalExpression.regex().find("\\sv_hostname\\").capture().anything().endCapture().then("\\").build();
@@ -100,8 +122,19 @@ public class Helper {
                                 && includedGameTypes.contains(String.valueOf(currentGame.getGameTypeId()))) {
                                     games.add(currentGame); //add a new Game to games list
                         }
+                    } else if (lineType == Helper.PLAYER_REGISTRATION) {
+                        currentGame.registerPlayer(Integer.valueOf(Helper.playerRegistration.getText(line, 1)), Helper.playerRegistration.getText(line, 2));
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {
                         currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
+                    } else if (lineType == Helper.FLAG_CAPTURE) {
+                        currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagCapture.getText(line, 1))),
+                                Player.FLAG_CAPTURE, 1, null); //+1 kill to the killer
+                    } else if (lineType == Helper.FLAG_RETURN) {
+                        currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagReturn.getText(line, 1))),
+                                Player.FLAG_CAPTURE, 1, null); //+1 kill to the killer
+                    } else if (lineType == Helper.FLAG_STEAL) {
+                        currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagSteal.getText(line, 1))),
+                                Player.FLAG_STEAL, 1, null); //+1 kill to the killer
                     } else if (lineType == Helper.GAME_RESULT_LINE) {
                         currentGame.appendGameResult(Helper.gameResult.getText(line, 1));
                     } else if (lineType == Helper.KILL_LINE) {
@@ -145,7 +178,12 @@ public class Helper {
             return Helper.GAME_END_REASON_LINE;
         if (Helper.gameResult.test(line))
             return Helper.GAME_RESULT_LINE;
-
+        if (Helper.flagCapture.test(line))
+            return Helper.FLAG_CAPTURE;
+        if (Helper.flagReturn.test(line))
+            return Helper.FLAG_RETURN;
+        if (Helper.flagSteal.test(line))
+            return Helper.FLAG_STEAL;
         return 0;
     }
 
