@@ -37,7 +37,7 @@ public class Helper {
     //0:00 ClientUserinfo: 0 \ip\16.60.214.141:27960\name\Kilaka\
     public static VerbalExpression playerRegistration = VerbalExpression.regex()
             .find("ClientUserinfo: ").capture().digit().oneOrMore().endCapture().anything()
-            .then("\\name\\").capture().anything().endCapture().then("\\").build();
+            .then("\\name\\").capture().anythingBut("\\").endCapture().then("\\").build();
 
 
     //red:3  blue:0
@@ -131,7 +131,7 @@ public class Helper {
                                 Player.FLAG_CAPTURE, 1, null); //+1 kill to the killer
                     } else if (lineType == Helper.FLAG_RETURN) {
                         currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagReturn.getText(line, 1))),
-                                Player.FLAG_CAPTURE, 1, null); //+1 kill to the killer
+                                Player.FLAG_RETURN, 1, null); //+1 kill to the killer
                     } else if (lineType == Helper.FLAG_STEAL) {
                         currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagSteal.getText(line, 1))),
                                 Player.FLAG_STEAL, 1, null); //+1 kill to the killer
@@ -184,6 +184,8 @@ public class Helper {
             return Helper.FLAG_RETURN;
         if (Helper.flagSteal.test(line))
             return Helper.FLAG_STEAL;
+        if (Helper.playerRegistration.test(line))
+            return Helper.PLAYER_REGISTRATION;
         return 0;
     }
 
