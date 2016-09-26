@@ -100,7 +100,7 @@ public class Helper {
     }
 
 
-    public static Games readLog(BufferedReader log, String timelimit, String includedGameTypes, String excludedPlayers) throws Exception {
+    public static Games readLog(BufferedReader log, String timelimit, String includedGameTypes, String excludedPlayers, String adminName) throws Exception {
         String line = new String();
         Games games = new Games();
         Game currentGame = new Game("game"); //create a new Game. the processing is linear so we can do it like this
@@ -140,13 +140,13 @@ public class Helper {
                     } else if (lineType == Helper.KILL_LINE) {
                         //kills and deaths are added and not set
                         if (!Helper.playerKill.getText(line, 1).contains("world")) {
-                            currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 1)), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
-                            currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 2)), Player.DEATH, 1, null);//+1 death to the victim
+                            currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 1), adminName), Player.KILL, 1, Helper.playerKill.getText(line, 3)); //+1 kill to the killer
+                            currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 2), adminName), Player.DEATH, 1, null);//+1 death to the victim
                             currentGame.setGameTotalDeaths(currentGame.getGameTotalDeaths() + 1);
                         }
                     } else if (lineType == Helper.SCORE_LINE) {
                         //add the score (not added but set)
-                        currentGame.setPlayer(Helper.sanitizeName(Helper.playerScore.getText(line, 2)), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
+                        currentGame.setPlayer(Helper.sanitizeName(Helper.playerScore.getText(line, 2), adminName), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);
                         currentGame.setGameTotalScore(currentGame.getGameTotalScore() + Integer.valueOf(Helper.playerScore.getText(line, 1)));
                     }
                 }
@@ -189,9 +189,9 @@ public class Helper {
         return 0;
     }
 
-    public static String sanitizeName(String name){
-        if(name.startsWith("RODOV")){
-            return "RODOV";
+    public static String sanitizeName(String name, String adminName){
+        if(name.startsWith(adminName+"_")){
+            return adminName;
         }
         return name;
     }

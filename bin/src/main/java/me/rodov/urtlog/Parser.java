@@ -24,6 +24,8 @@ public class Parser {
         options.addOption("exclude", true, "exclude these players from games summary." +
                 "\nPlayers list need to be delimited by colon, i.e. pla1,pla3");
         options.addOption("lim", true, "Optional. Filter out games shorter then X minutes.");
+        options.addOption("admin", true, "Optional. The name of admin running the server.\nAdmin will be logged in twice on the first game therefore _X (X = number)" +
+                "\nis added to his name. This option will remove _X for all admin games.");
         options.addOption("types", true, "Optional. Include only certain game types and filter out others.\nIf not specified all games will be included\n" +
                 "0-Free for All\n" +
                 "3-Team Deathmatch\n" +
@@ -42,6 +44,8 @@ public class Parser {
             String timelimit = "0";
             String includedGameTypes = "0345678910"; //TODO rename freeze tag game type 10
             String excludedPlayers = "";
+            String adminName="";
+
             if (cmd.hasOption("lim")) {
                 timelimit = cmd.getOptionValue("lim");
             }
@@ -50,13 +54,15 @@ public class Parser {
             }
             if (cmd.hasOption("exclude")) {
                 excludedPlayers = cmd.getOptionValue("exclude").replaceAll("[ ]*|\t*","");
-                /*excludedPlayers = " "+cmd.getOptionValue("exclude").replace(","," ")+" ";*/
+            }
+            if (cmd.hasOption("admin")) {
+                adminName = cmd.getOptionValue("admin").replaceAll("[ ]*|\t*","");
             }
             try {
                 fileReader = new FileReader(logPath);
                 fileWriter = new FileWriter(cmd.getOptionValue("o"));
 
-                games = Helper.readLog(new BufferedReader(fileReader), timelimit, includedGameTypes, excludedPlayers);
+                games = Helper.readLog(new BufferedReader(fileReader), timelimit, includedGameTypes, excludedPlayers, adminName);
                 Gson gson = new Gson();
                 String json = gson.toJson(games);
                 fileWriter.write(json);

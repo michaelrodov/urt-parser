@@ -40,7 +40,7 @@ public class Player {
 
     public Player(String name) {
         this();
-        setName(Helper.sanitizeName(name));
+        setName(name);
     }
 
     public Player(int deaths, int kills, int gamesPlayed, int score, String name, int flagReturns, int flagCaptures, int flagSteals) {
