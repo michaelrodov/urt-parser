@@ -1,8 +1,10 @@
+
 .idea/*
 *.iml
 gitignore
 output/arena/*
 output/*
 bin/target/*
-logs/games.log
+logs/*
 *.log
+games.json

@@ -211,7 +211,6 @@ public class Helper {
      * @return comapre result
      */
     public static boolean isExcluded(String excluded, String playerName){
-        //playerName = playerName.replaceAll("\\*|\\[|\\]|\\?|\\.|\\+|\\{|\\}|\\(|\\)|\\$|\\^|\\+|\\|","_");
         return playerName.matches(excluded);
     }
 }
