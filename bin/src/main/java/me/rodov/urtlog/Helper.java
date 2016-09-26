@@ -116,27 +116,34 @@ public class Helper {
                     if (lineType == Helper.GAME_START_LINE) {
                         currentGame = new Game(games.getGames().size() + "_");
                         currentGame.init(line);
+
                     } else if (lineType == Helper.GAME_END_LINE) {
                         currentGame.setGameLength(Helper.gameEnd.getText(line, 1));
                         if (toSeconds(currentGame.getGameLength()) > toSeconds(timelimit)
                                 && includedGameTypes.contains(String.valueOf(currentGame.getGameTypeId()))) {
-                                    games.add(currentGame); //add a new Game to games list
+                            games.add(currentGame); //add a new Game to games list
                         }
                     } else if (lineType == Helper.PLAYER_REGISTRATION) {
                         currentGame.registerPlayer(Integer.valueOf(Helper.playerRegistration.getText(line, 1)), Helper.playerRegistration.getText(line, 2));
+
                     } else if (lineType == Helper.GAME_END_REASON_LINE) {
                         currentGame.setGameEndReason(Helper.gameEndReason.getText(line, 1));
+
                     } else if (lineType == Helper.FLAG_CAPTURE) {
                         currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagCapture.getText(line, 1))),
                                 Player.FLAG_CAPTURE, 1, null); //+1 kill to the killer
+
                     } else if (lineType == Helper.FLAG_RETURN) {
                         currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagReturn.getText(line, 1))),
                                 Player.FLAG_RETURN, 1, null); //+1 kill to the killer
+
                     } else if (lineType == Helper.FLAG_STEAL) {
                         currentGame.setPlayer(currentGame.getPlayersRegistrationId(Integer.valueOf(Helper.flagSteal.getText(line, 1))),
                                 Player.FLAG_STEAL, 1, null); //+1 kill to the killer
+
                     } else if (lineType == Helper.GAME_RESULT_LINE) {
                         currentGame.appendGameResult(Helper.gameResult.getText(line, 1));
+
                     } else if (lineType == Helper.KILL_LINE) {
                         //kills and deaths are added and not set
                         if (!Helper.playerKill.getText(line, 1).contains("world")) {
@@ -144,6 +151,7 @@ public class Helper {
                             currentGame.setPlayer(Helper.sanitizeName(Helper.playerKill.getText(line, 2), adminName), Player.DEATH, 1, null);//+1 death to the victim
                             currentGame.setGameTotalDeaths(currentGame.getGameTotalDeaths() + 1);
                         }
+
                     } else if (lineType == Helper.SCORE_LINE) {
                         //add the score (not added but set)
                         currentGame.setPlayer(Helper.sanitizeName(Helper.playerScore.getText(line, 2), adminName), Player.SCORE, Integer.valueOf(Helper.playerScore.getText(line, 1)), null);

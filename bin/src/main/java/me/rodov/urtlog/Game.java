@@ -99,6 +99,9 @@ public class Game {
 
     public void setPlayer(String name, int valueType, int value, String weapon) {
         Player player;
+        if( name == null || name.isEmpty()){
+            return;
+        }
         if (!this.players.containsKey(name)) {
             players.put(name, new Player(name));
         }
@@ -114,7 +117,11 @@ public class Game {
         } else if (valueType == Player.FLAG_CAPTURE) {
             player.setFlagCaptures(player.getFlagCaptures() + value);
         } else if (valueType == Player.FLAG_STEAL) {
-            player.setFlagSteals(player.getFlagSteals() + value);
+            try {
+                player.setFlagSteals(player.getFlagSteals() + value);
+            }catch (Exception e){
+                System.out.println(e);
+            }
         } else if (valueType == Player.KILL) {
             player.setKills(player.getKills() + value);
             if (weapon != null) {
@@ -239,6 +246,9 @@ public class Game {
     }
 
     public void registerPlayer(Integer id, String name) {
+        if(name == null || name.isEmpty()){
+            return;
+        }
         this.playersRegister.put(id, name);
     }
 }
