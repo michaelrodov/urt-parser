@@ -198,7 +198,7 @@ public class Helper {
     }
 
     public static String sanitizeName(String name, String adminName){
-        if(name.startsWith(adminName+"_")){
+        if(name.startsWith(adminName+"_") || name.replace(" ","").compareToIgnoreCase(adminName)==0){
             return adminName;
         }
         return name;
