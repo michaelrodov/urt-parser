@@ -25,8 +25,7 @@ git pull --commit
 ::upload to ftp
 
 ::git push origin develop
-git push origin
-popd
+git push -u origin
 
 
 

@@ -24,4 +24,4 @@ cd $JSON_HOME
 git add $JSON_NAME
 git commit -m "$JSON_NAME update $TIMESTAMP"
 git pull --commit
-git push origin master
+git push -u origin
