@@ -13,10 +13,10 @@ SET URT_HOME=C:\DATA\UrbanTerror42\q3ut4
 
 XCOPY %URT_HOME%\%LOG_NAME% %PARSER_HOME%\logs\%LOG_NAME% /Y 
 
-cd %PARSER_HOME%\bin
+cd bin
 call mvn clean install
 
-java -jar %PARSER_HOME%\bin\target\urtlog-1.0.jar -l %PARSER_HOME%\logs\%LOG_NAME% -o %JSON_HOME%\%JSON_NAME% -lim 15 -types 7 -admin PanzerjagerTiger -exclude "Bonev|Panzerjager\sTiger|OHAD|kobii|dead\s?woman\s?walking|Shalom|Kilaka|\[\sA\sC\sE\s\]|RODOV.*|PanzerjagerTiger_.*"
+java -jar %PARSER_HOME%\bin\target\urtlog-1.0.jar -l %PARSER_HOME%\logs\%LOG_NAME% -o %JSON_HOME%\%JSON_NAME% -lim 15 -types 7 -admin PanzerjagerTiger -exclude "Bonev|OHAD|kobii|dead\s?woman\s?walking|Shalom|Kilaka|\[\sA\sC\sE\s\]|RODOV.*|PanzerjagerTiger_.*"
 cd %JSON_HOME%
 git add %JSON_NAME% 
 git commit -m "%JSON_NAME% update %mydate%"
