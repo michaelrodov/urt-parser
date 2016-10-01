@@ -25,7 +25,7 @@ git pull --commit
 ::upload to ftp
 
 ::git push origin develop
-git push -u origin
+git push -u origin HEAD:master
 
 
 
