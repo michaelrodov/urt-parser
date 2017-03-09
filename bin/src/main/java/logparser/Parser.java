@@ -1,4 +1,4 @@
-package me.rodov.urtlog;
+package logparser;
 
 import com.google.gson.Gson;
 import org.apache.commons.cli.*;

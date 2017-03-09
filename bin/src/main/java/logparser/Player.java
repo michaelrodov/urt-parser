@@ -1,4 +1,4 @@
-package me.rodov.urtlog;
+package logparser;
 
 import java.util.HashMap;
 

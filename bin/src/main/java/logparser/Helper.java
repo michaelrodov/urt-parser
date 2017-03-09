@@ -1,4 +1,4 @@
-package me.rodov.urtlog;
+package logparser;
 
 import ru.lanwen.verbalregex.VerbalExpression;
 

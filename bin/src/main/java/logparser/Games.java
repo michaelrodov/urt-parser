@@ -1,4 +1,4 @@
-package me.rodov.urtlog;
+package logparser;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ public class Games {
     public HashMap<String, Game> games;
 
     public Games() {
-        games = new HashMap<String, Game>();
+        games = new HashMap<>();
     }
 
     public void add(Game game) {
