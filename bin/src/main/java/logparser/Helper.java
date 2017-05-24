@@ -160,6 +160,7 @@ public class Helper {
                 }
             }
             games.add(games.getSummaryGame(excludedPlayers)); //add summary of all games as the final game
+
         } catch (Exception e) {
             throw e;
         }

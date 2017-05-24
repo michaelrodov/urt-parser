@@ -18,6 +18,7 @@ public class Game {
     private int gameRounds;
     private HashMap<String, Player> players;
     private HashMap<Integer, String> playersRegister;
+
     private final static String[] GAME_TYPES =
             {"Free for All",
                     "Uknown",
@@ -75,7 +76,7 @@ public class Game {
      *
      * @param player - player to merge
      */
-    public void mergePlayer(Player player) {
+    public void mergePlayer(Player player, String gameName) {
         if (players.containsKey(player.getName())) {
             Player basePlayer = players.get(player.getName());
             basePlayer.setGamesPlayed(basePlayer.getGamesPlayed() + 1);
@@ -85,21 +86,22 @@ public class Game {
             basePlayer.setFlagCaptures(basePlayer.getFlagCaptures() + player.getFlagCaptures());
             basePlayer.setFlagReturns(basePlayer.getFlagReturns() + player.getFlagReturns());
             basePlayer.setFlagSteals(basePlayer.getFlagSteals() + player.getFlagSteals());
-
+            //add history for the chart
+            basePlayer.getHistory().add(new GameStats(gameName, (player.getDeaths() > 0) ? (double) player.getKills() / (double) player.getDeaths() : 0, player.getScore())); //
         }
     }
 
-    public void addPlayer(Player player) {
+    public void addPlayer(Player player, String gameName) {
         if (!players.containsKey(player.getName())) {
             players.put(player.getName(), new Player(player.getName()));
         }
-        mergePlayer(player);
+        mergePlayer(player, gameName);
 
     }
 
     public void setPlayer(String name, int valueType, int value, String weapon) {
         Player player;
-        if( name == null || name.isEmpty()){
+        if (name == null || name.isEmpty()) {
             return;
         }
         if (!this.players.containsKey(name)) {
@@ -119,7 +121,7 @@ public class Game {
         } else if (valueType == Player.FLAG_STEAL) {
             try {
                 player.setFlagSteals(player.getFlagSteals() + value);
-            }catch (Exception e){
+            } catch (Exception e) {
                 System.out.println(e);
             }
         } else if (valueType == Player.KILL) {
@@ -156,8 +158,9 @@ public class Game {
     public String getGameType() {
         return gameType;
     }
+
     public int getGameTypeId() {
-        int ret=-1;
+        int ret = -1;
         for (int i = 0; i < GAME_TYPES.length; i++) {
             if (GAME_TYPES[i].equalsIgnoreCase(this.getGameType())) {
                 return i;
@@ -166,6 +169,7 @@ public class Game {
         }
         return ret;
     }
+
     public void setGameType(int gameTypeId) {
         try {
             setGameType(GAME_TYPES[gameTypeId]);
@@ -246,7 +250,7 @@ public class Game {
     }
 
     public void registerPlayer(Integer id, String name) {
-        if(name == null || name.isEmpty()){
+        if (name == null || name.isEmpty()) {
             return;
         }
         this.playersRegister.put(id, name);

@@ -24,12 +24,14 @@ public class Games {
             for (Player player : game.getPlayers().values()) {
                 //exclude players that appear in the "exclude" option from summary
                 if (!Helper.isExcluded(excludedPlayers, player.getName())) {
-                    summary.addPlayer(player);
+                    summary.addPlayer(player, game.getMapName());
                 }
             }
             summary.setGameTotalDeaths(summary.getGameTotalDeaths() + game.getGameTotalDeaths());
             summary.setGameTotalScore(summary.getGameTotalScore() + game.getGameTotalScore());
         }
+
+
         summary.setGameLength("0");
         summary.setGameType("SUMMARY");
         summary.setGameDate(new Date());

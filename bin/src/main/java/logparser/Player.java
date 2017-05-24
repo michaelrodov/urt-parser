@@ -1,6 +1,8 @@
 package logparser;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by rudov on 29/02/2016.
@@ -16,7 +18,7 @@ public class Player {
     private String name;
     private String team;
     private HashMap<String, Integer> weapons;
-
+    private List<GameStats> history;
 
 
     //todo replace by enum
@@ -35,7 +37,8 @@ public class Player {
         flagCaptures = 0;
         flagSteals = 0;
         gamesPlayed = 1;
-        weapons = new HashMap<String, Integer>();
+        weapons = new HashMap<>();
+        this.history = new ArrayList<>();
     }
 
     public Player(String name) {
@@ -73,6 +76,7 @@ public class Player {
     public void addScore(int score){
         setScore(this.score + score);
     }
+
     public int getDeaths() {
         return deaths;
     }
@@ -104,7 +108,6 @@ public class Player {
     public void setName(String name) {
         this.name = name;
     }
-
 
     public String getTeam() {
         return team;
@@ -168,5 +171,13 @@ public class Player {
 
     public void setFlagSteals(int flagSteals) {
         this.flagSteals = flagSteals;
+    }
+
+    public List<GameStats> getHistory() {
+        return history;
+    }
+
+    public void setHistory(List<GameStats> history) {
+        this.history = history;
     }
 }
