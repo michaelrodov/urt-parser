@@ -87,7 +87,7 @@ public class Game {
             basePlayer.setFlagReturns(basePlayer.getFlagReturns() + player.getFlagReturns());
             basePlayer.setFlagSteals(basePlayer.getFlagSteals() + player.getFlagSteals());
             //add history for the chart
-            basePlayer.getHistory().add(new GameStats(gameName, (player.getDeaths() > 0) ? (double) player.getKills() / (double) player.getDeaths() : 0, player.getScore())); //
+            basePlayer.getHistory().add(new GameStats(gameName, (player.getDeaths() + player.getKills() > 0) ? (2 * ((double) player.getKills() / ((double) player.getDeaths() + player.getKills()))) : 0, player.getScore())); //
         }
     }
 
